@@ -11,7 +11,7 @@ import random
 # Define the paths to your screenshots
 red_hearts_image_path = '/home/alex/minecraft/screenshots/red_hearts.png'
 one_heart_image_path = '/home/alex/minecraft/screenshots/one_heart.png'
-back_to_server_image_path = '/home/alex/minecraft/screenshots/back_to_server.png'
+back_to_server_image_path = '/home/alex/minecraft/screenshots/back_to_server_list3.png'
 join_button_image_path = '/home/alex/minecraft/screenshots/join_button.png'
 menu_screen_image_path = '/home/alex/minecraft/screenshots/menu_screen.png'
 log_file_path = '/home/alex/minecraft/autologin.log'
