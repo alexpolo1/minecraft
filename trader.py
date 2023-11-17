@@ -38,13 +38,14 @@ def find_color_in_image(target_color, image):
 
 def focus_minecraft_window():
     print("Focusing Minecraft window...")
-    # Replace 'MinecraftWindowName' with the actual window name
-    subprocess.run(['xdotool', 'search', '--name', 'MinecraftWindowName', 'windowactivate', '--sync'])
+    # Replace 'Minecraft*1.20.2 - Multiplayer (3rd-party-Server)' with the actual window name
+    subprocess.run(['xdotool', 'search', '--name', 'Minecraft*1.20.2 - Multiplayer (3rd-party-Server)', 'windowactivate', '--sync'])
     time.sleep(2)
     print("Pressing Esc...")
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(2)
 
+#start the trade and slide down in trade window
 def trade_actions():
     right_click(2725, 1203)
     time.sleep(3)
@@ -63,11 +64,16 @@ def trade_actions():
         print("Color not found on the screen.")
     time.sleep(3)
 
+#buy all xp with shift click
     shift_click(2994, 1105)
     time.sleep(3)
+
+# exit trader
     print("Pressing 'Esc' key.")
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(3)
+
+#move the next trader
     print("Holding 'D' key for a step.")
     subprocess.run(['xdotool', 'keydown', 'd'])
     time.sleep(0.45)  # Hold 'D' for 0.45 seconds
@@ -78,5 +84,5 @@ def trade_actions():
 focus_minecraft_window()
 
 # Perform trading actions in a loop
-for _ in range(3):  # Number of trades to perform
+for _ in range(40):  # Number of trades to perform
     trade_actions()
