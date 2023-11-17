@@ -1,0 +1,20 @@
+import pyautogui
+import keyboard
+
+print("Press 'c' to capture the mouse position. Press 'Esc' to exit.")
+
+while True:
+    try:
+        if keyboard.is_pressed('c'):
+            x, y = pyautogui.position()
+            print(f"Position captured: {x}, {y}")
+        elif keyboard.is_pressed('æ'):
+            print("Exiting.")
+            break
+    except RuntimeError:
+        continue
+#right click: 2725, 1203
+#drag click: 2600, 1399
+#left click: 2450, 1408
+#shift click: 2994, 1105
+# key D D 
