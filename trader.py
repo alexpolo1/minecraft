@@ -36,49 +36,56 @@ def find_color_in_image(target_color, image):
                 return x, y
     return None, None
 
+# finding minecraft window and exit menu screen
 def focus_minecraft_window():
     print("Focusing Minecraft window...")
-    # Replace 'Minecraft*1.20.2 - Multiplayer (3rd-party-Server)' with the actual window name
     subprocess.run(['xdotool', 'search', '--name', 'Minecraft*1.20.2 - Multiplayer (3rd-party-Server)', 'windowactivate', '--sync'])
     time.sleep(2)
     print("Pressing Esc...")
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(2)
 
-#start the trade and slide down in trade window
+# starting trade with trader and going down in the trade list
 def trade_actions():
     right_click(2725, 1203)
     time.sleep(3)
     drag_slider(2600, 1399, 2600, 1408)
     time.sleep(3)
 
-    # Find the color and click
+    # Attempt to find the color
     print("Taking a screenshot for color search...")
     screenshot = pyautogui.screenshot()
     target_color = (222, 227, 114)  # The color to search for
     found_x, found_y = find_color_in_image(target_color, screenshot)
-    if found_x is not None:
-        print(f"Color found at ({found_x}, {found_y}). Clicking at this position.")
+
+    # Click twice, using found coordinates or fallback if not found
+    for _ in range(2):
+        if found_x is not None and found_y is not None:
+            print(f"Color found at ({found_x}, {found_y}). Clicking at this position.")
+            click(found_x, found_y)
+        else:
+            print("Color not found on the screen. Using fallback coordinates.")
+            click(2535, 1421)
+        time.sleep(3)
+
+    # Buy all XP with shift click - done twice
+    for _ in range(2):
         click(found_x, found_y)
-    else:
-        print("Color not found on the screen.")
-    time.sleep(3)
+        shift_click(2994, 1105)
+        time.sleep(3)
 
-#buy all xp with shift click
-    shift_click(2994, 1105)
-    time.sleep(3)
-
-# exit trader
+    # Exit trader
     print("Pressing 'Esc' key.")
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(3)
 
-#move the next trader
+    # Move to the next trader
     print("Holding 'D' key for a step.")
     subprocess.run(['xdotool', 'keydown', 'd'])
     time.sleep(0.45)  # Hold 'D' for 0.45 seconds
     subprocess.run(['xdotool', 'keyup', 'd'])
     time.sleep(3)
+
 
 # Initial setup
 focus_minecraft_window()
