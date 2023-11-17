@@ -3,40 +3,64 @@ import cv2
 import numpy as np
 import time
 
-def capture_screen():
-    # Capture the entire screen
-    return pyautogui.screenshot()
-
-def find_item(template_path):
-    # Find an item in the screenshot based on a template image
-    screenshot = np.array(capture_screen())
-    template = cv2.imread(template_path, cv2.IMREAD_UNCHANGED)
-    result = cv2.matchTemplate(screenshot, template, cv2.TM_CCOEFF_NORMED)
-    _, max_val, _, max_loc = cv2.minMaxLoc(result)
-    if max_val > 0.8:  # Threshold for template matching
-        return max_loc
+def find_on_screen(template, threshold=0.8):
+    screen = np.array(pyautogui.screenshot())
+    gray_screen = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
+    res = cv2.matchTemplate(gray_screen, template, cv2.TM_CCOEFF_NORMED)
+    loc = np.where(res >= threshold)
+    if loc[0].size:
+        return loc[1][0], loc[0][0]
     return None
 
-def move_item(start_pos, end_pos):
-    # Move an item from start_pos to end_pos
-    pyautogui.moveTo(start_pos)
-    pyautogui.mouseDown()
-    pyautogui.moveTo(end_pos, duration=1)
-    pyautogui.mouseUp()
+def load_images():
+    images = {
+        'cleric': cv2.imread('/home/alex/minecraft/pybot/screenshot_folder/cleric.png', 0),
+        'trade_window_top': cv2.imread('/home/alex/minecraft/pybot/screenshot_folder/trade_window_top.png', 0),
+        'trade_window_bottom': cv2.imread('/home/alex/minecraft/pybot/screenshot_folder/trade_window_bottom.png', 0),
+        'trade_window_potion_click': cv2.imread('/home/alex/minecraft/pybot/screenshot_folder/trade_window_potion_click.png', 0),
+        'shift_click_potion': cv2.imread('/home/alex/minecraft/pybot/screenshot_folder/shift_click_potion.png', 0),
+        'trade_blocked': cv2.imread('/home/alex/minecraft/pybot/screenshot_folder/trade_blocked.png', 0)
+    }
+    return images
 
-def navigate_with_keys(keys, duration):
-    # Navigate using keyboard keys
-    for key in keys:
-        pyautogui.keyDown(key)
-    time.sleep(duration)
-    for key in keys:
-        pyautogui.keyUp(key)
 
-# Example usage
-while True:
-    emerald_pos = find_item('emerald_template.png')
-    trade_pos = (200, 200)  # Example position for the trade button
-    if emerald_pos:
-        move_item(emerald_pos, trade_pos)
-    navigate_with_keys(['w', 'a'], 2)  # Move forward and left for 2 seconds
-    time.sleep(1)  # Wait for a second before next iteration
+def right_click(pos):
+    pyautogui.rightClick(pos)
+
+def drag_slider(top_pos, bottom_pos):
+    pyautogui.moveTo(top_pos)
+    pyautogui.dragTo(bottom_pos, duration=1)
+
+def click(pos):
+    pyautogui.click(pos)
+
+def shift_click(pos):
+    pyautogui.keyDown('shift')
+    click(pos)
+    pyautogui.keyUp('shift')
+
+images = load_images()
+cleric_pos = find_on_screen(images['cleric'])
+if cleric_pos:
+    right_click(cleric_pos)
+    time.sleep(1)  # Wait for the trade window to open
+
+    # Drag the trade window slider from top to bottom
+    top_pos = find_on_screen(images['trade_window_top'])
+    bottom_pos = find_on_screen(images['trade_window_bottom'])
+    if top_pos and bottom_pos:
+        drag_slider(top_pos, bottom_pos)
+
+    # Click on the potion trade
+    potion_pos = find_on_screen(images['trade_window_potion_click'])
+    if potion_pos:
+        click(potion_pos)
+
+    # Shift-click on the potion in the player's inventory
+    shift_click_pos = find_on_screen(images['shift_click_potion'])
+    if shift_click_pos:
+        shift_click(shift_click_pos)
+
+    # Check if the trade is blocked
+    if find_on_screen(images['trade_blocked']):
+        print("Trade done")
