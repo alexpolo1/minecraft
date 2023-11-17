@@ -40,19 +40,25 @@ focus_minecraft_window()
 
 # Perform actions
 right_click(2725, 1203)
-time.sleep(10)
+time.sleep(3)
 
 drag_slider(2600, 1399, 2600, 1408)
-time.sleep(10)
+time.sleep(3)
 
 click(2450, 1408)
-time.sleep(10)
+time.sleep(3)
 
 shift_click(2994, 1105)
-time.sleep(10)
+time.sleep(3)
 
-# Press 'D' key twice
-print("Pressing 'D' key.")
-subprocess.run(['xdotool', 'key', 'd'])
-time.sleep(10)
-subprocess.run(['xdotool', 'key', 'd'])
+# Press 'Esc' key to possibly exit a menu or screen
+print("Pressing 'Esc' key.")
+subprocess.run(['xdotool', 'key', 'Escape'])
+time.sleep(3)
+
+# Press and hold 'D' key for a duration to simulate a step
+print("Holding 'D' key for a step.")
+subprocess.run(['xdotool', 'keydown', 'd'])
+time.sleep(0.4)  # Hold 'D' for 0.4 second; adjust this duration as needed
+subprocess.run(['xdotool', 'keyup', 'd'])
+time.sleep(10)  # Wait after the step
