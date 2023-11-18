@@ -19,6 +19,8 @@ print(f"Initial Color at ({mouse_x}, {mouse_y}): {initial_color}")
 
 print("Taking a screenshot for color search...")
 screenshot = pyautogui.screenshot()
+print("waiting 5 seconds before looking")
+time.sleep(5)
 
 found_x, found_y = find_color_in_image(initial_color, screenshot)
 if found_x is not None:
