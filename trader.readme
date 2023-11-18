@@ -1,0 +1,10 @@
+    Function Definitions:
+        right_click, drag_slider, click, shift_click, move_mouse: These functions are wrappers around xdotool commands for simulating mouse movements and clicks. They make your code more readable and reusable.
+        find_color_in_image: This function scans an image for a specific color and returns the coordinates where it's found. Useful for locating items or buttons in the game based on their color.
+
+    Game Interaction Functions:
+        focus_minecraft_window: Activates the Minecraft window, ensuring that all subsequent actions happen in the game.
+        trade_actions: This is the core of your automation. It performs a series of actions to trade with a villager in Minecraft. It includes right-clicking to start the trade, dragging a slider (presumably in a trade menu), and using color detection to find and click on specific items.
+
+    Automation Loop:
+        After setting up the Minecraft window, the script enters a loop where it performs the trade_actions 40 times. This is where the bulk of your automated trading happens.
