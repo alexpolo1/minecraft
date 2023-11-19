@@ -2092,3 +2092,793 @@
 2023-11-19 13:03:35,429: Trade window not found after adjustments.
 2023-11-19 13:03:35,798: Posted to Discord: Trade window not found.
 2023-11-19 13:03:35,799: Trade window not detected after adjustments. Stopping script.
+2023-11-19 13:11:08,924: Focusing Minecraft window...
+2023-11-19 13:11:10,935: Pressing Esc...
+2023-11-19 13:11:12,953: Performing right click.
+2023-11-19 13:11:14,056: Checking for trade window...
+2023-11-19 13:11:15,093: Trade window detected.
+2023-11-19 13:11:15,093: Dragging slider.
+2023-11-19 13:11:18,103: Taking a screenshot for color search...
+2023-11-19 13:11:23,243: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:11:23,247: Performing left click.
+2023-11-19 13:11:24,351: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:11:24,355: Performing left click.
+2023-11-19 13:11:25,462: Performing left click.
+2023-11-19 13:11:25,566: Performing shift click.
+2023-11-19 13:11:27,190: Posted to Discord: Potion clicked.
+2023-11-19 13:11:27,194: Performing left click.
+2023-11-19 13:11:27,298: Performing shift click.
+2023-11-19 13:11:28,689: Posted to Discord: Potion clicked.
+2023-11-19 13:11:28,689: Pressing 'Esc' key.
+2023-11-19 13:11:29,706: Holding 'D' key for a step.
+2023-11-19 13:11:31,191: Performing right click.
+2023-11-19 13:11:32,295: Checking for trade window...
+2023-11-19 13:11:33,322: Trade window detected.
+2023-11-19 13:11:33,322: Dragging slider.
+2023-11-19 13:11:36,338: Taking a screenshot for color search...
+2023-11-19 13:11:40,047: Color found at (2554, 1392). Clicking at this position.
+2023-11-19 13:11:40,051: Performing left click.
+2023-11-19 13:11:41,155: Color found at (2554, 1392). Clicking at this position.
+2023-11-19 13:11:41,158: Performing left click.
+2023-11-19 13:11:42,266: Performing left click.
+2023-11-19 13:11:42,370: Performing shift click.
+2023-11-19 13:11:43,824: Posted to Discord: Potion clicked.
+2023-11-19 13:11:43,828: Performing left click.
+2023-11-19 13:11:43,932: Performing shift click.
+2023-11-19 13:11:45,359: Posted to Discord: Potion clicked.
+2023-11-19 13:11:45,360: Pressing 'Esc' key.
+2023-11-19 13:11:46,376: Holding 'D' key for a step.
+2023-11-19 13:11:47,862: Performing right click.
+2023-11-19 13:11:48,966: Checking for trade window...
+2023-11-19 13:11:49,994: Trade window detected.
+2023-11-19 13:11:49,994: Dragging slider.
+2023-11-19 13:11:53,008: Taking a screenshot for color search...
+2023-11-19 13:11:56,673: Color found at (2537, 1420). Clicking at this position.
+2023-11-19 13:11:56,677: Performing left click.
+2023-11-19 13:11:57,781: Color found at (2537, 1420). Clicking at this position.
+2023-11-19 13:11:57,785: Performing left click.
+2023-11-19 13:11:58,893: Performing left click.
+2023-11-19 13:11:58,997: Performing shift click.
+2023-11-19 13:12:00,401: Posted to Discord: Potion clicked.
+2023-11-19 13:12:00,405: Performing left click.
+2023-11-19 13:12:00,509: Performing shift click.
+2023-11-19 13:12:01,924: Posted to Discord: Potion clicked.
+2023-11-19 13:12:01,925: Pressing 'Esc' key.
+2023-11-19 13:12:02,940: Holding 'D' key for a step.
+2023-11-19 13:12:04,425: Performing right click.
+2023-11-19 13:12:05,529: Checking for trade window...
+2023-11-19 13:12:06,569: Trade window detected.
+2023-11-19 13:12:06,570: Dragging slider.
+2023-11-19 13:12:09,584: Taking a screenshot for color search...
+2023-11-19 13:12:13,178: Color found at (2541, 1431). Clicking at this position.
+2023-11-19 13:12:13,182: Performing left click.
+2023-11-19 13:12:14,286: Color found at (2541, 1431). Clicking at this position.
+2023-11-19 13:12:14,290: Performing left click.
+2023-11-19 13:12:15,397: Performing left click.
+2023-11-19 13:12:15,501: Performing shift click.
+2023-11-19 13:12:17,219: Posted to Discord: Potion clicked.
+2023-11-19 13:12:17,224: Performing left click.
+2023-11-19 13:12:17,328: Performing shift click.
+2023-11-19 13:12:18,835: Posted to Discord: Potion clicked.
+2023-11-19 13:12:18,835: Pressing 'Esc' key.
+2023-11-19 13:12:19,851: Holding 'D' key for a step.
+2023-11-19 13:12:21,337: Performing right click.
+2023-11-19 13:12:22,441: Checking for trade window...
+2023-11-19 13:12:23,480: Trade window detected.
+2023-11-19 13:12:23,480: Dragging slider.
+2023-11-19 13:12:26,496: Taking a screenshot for color search...
+2023-11-19 13:12:30,238: Color found at (2554, 1390). Clicking at this position.
+2023-11-19 13:12:30,242: Performing left click.
+2023-11-19 13:12:31,346: Color found at (2554, 1390). Clicking at this position.
+2023-11-19 13:12:31,350: Performing left click.
+2023-11-19 13:12:32,458: Performing left click.
+2023-11-19 13:12:32,562: Performing shift click.
+2023-11-19 13:12:33,942: Posted to Discord: Potion clicked.
+2023-11-19 13:12:33,947: Performing left click.
+2023-11-19 13:12:34,051: Performing shift click.
+2023-11-19 13:12:35,512: Posted to Discord: Potion clicked.
+2023-11-19 13:12:35,513: Pressing 'Esc' key.
+2023-11-19 13:12:36,529: Holding 'D' key for a step.
+2023-11-19 13:12:38,015: Performing right click.
+2023-11-19 13:12:39,119: Checking for trade window...
+2023-11-19 13:12:40,159: Trade window detected.
+2023-11-19 13:12:40,159: Dragging slider.
+2023-11-19 13:12:43,173: Taking a screenshot for color search...
+2023-11-19 13:12:46,965: Color found at (2537, 1424). Clicking at this position.
+2023-11-19 13:12:46,969: Performing left click.
+2023-11-19 13:12:48,072: Color found at (2537, 1424). Clicking at this position.
+2023-11-19 13:12:48,076: Performing left click.
+2023-11-19 13:12:49,183: Performing left click.
+2023-11-19 13:12:49,287: Performing shift click.
+2023-11-19 13:12:50,698: Posted to Discord: Potion clicked.
+2023-11-19 13:12:50,702: Performing left click.
+2023-11-19 13:12:50,806: Performing shift click.
+2023-11-19 13:12:52,251: Posted to Discord: Potion clicked.
+2023-11-19 13:12:52,252: Pressing 'Esc' key.
+2023-11-19 13:12:53,268: Holding 'D' key for a step.
+2023-11-19 13:12:54,751: Performing right click.
+2023-11-19 13:12:55,855: Checking for trade window...
+2023-11-19 13:12:56,933: Trade window not detected. Adjusting position.
+2023-11-19 13:16:41,018: Focusing Minecraft window...
+2023-11-19 13:16:43,030: Pressing Esc...
+2023-11-19 13:16:45,048: Performing right click.
+2023-11-19 13:16:46,151: Checking for trade window...
+2023-11-19 13:16:47,211: Trade window detected.
+2023-11-19 13:16:47,212: Dragging slider.
+2023-11-19 13:16:50,222: Taking a screenshot for color search...
+2023-11-19 13:16:53,989: Color found at (2546, 1432). Clicking at this position.
+2023-11-19 13:16:53,992: Performing left click.
+2023-11-19 13:16:55,095: Color found at (2546, 1432). Clicking at this position.
+2023-11-19 13:16:55,099: Performing left click.
+2023-11-19 13:16:56,207: Performing left click.
+2023-11-19 13:16:56,312: Performing shift click.
+2023-11-19 13:16:57,778: Posted to Discord: Potion clicked.
+2023-11-19 13:16:57,783: Performing left click.
+2023-11-19 13:16:57,886: Performing shift click.
+2023-11-19 13:16:59,323: Posted to Discord: Potion clicked.
+2023-11-19 13:16:59,324: Pressing 'Esc' key.
+2023-11-19 13:17:00,340: Holding 'D' key for a step.
+2023-11-19 13:17:01,826: Performing right click.
+2023-11-19 13:17:02,931: Checking for trade window...
+2023-11-19 13:17:03,989: Trade window detected.
+2023-11-19 13:17:03,989: Dragging slider.
+2023-11-19 13:17:07,003: Taking a screenshot for color search...
+2023-11-19 13:17:10,739: Color found at (2544, 1433). Clicking at this position.
+2023-11-19 13:17:10,743: Performing left click.
+2023-11-19 13:17:11,846: Color found at (2544, 1433). Clicking at this position.
+2023-11-19 13:17:11,850: Performing left click.
+2023-11-19 13:17:12,957: Performing left click.
+2023-11-19 13:17:13,061: Performing shift click.
+2023-11-19 13:17:14,539: Posted to Discord: Potion clicked.
+2023-11-19 13:17:14,543: Performing left click.
+2023-11-19 13:17:14,647: Performing shift click.
+2023-11-19 13:17:16,143: Posted to Discord: Potion clicked.
+2023-11-19 13:17:16,144: Pressing 'Esc' key.
+2023-11-19 13:17:17,160: Holding 'D' key for a step.
+2023-11-19 13:17:18,647: Performing right click.
+2023-11-19 13:17:19,750: Checking for trade window...
+2023-11-19 13:17:20,780: Trade window detected.
+2023-11-19 13:17:20,780: Dragging slider.
+2023-11-19 13:17:23,796: Taking a screenshot for color search...
+2023-11-19 13:17:27,558: Color found at (2541, 1400). Clicking at this position.
+2023-11-19 13:17:27,561: Performing left click.
+2023-11-19 13:17:28,664: Color found at (2541, 1400). Clicking at this position.
+2023-11-19 13:17:28,667: Performing left click.
+2023-11-19 13:17:29,774: Performing left click.
+2023-11-19 13:17:29,878: Performing shift click.
+2023-11-19 13:17:31,457: Posted to Discord: Potion clicked.
+2023-11-19 13:17:31,462: Performing left click.
+2023-11-19 13:17:31,566: Performing shift click.
+2023-11-19 13:17:32,994: Posted to Discord: Potion clicked.
+2023-11-19 13:17:32,995: Pressing 'Esc' key.
+2023-11-19 13:17:34,011: Holding 'D' key for a step.
+2023-11-19 13:17:35,496: Performing right click.
+2023-11-19 13:17:36,600: Checking for trade window...
+2023-11-19 13:17:37,656: Trade window detected.
+2023-11-19 13:17:37,656: Dragging slider.
+2023-11-19 13:17:40,670: Taking a screenshot for color search...
+2023-11-19 13:17:44,440: Color found at (2546, 1402). Clicking at this position.
+2023-11-19 13:17:44,444: Performing left click.
+2023-11-19 13:17:45,548: Color found at (2546, 1402). Clicking at this position.
+2023-11-19 13:17:45,552: Performing left click.
+2023-11-19 13:17:46,658: Performing left click.
+2023-11-19 13:17:46,762: Performing shift click.
+2023-11-19 13:17:48,319: Posted to Discord: Potion clicked.
+2023-11-19 13:17:48,324: Performing left click.
+2023-11-19 13:17:48,428: Performing shift click.
+2023-11-19 13:17:49,894: Posted to Discord: Potion clicked.
+2023-11-19 13:17:49,895: Pressing 'Esc' key.
+2023-11-19 13:17:50,913: Holding 'D' key for a step.
+2023-11-19 13:17:52,399: Performing right click.
+2023-11-19 13:17:53,503: Checking for trade window...
+2023-11-19 13:17:54,557: Trade window detected.
+2023-11-19 13:17:54,557: Dragging slider.
+2023-11-19 13:17:57,572: Taking a screenshot for color search...
+2023-11-19 13:18:02,935: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:18:02,938: Performing left click.
+2023-11-19 13:18:04,042: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:18:04,045: Performing left click.
+2023-11-19 13:18:05,153: Performing left click.
+2023-11-19 13:18:05,257: Performing shift click.
+2023-11-19 13:18:06,725: Posted to Discord: Potion clicked.
+2023-11-19 13:18:06,730: Performing left click.
+2023-11-19 13:18:06,835: Performing shift click.
+2023-11-19 13:18:08,228: Posted to Discord: Potion clicked.
+2023-11-19 13:18:08,229: Pressing 'Esc' key.
+2023-11-19 13:18:09,245: Holding 'D' key for a step.
+2023-11-19 13:18:10,732: Performing right click.
+2023-11-19 13:18:11,836: Checking for trade window...
+2023-11-19 13:18:12,892: Trade window detected.
+2023-11-19 13:18:12,892: Dragging slider.
+2023-11-19 13:18:15,908: Taking a screenshot for color search...
+2023-11-19 13:18:21,180: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:18:21,184: Performing left click.
+2023-11-19 13:18:22,288: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:18:22,292: Performing left click.
+2023-11-19 13:18:23,399: Performing left click.
+2023-11-19 13:18:23,502: Performing shift click.
+2023-11-19 13:18:24,973: Posted to Discord: Potion clicked.
+2023-11-19 13:18:24,978: Performing left click.
+2023-11-19 13:18:25,082: Performing shift click.
+2023-11-19 13:18:26,613: Posted to Discord: Potion clicked.
+2023-11-19 13:18:26,614: Pressing 'Esc' key.
+2023-11-19 13:18:27,631: Holding 'D' key for a step.
+2023-11-19 13:18:29,117: Performing right click.
+2023-11-19 13:18:30,221: Checking for trade window...
+2023-11-19 13:18:31,280: Trade window detected.
+2023-11-19 13:18:31,281: Dragging slider.
+2023-11-19 13:18:34,296: Taking a screenshot for color search...
+2023-11-19 13:18:38,119: Color found at (2535, 1423). Clicking at this position.
+2023-11-19 13:18:38,123: Performing left click.
+2023-11-19 13:18:39,227: Color found at (2535, 1423). Clicking at this position.
+2023-11-19 13:18:39,231: Performing left click.
+2023-11-19 13:18:40,339: Performing left click.
+2023-11-19 13:18:40,445: Performing shift click.
+2023-11-19 13:18:41,938: Posted to Discord: Potion clicked.
+2023-11-19 13:18:41,942: Performing left click.
+2023-11-19 13:18:42,047: Performing shift click.
+2023-11-19 13:18:43,563: Posted to Discord: Potion clicked.
+2023-11-19 13:18:43,563: Pressing 'Esc' key.
+2023-11-19 13:18:44,580: Holding 'D' key for a step.
+2023-11-19 13:18:46,064: Performing right click.
+2023-11-19 13:18:47,168: Checking for trade window...
+2023-11-19 13:18:48,217: Trade window detected.
+2023-11-19 13:18:48,217: Dragging slider.
+2023-11-19 13:18:51,229: Taking a screenshot for color search...
+2023-11-19 13:18:56,537: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:18:56,541: Performing left click.
+2023-11-19 13:18:57,644: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:18:57,648: Performing left click.
+2023-11-19 13:18:58,756: Performing left click.
+2023-11-19 13:18:58,859: Performing shift click.
+2023-11-19 13:19:00,286: Posted to Discord: Potion clicked.
+2023-11-19 13:19:00,291: Performing left click.
+2023-11-19 13:19:00,395: Performing shift click.
+2023-11-19 13:19:01,816: Posted to Discord: Potion clicked.
+2023-11-19 13:19:01,816: Pressing 'Esc' key.
+2023-11-19 13:19:02,833: Holding 'D' key for a step.
+2023-11-19 13:19:04,319: Performing right click.
+2023-11-19 13:19:05,422: Checking for trade window...
+2023-11-19 13:19:06,459: Trade window detected.
+2023-11-19 13:19:06,459: Dragging slider.
+2023-11-19 13:19:09,474: Taking a screenshot for color search...
+2023-11-19 13:19:13,196: Color found at (2552, 1390). Clicking at this position.
+2023-11-19 13:19:13,200: Performing left click.
+2023-11-19 13:19:14,304: Color found at (2552, 1390). Clicking at this position.
+2023-11-19 13:19:14,307: Performing left click.
+2023-11-19 13:19:15,415: Performing left click.
+2023-11-19 13:19:15,519: Performing shift click.
+2023-11-19 13:19:17,186: Posted to Discord: Potion clicked.
+2023-11-19 13:19:17,190: Performing left click.
+2023-11-19 13:19:17,295: Performing shift click.
+2023-11-19 13:19:18,892: Posted to Discord: Potion clicked.
+2023-11-19 13:19:18,892: Pressing 'Esc' key.
+2023-11-19 13:19:19,908: Holding 'D' key for a step.
+2023-11-19 13:19:21,394: Performing right click.
+2023-11-19 13:19:22,500: Checking for trade window...
+2023-11-19 13:19:23,553: Trade window detected.
+2023-11-19 13:19:23,553: Dragging slider.
+2023-11-19 13:19:26,569: Taking a screenshot for color search...
+2023-11-19 13:19:30,376: Color found at (2541, 1429). Clicking at this position.
+2023-11-19 13:19:30,380: Performing left click.
+2023-11-19 13:19:31,485: Color found at (2541, 1429). Clicking at this position.
+2023-11-19 13:19:31,488: Performing left click.
+2023-11-19 13:19:32,596: Performing left click.
+2023-11-19 13:19:32,699: Performing shift click.
+2023-11-19 13:19:34,112: Posted to Discord: Potion clicked.
+2023-11-19 13:19:34,116: Performing left click.
+2023-11-19 13:19:34,219: Performing shift click.
+2023-11-19 13:19:35,647: Posted to Discord: Potion clicked.
+2023-11-19 13:19:35,648: Pressing 'Esc' key.
+2023-11-19 13:19:36,664: Holding 'D' key for a step.
+2023-11-19 13:19:38,151: Performing right click.
+2023-11-19 13:19:39,256: Checking for trade window...
+2023-11-19 13:19:40,297: Trade window detected.
+2023-11-19 13:19:40,297: Dragging slider.
+2023-11-19 13:19:43,314: Taking a screenshot for color search...
+2023-11-19 13:19:47,058: Color found at (2538, 1427). Clicking at this position.
+2023-11-19 13:19:47,061: Performing left click.
+2023-11-19 13:19:48,165: Color found at (2538, 1427). Clicking at this position.
+2023-11-19 13:19:48,169: Performing left click.
+2023-11-19 13:19:49,277: Performing left click.
+2023-11-19 13:19:49,380: Performing shift click.
+2023-11-19 13:19:50,932: Posted to Discord: Potion clicked.
+2023-11-19 13:19:50,937: Performing left click.
+2023-11-19 13:19:51,041: Performing shift click.
+2023-11-19 13:19:52,595: Posted to Discord: Potion clicked.
+2023-11-19 13:19:52,596: Pressing 'Esc' key.
+2023-11-19 13:19:53,612: Holding 'D' key for a step.
+2023-11-19 13:19:55,098: Performing right click.
+2023-11-19 13:19:56,201: Checking for trade window...
+2023-11-19 13:19:57,233: Trade window detected.
+2023-11-19 13:19:57,233: Dragging slider.
+2023-11-19 13:20:00,249: Taking a screenshot for color search...
+2023-11-19 13:20:04,051: Color found at (2567, 1420). Clicking at this position.
+2023-11-19 13:20:04,055: Performing left click.
+2023-11-19 13:20:05,159: Color found at (2567, 1420). Clicking at this position.
+2023-11-19 13:20:05,163: Performing left click.
+2023-11-19 13:20:06,271: Performing left click.
+2023-11-19 13:20:06,375: Performing shift click.
+2023-11-19 13:20:07,794: Posted to Discord: Potion clicked.
+2023-11-19 13:20:07,799: Performing left click.
+2023-11-19 13:20:07,903: Performing shift click.
+2023-11-19 13:20:09,327: Posted to Discord: Potion clicked.
+2023-11-19 13:20:09,327: Pressing 'Esc' key.
+2023-11-19 13:20:10,343: Holding 'D' key for a step.
+2023-11-19 13:20:11,829: Performing right click.
+2023-11-19 13:20:12,933: Checking for trade window...
+2023-11-19 13:20:13,988: Trade window detected.
+2023-11-19 13:20:13,988: Dragging slider.
+2023-11-19 13:20:17,005: Taking a screenshot for color search...
+2023-11-19 13:20:20,764: Color found at (2548, 1433). Clicking at this position.
+2023-11-19 13:20:20,767: Performing left click.
+2023-11-19 13:20:21,870: Color found at (2548, 1433). Clicking at this position.
+2023-11-19 13:20:21,874: Performing left click.
+2023-11-19 13:20:22,981: Performing left click.
+2023-11-19 13:20:23,085: Performing shift click.
+2023-11-19 13:20:24,555: Posted to Discord: Potion clicked.
+2023-11-19 13:20:24,560: Performing left click.
+2023-11-19 13:20:24,664: Performing shift click.
+2023-11-19 13:20:26,141: Posted to Discord: Potion clicked.
+2023-11-19 13:20:26,142: Pressing 'Esc' key.
+2023-11-19 13:20:27,158: Holding 'D' key for a step.
+2023-11-19 13:20:28,644: Performing right click.
+2023-11-19 13:20:29,748: Checking for trade window...
+2023-11-19 13:20:30,789: Trade window detected.
+2023-11-19 13:20:30,789: Dragging slider.
+2023-11-19 13:20:33,805: Taking a screenshot for color search...
+2023-11-19 13:20:39,042: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:20:39,046: Performing left click.
+2023-11-19 13:20:40,150: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:20:40,154: Performing left click.
+2023-11-19 13:20:41,262: Performing left click.
+2023-11-19 13:20:41,367: Performing shift click.
+2023-11-19 13:20:42,809: Posted to Discord: Potion clicked.
+2023-11-19 13:20:42,814: Performing left click.
+2023-11-19 13:20:42,917: Performing shift click.
+2023-11-19 13:20:44,386: Posted to Discord: Potion clicked.
+2023-11-19 13:20:44,387: Pressing 'Esc' key.
+2023-11-19 13:20:45,403: Holding 'D' key for a step.
+2023-11-19 13:20:46,888: Performing right click.
+2023-11-19 13:20:47,992: Checking for trade window...
+2023-11-19 13:20:49,032: Trade window detected.
+2023-11-19 13:20:49,032: Dragging slider.
+2023-11-19 13:20:52,047: Taking a screenshot for color search...
+2023-11-19 13:20:55,900: Color found at (2554, 1391). Clicking at this position.
+2023-11-19 13:20:55,903: Performing left click.
+2023-11-19 13:20:57,007: Color found at (2554, 1391). Clicking at this position.
+2023-11-19 13:20:57,011: Performing left click.
+2023-11-19 13:20:58,118: Performing left click.
+2023-11-19 13:20:58,223: Performing shift click.
+2023-11-19 13:20:59,623: Posted to Discord: Potion clicked.
+2023-11-19 13:20:59,628: Performing left click.
+2023-11-19 13:20:59,732: Performing shift click.
+2023-11-19 13:21:01,139: Posted to Discord: Potion clicked.
+2023-11-19 13:21:01,140: Pressing 'Esc' key.
+2023-11-19 13:21:02,156: Holding 'D' key for a step.
+2023-11-19 13:21:03,642: Performing right click.
+2023-11-19 13:21:04,746: Checking for trade window...
+2023-11-19 13:21:05,811: Trade window detected.
+2023-11-19 13:21:05,811: Dragging slider.
+2023-11-19 13:21:08,827: Taking a screenshot for color search...
+2023-11-19 13:21:12,636: Color found at (2556, 1402). Clicking at this position.
+2023-11-19 13:21:12,641: Performing left click.
+2023-11-19 13:21:13,744: Color found at (2556, 1402). Clicking at this position.
+2023-11-19 13:21:13,748: Performing left click.
+2023-11-19 13:21:14,857: Performing left click.
+2023-11-19 13:21:14,962: Performing shift click.
+2023-11-19 13:21:16,431: Posted to Discord: Potion clicked.
+2023-11-19 13:21:16,436: Performing left click.
+2023-11-19 13:21:16,540: Performing shift click.
+2023-11-19 13:21:17,986: Posted to Discord: Potion clicked.
+2023-11-19 13:21:17,987: Pressing 'Esc' key.
+2023-11-19 13:21:19,004: Holding 'D' key for a step.
+2023-11-19 13:21:20,491: Performing right click.
+2023-11-19 13:21:21,595: Checking for trade window...
+2023-11-19 13:21:22,636: Trade window detected.
+2023-11-19 13:21:22,636: Dragging slider.
+2023-11-19 13:21:25,651: Taking a screenshot for color search...
+2023-11-19 13:21:29,479: Color found at (2537, 1425). Clicking at this position.
+2023-11-19 13:21:29,483: Performing left click.
+2023-11-19 13:21:30,587: Color found at (2537, 1425). Clicking at this position.
+2023-11-19 13:21:30,593: Performing left click.
+2023-11-19 13:21:31,701: Performing left click.
+2023-11-19 13:21:31,805: Performing shift click.
+2023-11-19 13:21:33,306: Posted to Discord: Potion clicked.
+2023-11-19 13:21:33,310: Performing left click.
+2023-11-19 13:21:33,414: Performing shift click.
+2023-11-19 13:21:34,836: Posted to Discord: Potion clicked.
+2023-11-19 13:21:34,837: Pressing 'Esc' key.
+2023-11-19 13:21:35,852: Holding 'D' key for a step.
+2023-11-19 13:21:37,337: Performing right click.
+2023-11-19 13:21:38,441: Checking for trade window...
+2023-11-19 13:21:39,993: Trade window not detected. Adjusting position.
+2023-11-19 13:21:44,356: Trade window detected after adjustment.
+2023-11-19 13:21:44,356: Dragging slider.
+2023-11-19 13:21:47,369: Taking a screenshot for color search...
+2023-11-19 13:21:51,269: Color found at (2558, 1393). Clicking at this position.
+2023-11-19 13:21:51,273: Performing left click.
+2023-11-19 13:21:52,376: Color found at (2558, 1393). Clicking at this position.
+2023-11-19 13:21:52,380: Performing left click.
+2023-11-19 13:21:53,488: Performing left click.
+2023-11-19 13:21:53,591: Performing shift click.
+2023-11-19 13:21:55,120: Posted to Discord: Potion clicked.
+2023-11-19 13:21:55,125: Performing left click.
+2023-11-19 13:21:55,229: Performing shift click.
+2023-11-19 13:21:56,702: Posted to Discord: Potion clicked.
+2023-11-19 13:21:56,703: Pressing 'Esc' key.
+2023-11-19 13:21:57,719: Holding 'D' key for a step.
+2023-11-19 13:21:59,206: Performing right click.
+2023-11-19 13:22:00,310: Checking for trade window...
+2023-11-19 13:22:01,361: Trade window detected.
+2023-11-19 13:22:01,361: Dragging slider.
+2023-11-19 13:22:04,375: Taking a screenshot for color search...
+2023-11-19 13:22:09,706: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:22:09,709: Performing left click.
+2023-11-19 13:22:10,813: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:22:10,816: Performing left click.
+2023-11-19 13:22:11,922: Performing left click.
+2023-11-19 13:22:12,025: Performing shift click.
+2023-11-19 13:22:13,512: Posted to Discord: Potion clicked.
+2023-11-19 13:22:13,517: Performing left click.
+2023-11-19 13:22:13,622: Performing shift click.
+2023-11-19 13:22:15,065: Posted to Discord: Potion clicked.
+2023-11-19 13:22:15,066: Pressing 'Esc' key.
+2023-11-19 13:22:16,083: Holding 'D' key for a step.
+2023-11-19 13:22:17,569: Performing right click.
+2023-11-19 13:22:18,673: Checking for trade window...
+2023-11-19 13:22:19,690: Trade window detected.
+2023-11-19 13:22:19,690: Dragging slider.
+2023-11-19 13:22:22,708: Taking a screenshot for color search...
+2023-11-19 13:22:26,526: Color found at (2558, 1402). Clicking at this position.
+2023-11-19 13:22:26,530: Performing left click.
+2023-11-19 13:22:27,633: Color found at (2558, 1402). Clicking at this position.
+2023-11-19 13:22:27,637: Performing left click.
+2023-11-19 13:22:28,744: Performing left click.
+2023-11-19 13:22:28,847: Performing shift click.
+2023-11-19 13:22:30,397: Posted to Discord: Potion clicked.
+2023-11-19 13:22:30,401: Performing left click.
+2023-11-19 13:22:30,505: Performing shift click.
+2023-11-19 13:22:33,730: Posted to Discord: Potion clicked.
+2023-11-19 13:22:33,731: Pressing 'Esc' key.
+2023-11-19 13:22:34,747: Holding 'D' key for a step.
+2023-11-19 13:22:36,232: Performing right click.
+2023-11-19 13:22:37,336: Checking for trade window...
+2023-11-19 13:22:38,402: Trade window detected.
+2023-11-19 13:22:38,402: Dragging slider.
+2023-11-19 13:22:41,417: Taking a screenshot for color search...
+2023-11-19 13:22:45,212: Color found at (2535, 1424). Clicking at this position.
+2023-11-19 13:22:45,216: Performing left click.
+2023-11-19 13:22:46,320: Color found at (2535, 1424). Clicking at this position.
+2023-11-19 13:22:46,324: Performing left click.
+2023-11-19 13:22:47,431: Performing left click.
+2023-11-19 13:22:47,536: Performing shift click.
+2023-11-19 13:22:49,010: Posted to Discord: Potion clicked.
+2023-11-19 13:22:49,014: Performing left click.
+2023-11-19 13:22:49,117: Performing shift click.
+2023-11-19 13:22:50,705: Posted to Discord: Potion clicked.
+2023-11-19 13:22:50,706: Pressing 'Esc' key.
+2023-11-19 13:22:51,722: Holding 'D' key for a step.
+2023-11-19 13:22:53,208: Performing right click.
+2023-11-19 13:22:54,313: Checking for trade window...
+2023-11-19 13:22:55,369: Trade window detected.
+2023-11-19 13:22:55,369: Dragging slider.
+2023-11-19 13:22:58,386: Taking a screenshot for color search...
+2023-11-19 13:23:03,693: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:23:03,697: Performing left click.
+2023-11-19 13:23:04,800: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:23:04,804: Performing left click.
+2023-11-19 13:23:05,912: Performing left click.
+2023-11-19 13:23:06,014: Performing shift click.
+2023-11-19 13:23:07,435: Posted to Discord: Potion clicked.
+2023-11-19 13:23:07,439: Performing left click.
+2023-11-19 13:23:07,544: Performing shift click.
+2023-11-19 13:23:09,547: Posted to Discord: Potion clicked.
+2023-11-19 13:23:09,548: Pressing 'Esc' key.
+2023-11-19 13:23:10,563: Holding 'D' key for a step.
+2023-11-19 13:23:12,048: Performing right click.
+2023-11-19 13:23:13,152: Checking for trade window...
+2023-11-19 13:23:14,205: Trade window detected.
+2023-11-19 13:23:14,205: Dragging slider.
+2023-11-19 13:23:17,218: Taking a screenshot for color search...
+2023-11-19 13:23:21,080: Color found at (2559, 1397). Clicking at this position.
+2023-11-19 13:23:21,084: Performing left click.
+2023-11-19 13:23:22,188: Color found at (2559, 1397). Clicking at this position.
+2023-11-19 13:23:22,192: Performing left click.
+2023-11-19 13:23:23,301: Performing left click.
+2023-11-19 13:23:23,404: Performing shift click.
+2023-11-19 13:23:24,885: Posted to Discord: Potion clicked.
+2023-11-19 13:23:24,890: Performing left click.
+2023-11-19 13:23:24,994: Performing shift click.
+2023-11-19 13:23:26,431: Posted to Discord: Potion clicked.
+2023-11-19 13:23:26,432: Pressing 'Esc' key.
+2023-11-19 13:23:27,449: Holding 'D' key for a step.
+2023-11-19 13:23:28,934: Performing right click.
+2023-11-19 13:23:30,038: Checking for trade window...
+2023-11-19 13:23:31,097: Trade window detected.
+2023-11-19 13:23:31,097: Dragging slider.
+2023-11-19 13:23:34,114: Taking a screenshot for color search...
+2023-11-19 13:23:38,003: Color found at (2543, 1429). Clicking at this position.
+2023-11-19 13:23:38,007: Performing left click.
+2023-11-19 13:23:39,110: Color found at (2543, 1429). Clicking at this position.
+2023-11-19 13:23:39,113: Performing left click.
+2023-11-19 13:23:40,220: Performing left click.
+2023-11-19 13:23:40,324: Performing shift click.
+2023-11-19 13:23:41,827: Posted to Discord: Potion clicked.
+2023-11-19 13:23:41,832: Performing left click.
+2023-11-19 13:23:41,937: Performing shift click.
+2023-11-19 13:23:43,550: Posted to Discord: Potion clicked.
+2023-11-19 13:23:43,550: Pressing 'Esc' key.
+2023-11-19 13:23:44,567: Holding 'D' key for a step.
+2023-11-19 13:23:46,052: Performing right click.
+2023-11-19 13:23:47,156: Checking for trade window...
+2023-11-19 13:23:48,198: Trade window detected.
+2023-11-19 13:23:48,198: Dragging slider.
+2023-11-19 13:23:51,214: Taking a screenshot for color search...
+2023-11-19 13:23:54,970: Color found at (2543, 1430). Clicking at this position.
+2023-11-19 13:23:54,974: Performing left click.
+2023-11-19 13:23:56,077: Color found at (2543, 1430). Clicking at this position.
+2023-11-19 13:23:56,080: Performing left click.
+2023-11-19 13:23:57,187: Performing left click.
+2023-11-19 13:23:57,291: Performing shift click.
+2023-11-19 13:23:58,757: Posted to Discord: Potion clicked.
+2023-11-19 13:23:58,762: Performing left click.
+2023-11-19 13:23:58,866: Performing shift click.
+2023-11-19 13:24:00,273: Posted to Discord: Potion clicked.
+2023-11-19 13:24:00,274: Pressing 'Esc' key.
+2023-11-19 13:24:01,291: Holding 'D' key for a step.
+2023-11-19 13:24:02,777: Performing right click.
+2023-11-19 13:24:03,883: Checking for trade window...
+2023-11-19 13:24:04,957: Trade window detected.
+2023-11-19 13:24:04,957: Dragging slider.
+2023-11-19 13:24:07,972: Taking a screenshot for color search...
+2023-11-19 13:24:13,230: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:24:13,233: Performing left click.
+2023-11-19 13:24:14,338: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:24:14,341: Performing left click.
+2023-11-19 13:24:15,448: Performing left click.
+2023-11-19 13:24:15,552: Performing shift click.
+2023-11-19 13:24:17,158: Posted to Discord: Potion clicked.
+2023-11-19 13:24:17,162: Performing left click.
+2023-11-19 13:24:17,266: Performing shift click.
+2023-11-19 13:24:18,811: Posted to Discord: Potion clicked.
+2023-11-19 13:24:18,812: Pressing 'Esc' key.
+2023-11-19 13:24:19,828: Holding 'D' key for a step.
+2023-11-19 13:24:21,315: Performing right click.
+2023-11-19 13:24:22,419: Checking for trade window...
+2023-11-19 13:24:23,449: Trade window detected.
+2023-11-19 13:24:23,449: Dragging slider.
+2023-11-19 13:24:26,463: Taking a screenshot for color search...
+2023-11-19 13:24:30,224: Color found at (2554, 1391). Clicking at this position.
+2023-11-19 13:24:30,228: Performing left click.
+2023-11-19 13:24:31,333: Color found at (2554, 1391). Clicking at this position.
+2023-11-19 13:24:31,337: Performing left click.
+2023-11-19 13:24:32,446: Performing left click.
+2023-11-19 13:24:32,550: Performing shift click.
+2023-11-19 13:24:33,991: Posted to Discord: Potion clicked.
+2023-11-19 13:24:33,996: Performing left click.
+2023-11-19 13:24:34,100: Performing shift click.
+2023-11-19 13:24:35,522: Posted to Discord: Potion clicked.
+2023-11-19 13:24:35,522: Pressing 'Esc' key.
+2023-11-19 13:24:36,539: Holding 'D' key for a step.
+2023-11-19 13:24:38,026: Performing right click.
+2023-11-19 13:24:39,131: Checking for trade window...
+2023-11-19 13:24:40,149: Trade window detected.
+2023-11-19 13:24:40,149: Dragging slider.
+2023-11-19 13:24:43,163: Taking a screenshot for color search...
+2023-11-19 13:24:46,951: Color found at (2536, 1422). Clicking at this position.
+2023-11-19 13:24:46,954: Performing left click.
+2023-11-19 13:24:48,057: Color found at (2536, 1422). Clicking at this position.
+2023-11-19 13:24:48,061: Performing left click.
+2023-11-19 13:24:49,168: Performing left click.
+2023-11-19 13:24:49,273: Performing shift click.
+2023-11-19 13:24:50,697: Posted to Discord: Potion clicked.
+2023-11-19 13:24:50,701: Performing left click.
+2023-11-19 13:24:50,805: Performing shift click.
+2023-11-19 13:24:52,249: Posted to Discord: Potion clicked.
+2023-11-19 13:24:52,249: Pressing 'Esc' key.
+2023-11-19 13:24:53,266: Holding 'D' key for a step.
+2023-11-19 13:24:54,752: Performing right click.
+2023-11-19 13:24:55,855: Checking for trade window...
+2023-11-19 13:24:56,920: Trade window detected.
+2023-11-19 13:24:56,920: Dragging slider.
+2023-11-19 13:24:59,937: Taking a screenshot for color search...
+2023-11-19 13:25:03,697: Color found at (2543, 1429). Clicking at this position.
+2023-11-19 13:25:03,700: Performing left click.
+2023-11-19 13:25:04,804: Color found at (2543, 1429). Clicking at this position.
+2023-11-19 13:25:04,807: Performing left click.
+2023-11-19 13:25:05,915: Performing left click.
+2023-11-19 13:25:06,019: Performing shift click.
+2023-11-19 13:25:07,566: Posted to Discord: Potion clicked.
+2023-11-19 13:25:07,572: Performing left click.
+2023-11-19 13:25:07,677: Performing shift click.
+2023-11-19 13:25:09,142: Posted to Discord: Potion clicked.
+2023-11-19 13:25:09,143: Pressing 'Esc' key.
+2023-11-19 13:25:10,159: Holding 'D' key for a step.
+2023-11-19 13:25:11,646: Performing right click.
+2023-11-19 13:25:12,750: Checking for trade window...
+2023-11-19 13:25:13,813: Trade window detected.
+2023-11-19 13:25:13,813: Dragging slider.
+2023-11-19 13:25:16,829: Taking a screenshot for color search...
+2023-11-19 13:25:22,146: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:25:22,150: Performing left click.
+2023-11-19 13:25:23,253: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:25:23,256: Performing left click.
+2023-11-19 13:25:24,363: Performing left click.
+2023-11-19 13:25:24,466: Performing shift click.
+2023-11-19 13:25:25,904: Posted to Discord: Potion clicked.
+2023-11-19 13:25:25,909: Performing left click.
+2023-11-19 13:25:26,013: Performing shift click.
+2023-11-19 13:25:27,638: Posted to Discord: Potion clicked.
+2023-11-19 13:25:27,639: Pressing 'Esc' key.
+2023-11-19 13:25:28,655: Holding 'D' key for a step.
+2023-11-19 13:25:30,140: Performing right click.
+2023-11-19 13:25:31,244: Checking for trade window...
+2023-11-19 13:25:32,276: Trade window detected.
+2023-11-19 13:25:32,276: Dragging slider.
+2023-11-19 13:25:35,292: Taking a screenshot for color search...
+2023-11-19 13:25:39,096: Color found at (2541, 1429). Clicking at this position.
+2023-11-19 13:25:39,100: Performing left click.
+2023-11-19 13:25:40,205: Color found at (2541, 1429). Clicking at this position.
+2023-11-19 13:25:40,209: Performing left click.
+2023-11-19 13:25:41,315: Performing left click.
+2023-11-19 13:25:41,418: Performing shift click.
+2023-11-19 13:25:42,887: Posted to Discord: Potion clicked.
+2023-11-19 13:25:42,891: Performing left click.
+2023-11-19 13:25:42,995: Performing shift click.
+2023-11-19 13:25:44,476: Posted to Discord: Potion clicked.
+2023-11-19 13:25:44,477: Pressing 'Esc' key.
+2023-11-19 13:25:45,493: Holding 'D' key for a step.
+2023-11-19 13:25:46,978: Performing right click.
+2023-11-19 13:25:48,082: Checking for trade window...
+2023-11-19 13:25:49,119: Trade window detected.
+2023-11-19 13:25:49,119: Dragging slider.
+2023-11-19 13:25:52,135: Taking a screenshot for color search...
+2023-11-19 13:25:55,939: Color found at (2537, 1424). Clicking at this position.
+2023-11-19 13:25:55,943: Performing left click.
+2023-11-19 13:25:57,046: Color found at (2537, 1424). Clicking at this position.
+2023-11-19 13:25:57,049: Performing left click.
+2023-11-19 13:25:58,157: Performing left click.
+2023-11-19 13:25:58,262: Performing shift click.
+2023-11-19 13:25:59,735: Posted to Discord: Potion clicked.
+2023-11-19 13:25:59,739: Performing left click.
+2023-11-19 13:25:59,844: Performing shift click.
+2023-11-19 13:26:01,484: Posted to Discord: Potion clicked.
+2023-11-19 13:26:01,485: Pressing 'Esc' key.
+2023-11-19 13:26:02,501: Holding 'D' key for a step.
+2023-11-19 13:26:03,987: Performing right click.
+2023-11-19 13:26:05,091: Checking for trade window...
+2023-11-19 13:26:06,144: Trade window detected.
+2023-11-19 13:26:06,144: Dragging slider.
+2023-11-19 13:26:09,161: Taking a screenshot for color search...
+2023-11-19 13:26:12,949: Color found at (2543, 1399). Clicking at this position.
+2023-11-19 13:26:12,953: Performing left click.
+2023-11-19 13:26:14,056: Color found at (2543, 1399). Clicking at this position.
+2023-11-19 13:26:14,060: Performing left click.
+2023-11-19 13:26:15,167: Performing left click.
+2023-11-19 13:26:15,271: Performing shift click.
+2023-11-19 13:26:16,767: Posted to Discord: Potion clicked.
+2023-11-19 13:26:16,772: Performing left click.
+2023-11-19 13:26:16,876: Performing shift click.
+2023-11-19 13:26:18,294: Posted to Discord: Potion clicked.
+2023-11-19 13:26:18,294: Pressing 'Esc' key.
+2023-11-19 13:26:19,311: Holding 'D' key for a step.
+2023-11-19 13:26:20,796: Performing right click.
+2023-11-19 13:26:21,900: Checking for trade window...
+2023-11-19 13:26:22,970: Trade window detected.
+2023-11-19 13:26:22,970: Dragging slider.
+2023-11-19 13:26:25,985: Taking a screenshot for color search...
+2023-11-19 13:26:31,314: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:26:31,317: Performing left click.
+2023-11-19 13:26:32,420: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:26:32,423: Performing left click.
+2023-11-19 13:26:33,531: Performing left click.
+2023-11-19 13:26:33,636: Performing shift click.
+2023-11-19 13:26:35,153: Posted to Discord: Potion clicked.
+2023-11-19 13:26:35,158: Performing left click.
+2023-11-19 13:26:35,263: Performing shift click.
+2023-11-19 13:26:36,675: Posted to Discord: Potion clicked.
+2023-11-19 13:26:36,676: Pressing 'Esc' key.
+2023-11-19 13:26:37,691: Holding 'D' key for a step.
+2023-11-19 13:26:39,177: Performing right click.
+2023-11-19 13:26:40,281: Checking for trade window...
+2023-11-19 13:26:41,340: Trade window detected.
+2023-11-19 13:26:41,340: Dragging slider.
+2023-11-19 13:26:44,358: Taking a screenshot for color search...
+2023-11-19 13:26:49,844: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:26:49,848: Performing left click.
+2023-11-19 13:26:50,951: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:26:50,955: Performing left click.
+2023-11-19 13:26:52,063: Performing left click.
+2023-11-19 13:26:52,167: Performing shift click.
+2023-11-19 13:26:53,599: Posted to Discord: Potion clicked.
+2023-11-19 13:26:53,604: Performing left click.
+2023-11-19 13:26:53,709: Performing shift click.
+2023-11-19 13:26:55,152: Posted to Discord: Potion clicked.
+2023-11-19 13:26:55,152: Pressing 'Esc' key.
+2023-11-19 13:26:56,168: Holding 'D' key for a step.
+2023-11-19 13:26:57,653: Performing right click.
+2023-11-19 13:26:58,757: Checking for trade window...
+2023-11-19 13:26:59,821: Trade window detected.
+2023-11-19 13:26:59,821: Dragging slider.
+2023-11-19 13:27:02,836: Taking a screenshot for color search...
+2023-11-19 13:27:06,617: Color found at (2535, 1424). Clicking at this position.
+2023-11-19 13:27:06,621: Performing left click.
+2023-11-19 13:27:07,725: Color found at (2535, 1424). Clicking at this position.
+2023-11-19 13:27:07,729: Performing left click.
+2023-11-19 13:27:08,837: Performing left click.
+2023-11-19 13:27:08,941: Performing shift click.
+2023-11-19 13:27:10,361: Posted to Discord: Potion clicked.
+2023-11-19 13:27:10,366: Performing left click.
+2023-11-19 13:27:10,471: Performing shift click.
+2023-11-19 13:27:11,918: Posted to Discord: Potion clicked.
+2023-11-19 13:27:11,919: Pressing 'Esc' key.
+2023-11-19 13:27:12,935: Holding 'D' key for a step.
+2023-11-19 13:27:14,422: Performing right click.
+2023-11-19 13:27:15,527: Checking for trade window...
+2023-11-19 13:27:16,576: Trade window detected.
+2023-11-19 13:27:16,577: Dragging slider.
+2023-11-19 13:27:19,589: Taking a screenshot for color search...
+2023-11-19 13:27:25,146: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:27:25,149: Performing left click.
+2023-11-19 13:27:26,252: Color not found on the screen. Using fallback coordinates.
+2023-11-19 13:27:26,256: Performing left click.
+2023-11-19 13:27:27,363: Performing left click.
+2023-11-19 13:27:27,466: Performing shift click.
+2023-11-19 13:27:29,014: Posted to Discord: Potion clicked.
+2023-11-19 13:27:29,019: Performing left click.
+2023-11-19 13:27:29,123: Performing shift click.
+2023-11-19 13:27:30,559: Posted to Discord: Potion clicked.
+2023-11-19 13:27:30,560: Pressing 'Esc' key.
+2023-11-19 13:27:31,576: Holding 'D' key for a step.
+2023-11-19 13:27:33,064: Performing right click.
+2023-11-19 13:27:34,169: Checking for trade window...
+2023-11-19 13:27:35,214: Trade window detected.
+2023-11-19 13:27:35,215: Dragging slider.
+2023-11-19 13:27:38,231: Taking a screenshot for color search...
+2023-11-19 13:27:41,970: Color found at (2556, 1406). Clicking at this position.
+2023-11-19 13:27:41,973: Performing left click.
+2023-11-19 13:27:43,077: Color found at (2556, 1406). Clicking at this position.
+2023-11-19 13:27:43,081: Performing left click.
+2023-11-19 13:27:44,189: Performing left click.
+2023-11-19 13:27:44,292: Performing shift click.
+2023-11-19 13:27:45,753: Posted to Discord: Potion clicked.
+2023-11-19 13:27:45,758: Performing left click.
+2023-11-19 13:27:45,862: Performing shift click.
+2023-11-19 13:27:47,338: Posted to Discord: Potion clicked.
+2023-11-19 13:27:47,338: Pressing 'Esc' key.
+2023-11-19 13:27:48,355: Holding 'D' key for a step.
+2023-11-19 13:27:49,841: Performing right click.
+2023-11-19 13:27:50,945: Checking for trade window...
+2023-11-19 13:27:51,984: Trade window detected.
+2023-11-19 13:27:51,984: Dragging slider.
+2023-11-19 13:27:54,998: Taking a screenshot for color search...
+2023-11-19 13:27:58,699: Color found at (2535, 1422). Clicking at this position.
+2023-11-19 13:27:58,702: Performing left click.
+2023-11-19 13:27:59,806: Color found at (2535, 1422). Clicking at this position.
+2023-11-19 13:27:59,809: Performing left click.
+2023-11-19 13:28:00,916: Performing left click.
+2023-11-19 13:28:01,020: Performing shift click.
+2023-11-19 13:28:02,614: Posted to Discord: Potion clicked.
+2023-11-19 13:28:02,618: Performing left click.
+2023-11-19 13:28:02,722: Performing shift click.
+2023-11-19 13:28:04,182: Posted to Discord: Potion clicked.
+2023-11-19 13:28:04,183: Pressing 'Esc' key.
+2023-11-19 13:28:05,200: Holding 'D' key for a step.
+2023-11-19 13:28:06,687: Performing right click.
+2023-11-19 13:28:07,791: Checking for trade window...
+2023-11-19 13:28:08,848: Trade window detected.
+2023-11-19 13:28:08,848: Dragging slider.
+2023-11-19 13:28:11,865: Taking a screenshot for color search...
+2023-11-19 13:28:15,692: Color found at (2536, 1421). Clicking at this position.
+2023-11-19 13:28:15,696: Performing left click.
+2023-11-19 13:28:16,799: Color found at (2536, 1421). Clicking at this position.
+2023-11-19 13:28:16,803: Performing left click.
+2023-11-19 13:28:17,910: Performing left click.
+2023-11-19 13:28:18,014: Performing shift click.
+2023-11-19 13:28:19,480: Posted to Discord: Potion clicked.
+2023-11-19 13:28:19,485: Performing left click.
+2023-11-19 13:28:19,589: Performing shift click.
+2023-11-19 13:28:21,062: Posted to Discord: Potion clicked.
+2023-11-19 13:28:21,062: Pressing 'Esc' key.
+2023-11-19 13:28:22,078: Holding 'D' key for a step.
