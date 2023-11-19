@@ -68,25 +68,30 @@ def check_trade_window():
         return True
     else:
         log_and_print("Trade window not detected. Adjusting position.")
-        for key in ['a', 'd']:
-            subprocess.run(['xdotool', 'keydown', key])
-            time.sleep(0.1)  # Micro-press duration
-            subprocess.run(['xdotool', 'keyup', key])
-            time.sleep(0.1)
-            right_click(2725, 1203)
-            time.sleep(3)
-            screenshot = ImageGrab.grab(trade_window_area)
-            r, g, b = screenshot.getpixel((51, 69))[:3]
-            if (r, g, b) == (137, 51, 24):
-                log_and_print("Trade window detected after adjustment.")
-                return True
+        adjustment_combinations = [('a', 0.1), ('d', 0.1), ('a', 0.2), ('d', 0.2)]
+        for _ in range(5):  # Try up to three times
+            for key, duration in adjustment_combinations:
+                subprocess.run(['xdotool', 'keydown', key])
+                time.sleep(duration)
+                subprocess.run(['xdotool', 'keyup', key])
+                time.sleep(0.1)
+                subprocess.run(['xdotool', 'click', '3'])  # Right-click without moving the mouse
+                time.sleep(3)
+                screenshot = ImageGrab.grab(trade_window_area)
+                r, g, b = screenshot.getpixel((51, 69))[:3]
+                if (r, g, b) == (137, 51, 24):
+                    log_and_print("Trade window detected after adjustment.")
+                    return True
+
         log_and_print("Trade window not found after adjustments.")
         post_to_discord("Trade window not found.")
         return False
 
+
+
 def trade_actions():
     right_click(2725, 1203)
-    time.sleep(3)
+    time.sleep(1)
 
     if not check_trade_window():
         log_and_print("Trade window not detected after adjustments. Stopping script.")
@@ -107,23 +112,23 @@ def trade_actions():
         else:
             log_and_print("Color not found on the screen. Using fallback coordinates.")
             click(2535, 1421)
-        time.sleep(3)
+        time.sleep(1)
 
     for _ in range(2):
         click(found_x, found_y)
         shift_click(2994, 1105)
-        time.sleep(3)
+        time.sleep(1)
         post_to_discord("Potion clicked.")
 
     log_and_print("Pressing 'Esc' key.")
     subprocess.run(['xdotool', 'key', 'Escape'])
-    time.sleep(3)
+    time.sleep(1)
 
     log_and_print("Holding 'D' key for a step.")
     subprocess.run(['xdotool', 'keydown', 'd'])
     time.sleep(0.45)  # Hold 'D' for 0.45 seconds
     subprocess.run(['xdotool', 'keyup', 'd'])
-    time.sleep(3)
+    time.sleep(1)
 
     return True  # Indicate that the trade action was successful
 
