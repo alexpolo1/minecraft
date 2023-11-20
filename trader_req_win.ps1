@@ -1,4 +1,4 @@
-# PowerShell script to install Python and required modules
+# PowerShell script to install Python and required modules for automation
 
 # Check if Python is already installed
 $pythonInstalled = $False
@@ -32,7 +32,7 @@ catch {
 }
 
 # Install required Python packages
-$requiredModules = @("requests", "Pillow", "pyautogui")
+$requiredModules = @("requests", "Pillow", "pyautogui", "keyboard")
 foreach ($module in $requiredModules) {
     pip install $module
     Write-Host "$module installed successfully."
