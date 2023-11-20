@@ -5,7 +5,7 @@ import pyautogui
 from PIL import Image, ImageGrab
 import logging
 
-# Setup logging
+# Setup logging 
 logging.basicConfig(filename='minecraft_automation_log.txt', level=logging.INFO, format='%(asctime)s: %(message)s')
 
 def log_and_print(message):
