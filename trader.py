@@ -1,11 +1,10 @@
 import requests
 import subprocess
 import time
-import pyautogui
 from PIL import Image, ImageGrab
 import logging
 
-# Setup logging 
+# Setup logging
 logging.basicConfig(filename='minecraft_automation_log.txt', level=logging.INFO, format='%(asctime)s: %(message)s')
 
 def log_and_print(message):
@@ -52,16 +51,12 @@ def find_color_in_image(target_color, image):
     return None, None
 
 def focus_minecraft_window():
-    log_and_print("Please click on the Minecraft window.")
-    time.sleep(1)
-    log_and_print("Starting in 3...")
-    time.sleep(1)
-    log_and_print("2...")
-    time.sleep(1)
-    log_and_print("1...")
-    time.sleep(1)
-    log_and_print("Script is now running.")
-    return True
+    log_and_print("Focusing Minecraft window...")
+    subprocess.run(['xdotool', 'search', '--name', 'Minecraft*1.20.2 - Multiplayer (3rd-party-Server)', 'windowactivate', '--sync'])
+    time.sleep(2)
+    log_and_print("Pressing Esc...")
+    subprocess.run(['xdotool', 'key', 'Escape'])
+    time.sleep(2)
 
 def check_trade_window():
     log_and_print("Checking for trade window...")
@@ -74,7 +69,7 @@ def check_trade_window():
     else:
         log_and_print("Trade window not detected. Adjusting position.")
         adjustment_combinations = [('a', 0.1), ('d', 0.1), ('a', 0.2), ('d', 0.2)]
-        for _ in range(5):  # Try up to five times
+        for _ in range(5):  # Try up to three times
             for key, duration in adjustment_combinations:
                 subprocess.run(['xdotool', 'keydown', key])
                 time.sleep(duration)
@@ -92,11 +87,9 @@ def check_trade_window():
         post_to_discord("Trade window not found.")
         return False
 
-def trade_actions():
-    log_and_print("Pressing 'Esc' key to ensure focus.")
-    subprocess.run(['xdotool', 'key', 'Escape'])
-    time.sleep(1)
 
+
+def trade_actions():
     right_click(2725, 1203)
     time.sleep(1)
 
@@ -139,11 +132,10 @@ def trade_actions():
 
     return True  # Indicate that the trade action was successful
 
-# Main script execution
-if not focus_minecraft_window():
-    log_and_print("Minecraft window not detected. Stopping script.")
-else:
-    for _ in range(40):  # Number of trades to perform
-        result = trade_actions()
-        if not result:
-            break  # Stop the script if trade window is not detected
+
+focus_minecraft_window()
+
+for _ in range(40):  # Number of trades to perform
+    result = trade_actions()
+    if not result:
+        break  # Stop the script if trade window is not detected
