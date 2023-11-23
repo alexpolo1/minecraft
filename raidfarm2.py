@@ -23,7 +23,7 @@ discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls
 def send_discord_message(message):
     data = {
         "content": message,
-        "username": "Minecraft Bot"
+        "username": "Raidfarm bot"
     }
     result = requests.post(discord_webhook_url, json=data)
     try:
