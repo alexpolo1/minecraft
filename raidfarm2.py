@@ -7,7 +7,7 @@ import datetime
 import os
 import requests
 
-# Define the directory for screenshots
+# Define the directory for screenshots..
 screenshots_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'autologin_screenshots')
 
 # Define paths to your template images
