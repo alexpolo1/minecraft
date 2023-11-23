@@ -56,20 +56,35 @@ def raid_farm_clicking():
 
 def handle_disconnect():
     print("Handling disconnect...")
-    if find_template_on_screen(template_paths['connection_lost']):
-        print("Connection lost detected.")
+    # Try to find the 'connection_lost' screen via template matching
+    connection_lost_pos = find_template_on_screen(template_paths['connection_lost'])
+    if connection_lost_pos:
+        print("Connection lost detected via template matching.")
         time.sleep(1)  # Small delay to ensure the screen is updated
-        back_to_server_pos = find_template_on_screen(template_paths['back_to_server'])
-        if back_to_server_pos:
-            click_at_position(*back_to_server_pos)
-            print("Clicked 'Back to Server List'.")
-            time.sleep(1)  # Small delay to ensure the click is registered
-            join_server_pos = find_template_on_screen(template_paths['join_server'])
-            if join_server_pos:
-                click_at_position(*join_server_pos)
-                print("Clicked 'Join Server'.")
-                send_discord_message("The bot has clicked 'Join Server' and is attempting to recover.")
-                time.sleep(10)  # Wait for 10 seconds before restarting the raid farm clicker
+    else:
+        # If template matching fails, use the backup coordinates
+        connection_lost_pos = (1184, 370)
+        print("Using backup coordinates for 'Connection Lost'.")
+
+    # Click 'Back to Server List' button
+    click_at_position(*connection_lost_pos)
+    print("Clicked 'Back to Server List'.")
+    time.sleep(1)  # Small delay to ensure the click is registered
+
+    # Try to find the 'join_server' button via template matching
+    join_server_pos = find_template_on_screen(template_paths['join_server'])
+    if join_server_pos:
+        print("Join button detected via template matching.")
+        click_at_position(*join_server_pos)
+    else:
+        # If template matching fails, use the backup coordinates for the 'Join Server' button
+        join_server_pos = (957, 452)
+        click_at_position(*join_server_pos)
+        print("Using backup coordinates for 'Join Server'.")
+
+    print("Clicked 'Join Server'.")
+    send_discord_message("The bot has clicked 'Join Server' and is attempting to recover.")
+    time.sleep(10)  # Wait for 10 seconds before restarting the raid farm clicker
 
 if __name__ == "__main__":
     print('Raid farm clicker started.')
