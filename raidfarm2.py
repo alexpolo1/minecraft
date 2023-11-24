@@ -7,8 +7,12 @@ import datetime
 import os
 import requests
 
-# Define the directory for screenshots..
+# Define the directory for screenshots
 screenshots_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'autologin_screenshots')
+temp_screenshot_directory = '/temp/mcscreens'
+
+# Ensure the temp screenshot directory exists
+os.makedirs(temp_screenshot_directory, exist_ok=True)
 
 # Define paths to your template images
 template_paths = {
@@ -18,14 +22,21 @@ template_paths = {
 }
 
 # Your Discord webhook URL
-discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
+discord_webhook_url = 'https://discord.com/api/webhooks/your_webhook_id/your_webhook_token'
 
-def send_discord_message(message):
+def send_discord_message(message, image_path=None):
     data = {
         "content": message,
-        "username": "Raidfarm bot"
+        "username": "Minecraft Bot"
     }
-    result = requests.post(discord_webhook_url, json=data)
+    files = None
+    if image_path:
+        with open(image_path, 'rb') as f:
+            files = {'file': (os.path.basename(image_path), f, 'image/png')}
+        result = requests.post(discord_webhook_url, data=data, files=files)
+    else:
+        result = requests.post(discord_webhook_url, json=data)
+
     try:
         result.raise_for_status()
     except requests.exceptions.HTTPError as err:
@@ -33,14 +44,18 @@ def send_discord_message(message):
     else:
         print("Payload delivered successfully, code {}.".format(result.status_code))
 
+def capture_hourly_screenshot():
+    current_hour = datetime.datetime.now().strftime("%H")
+    screenshot = ImageGrab.grab()
+    file_path = os.path.join(temp_screenshot_directory, f"{current_hour}.png")
+    screenshot.save(file_path, 'PNG')
+    send_discord_message("Hourly status screenshot:", file_path)
+
 def find_template_on_screen(template_path, threshold=0.8):
-    # Convert the screen capture to a format OpenCV can understand
     screen = np.array(ImageGrab.grab())
     screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
-    # Load the template and get its dimensions
     template = cv2.imread(template_path, 0)
     w, h = template.shape[::-1]
-    # Perform template matching
     res = cv2.matchTemplate(screen_gray, template, cv2.TM_CCOEFF_NORMED)
     _, max_val, _, max_loc = cv2.minMaxLoc(res)
     if max_val >= threshold:
@@ -52,51 +67,41 @@ def click_at_position(x, y):
 
 def raid_farm_clicking():
     print("Performing left click.")
-    subprocess.run(['xdotool', 'click', '1'])
+    subprocess.run(['xdotool', 'click', '1'])  # Left-click
 
 def handle_disconnect():
     print("Handling disconnect...")
-    # Try to find the 'connection_lost' screen via template matching
-    connection_lost_pos = find_template_on_screen(template_paths['connection_lost'])
-    if connection_lost_pos:
-        print("Connection lost detected via template matching.")
-        time.sleep(1)  # Small delay to ensure the screen is updated
-    else:
-        # If template matching fails, use the backup coordinates
-        connection_lost_pos = (1184, 370)
-        print("Using backup coordinates for 'Connection Lost'.")
-
-    # Click 'Back to Server List' button
-    click_at_position(*connection_lost_pos)
-    print("Clicked 'Back to Server List'.")
-    time.sleep(1)  # Small delay to ensure the click is registered
-
-    # Try to find the 'join_server' button via template matching
-    join_server_pos = find_template_on_screen(template_paths['join_server'])
-    if join_server_pos:
-        print("Join button detected via template matching.")
-        click_at_position(*join_server_pos)
-    else:
-        # If template matching fails, use the backup coordinates for the 'Join Server' button
-        join_server_pos = (957, 452)
-        click_at_position(*join_server_pos)
-        print("Using backup coordinates for 'Join Server'.")
-
-    print("Clicked 'Join Server'.")
-    send_discord_message("The bot has clicked 'Join Server' and is attempting to recover.")
-    time.sleep(10)  # Wait for 10 seconds before restarting the raid farm clicker
+    if find_template_on_screen(template_paths['connection_lost']):
+        print("Connection lost detected.")
+        time.sleep(1)
+        back_to_server_pos = find_template_on_screen(template_paths['back_to_server'])
+        if back_to_server_pos:
+            click_at_position(*back_to_server_pos)
+            print("Clicked 'Back to Server List'.")
+            time.sleep(1)
+            join_server_pos = find_template_on_screen(template_paths['join_server'])
+            if join_server_pos:
+                click_at_position(*join_server_pos)
+                print("Clicked 'Join Server'.")
+                send_discord_message("The bot has clicked 'Join Server' and is attempting to recover.")
+                time.sleep(10)
 
 if __name__ == "__main__":
     print('Raid farm clicker started.')
-    time.sleep(10)  # Initial wait before starting the clicking loop
+    time.sleep(10)
     restart_times = [datetime.time(hour=6), datetime.time(hour=12), datetime.time(hour=18), datetime.time(hour=0)]
+    last_screenshot_hour = None
 
     while True:
         current_time = datetime.datetime.now()
-        raid_farm_clicking()  # Perform a left click
-        
+        raid_farm_clicking()
+
+        if current_time.minute == 0 and (last_screenshot_hour is None or last_screenshot_hour != current_time.hour):
+            capture_hourly_screenshot()
+            last_screenshot_hour = current_time.hour
+
         if any(current_time.time() >= restart_time and current_time.time() < (datetime.datetime.combine(datetime.date.today(), restart_time) + datetime.timedelta(minutes=5)).time() for restart_time in restart_times) or current_time.minute == 0:
-            handle_disconnect()  # Check for disconnects at known restart times or every hour
-            time.sleep(65)  # Offset the disconnect check cycle after handling a disconnect
-        
-        time.sleep(0.645)  # Wait for 0.645 seconds before the next click
+            handle_disconnect()
+            time.sleep(65)
+
+        time.sleep(0.645)
