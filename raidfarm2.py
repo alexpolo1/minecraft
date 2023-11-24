@@ -22,12 +22,13 @@ template_paths = {
 }
 
 # Your Discord webhook URL
-discord_webhook_url = 'https://discord.com/api/webhooks/your_webhook_id/your_webhook_token'
+discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
+
 
 def send_discord_message(message, image_path=None):
     data = {
         "content": message,
-        "username": "Minecraft Bot"
+        "username": "raidfarm Bot"
     }
     files = None
     if image_path:
