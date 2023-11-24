@@ -7,22 +7,13 @@ import datetime
 import os
 import requests
 
-# Define the directory for screenshots
-screenshots_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'autologin_screenshots')
-temp_screenshot_directory = '/tmp/mcscreens'
-
 # Ensure the temp screenshot directory exists
+temp_screenshot_directory = '/tmp/mcscreens'
 os.makedirs(temp_screenshot_directory, exist_ok=True)
-
-# Define paths to your template images
-template_paths = {
-    'connection_lost': os.path.join(screenshots_directory, 'connection_lost3.png'),
-    'back_to_server': os.path.join(screenshots_directory, 'back_to_server.png'),
-    'join_server': os.path.join(screenshots_directory, 'join_button.png')
-}
 
 # Your Discord webhook URL
 discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
+
 def send_discord_message(message, image_path=None):
     data = {
         "content": message,
@@ -49,17 +40,6 @@ def capture_hourly_screenshot():
     screenshot.save(file_path, 'PNG')
     send_discord_message("Hourly status screenshot:", file_path)
 
-def find_template_on_screen(template_path, threshold=0.8):
-    screen = np.array(ImageGrab.grab())
-    screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
-    template = cv2.imread(template_path, 0)
-    w, h = template.shape[::-1]
-    res = cv2.matchTemplate(screen_gray, template, cv2.TM_CCOEFF_NORMED)
-    _, max_val, _, max_loc = cv2.minMaxLoc(res)
-    if max_val >= threshold:
-        return (max_loc[0] + w//2, max_loc[1] + h//2)
-    return None
-
 def click_at_position(x, y):
     subprocess.run(['xdotool', 'mousemove', str(x), str(y), 'click', '1'])
 
@@ -69,42 +49,42 @@ def raid_farm_clicking():
 
 def handle_disconnect():
     print("Handling disconnect...")
-    disconnected = find_template_on_screen(template_paths['connection_lost'])
-    if disconnected:
-        print("Connection lost detected.")
-    else:
-        # If template matching fails, use the backup coordinates for 'Back to Server List'
-        disconnected = (1170, 364)  # Backup coordinates
 
-    click_at_position(*disconnected)
+    # Backup coordinates
+    back_to_server_button_pos = (1170, 364)
+    join_server_button_pos = (955, 457)
+
+    # Click the "Back to Server List" button
+    click_at_position(*back_to_server_button_pos)
     print("Clicked 'Back to Server List'.")
-    time.sleep(2)  # Wait for UI response
+    time.sleep(2)  # Wait for the UI to respond
 
-    # Attempt to find the 'Join Server' button via template matching
-    join_server = find_template_on_screen(template_paths['join_server'])
-    if join_server:
-        print("Join Server button detected.")
-    else:
-        # If template matching fails, use the backup coordinates for 'Join Server'
-        join_server = (955, 457)  # Backup coordinates
-
-    click_at_position(*join_server)
+    # Click the "Join Server" button
+    click_at_position(*join_server_button_pos)
     print("Clicked 'Join Server'.")
-    time.sleep(2)  # Wait for UI response
+    time.sleep(10)  # Wait for the server to respond
 
-    # Send a message and screenshot to Discord
-    send_discord_message("Attempting to reconnect to the server.")
+    # Take a screenshot and send it to Discord
     capture_hourly_screenshot()
     print("Screenshot captured and sent to Discord.")
 
 if __name__ == "__main__":
     print('Raid farm clicker started.')
-    time.sleep(10)  # Initial wait before starting the clicking loop
-
-    last_screenshot_time = datetime.datetime.now() - datetime.timedelta(minutes=5)
+    last_hourly_screenshot_time = None
 
     while True:
         current_time = datetime.datetime.now()
+
+        # Perform the raid farm clicking
         raid_farm_clicking()
 
-        # Take a screenshot and send it to Discord 5 minutes past every hour
+        # Every hour at 5 minutes past the hour, take and send a status screenshot
+        if current_time.minute == 5 and (last_hourly_screenshot_time is None or current_time.hour != last_hourly_screenshot_time.hour):
+            capture_hourly_screenshot()
+            last_hourly_screenshot_time = current_time
+
+        # Check for disconnects every minute to handle reconnections more promptly
+        if current_time.minute % 1 == 0 and current_time.second < 10:  # Check within the first 10 seconds of every minute
+            handle_disconnect()
+
+        time.sleep(0.645)  # Time interval between clicks
