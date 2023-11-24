@@ -9,7 +9,7 @@ import requests
 
 # Define the directory for screenshots
 screenshots_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'autologin_screenshots')
-temp_screenshot_directory = '/temp/mcscreens'
+temp_screenshot_directory = '/tmp/mcscreens'
 
 # Ensure the temp screenshot directory exists
 os.makedirs(temp_screenshot_directory, exist_ok=True)
