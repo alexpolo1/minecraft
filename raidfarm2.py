@@ -9,7 +9,7 @@ import requests
 
 # Define the directory for screenshots
 screenshots_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'autologin_screenshots')
-temp_screenshot_directory = '/tmp/mcscreens'
+temp_screenshot_directory = '/temp/mcscreens'
 
 # Ensure the temp screenshot directory exists
 os.makedirs(temp_screenshot_directory, exist_ok=True)
@@ -22,8 +22,7 @@ template_paths = {
 }
 
 # Your Discord webhook URL
-discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
-
+discord_webhook_url = 'https://discord.com/api/webhooks/your_webhook_id/your_webhook_token'
 
 def send_discord_message(message, image_path=None):
     data = {
@@ -32,10 +31,9 @@ def send_discord_message(message, image_path=None):
     }
     files = None
     if image_path:
-        with open(image_path, 'rb') as f:
-            image_data = f.read()
+        image_data = open(image_path, 'rb').read()
         files = {'file': (os.path.basename(image_path), image_data, 'image/png')}
-    result = requests.post(discord_webhook_url, data=data, files=files)
+    result = requests.post(discord_webhook_url, data=data, files=files if files is not None else None)
 
     try:
         result.raise_for_status()
@@ -44,11 +42,11 @@ def send_discord_message(message, image_path=None):
     else:
         print("Payload delivered successfully, code {}.".format(result.status_code))
 
-
 def capture_hourly_screenshot():
-    current_hour = datetime.datetime.now().strftime("%H")
+    current_time = datetime.datetime.now()
+    file_name = f"{current_time.strftime('%Y%m%d%H%M')}.png"
+    file_path = os.path.join(temp_screenshot_directory, file_name)
     screenshot = ImageGrab.grab()
-    file_path = os.path.join(temp_screenshot_directory, f"{current_hour}.png")
     screenshot.save(file_path, 'PNG')
     send_discord_message("Hourly status screenshot:", file_path)
 
@@ -72,37 +70,42 @@ def raid_farm_clicking():
 
 def handle_disconnect():
     print("Handling disconnect...")
-    if find_template_on_screen(template_paths['connection_lost']):
+    disconnected = find_template_on_screen(template_paths['connection_lost'])
+    if disconnected:
         print("Connection lost detected.")
-        time.sleep(1)
-        back_to_server_pos = find_template_on_screen(template_paths['back_to_server'])
-        if back_to_server_pos:
-            click_at_position(*back_to_server_pos)
-            print("Clicked 'Back to Server List'.")
-            time.sleep(1)
-            join_server_pos = find_template_on_screen(template_paths['join_server'])
-            if join_server_pos:
-                click_at_position(*join_server_pos)
-                print("Clicked 'Join Server'.")
-                send_discord_message("The bot has clicked 'Join Server' and is attempting to recover.")
-                time.sleep(10)
+    else:
+        # If template matching fails, use the backup coordinates for 'Back to Server List'
+        disconnected = (1170, 364)  # Backup coordinates
+
+    click_at_position(*disconnected)
+    print("Clicked 'Back to Server List'.")
+    time.sleep(2)  # Wait for UI response
+
+    # Attempt to find the 'Join Server' button via template matching
+    join_server = find_template_on_screen(template_paths['join_server'])
+    if join_server:
+        print("Join Server button detected.")
+    else:
+        # If template matching fails, use the backup coordinates for 'Join Server'
+        join_server = (955, 457)  # Backup coordinates
+
+    click_at_position(*join_server)
+    print("Clicked 'Join Server'.")
+    time.sleep(2)  # Wait for UI response
+
+    # Send a message and screenshot to Discord
+    send_discord_message("Attempting to reconnect to the server.")
+    capture_hourly_screenshot()
+    print("Screenshot captured and sent to Discord.")
 
 if __name__ == "__main__":
     print('Raid farm clicker started.')
-    time.sleep(10)
-    restart_times = [datetime.time(hour=6), datetime.time(hour=12), datetime.time(hour=18), datetime.time(hour=0)]
-    last_screenshot_hour = None
+    time.sleep(10)  # Initial wait before starting the clicking loop
+
+    last_screenshot_time = datetime.datetime.now() - datetime.timedelta(minutes=5)
 
     while True:
         current_time = datetime.datetime.now()
         raid_farm_clicking()
 
-        if current_time.minute == 0 and (last_screenshot_hour is None or last_screenshot_hour != current_time.hour):
-            capture_hourly_screenshot()
-            last_screenshot_hour = current_time.hour
-
-        if any(current_time.time() >= restart_time and current_time.time() < (datetime.datetime.combine(datetime.date.today(), restart_time) + datetime.timedelta(minutes=5)).time() for restart_time in restart_times) or current_time.minute == 0:
-            handle_disconnect()
-            time.sleep(65)
-
-        time.sleep(0.645)
+        # Take a screenshot and send it to Discord 5 minutes past every hour
