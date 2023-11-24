@@ -28,15 +28,14 @@ discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls
 def send_discord_message(message, image_path=None):
     data = {
         "content": message,
-        "username": "raidfarm Bot"
+        "username": "Minecraft Bot"
     }
     files = None
     if image_path:
         with open(image_path, 'rb') as f:
-            files = {'file': (os.path.basename(image_path), f, 'image/png')}
-        result = requests.post(discord_webhook_url, data=data, files=files)
-    else:
-        result = requests.post(discord_webhook_url, json=data)
+            image_data = f.read()
+        files = {'file': (os.path.basename(image_path), image_data, 'image/png')}
+    result = requests.post(discord_webhook_url, data=data, files=files)
 
     try:
         result.raise_for_status()
@@ -44,6 +43,7 @@ def send_discord_message(message, image_path=None):
         print(err)
     else:
         print("Payload delivered successfully, code {}.".format(result.status_code))
+
 
 def capture_hourly_screenshot():
     current_hour = datetime.datetime.now().strftime("%H")
