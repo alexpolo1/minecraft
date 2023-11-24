@@ -9,7 +9,7 @@ import requests
 
 # Define the directory for screenshots
 screenshots_directory = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'autologin_screenshots')
-temp_screenshot_directory = '/temp/mcscreens'
+temp_screenshot_directory = '/tmp/mcscreens'
 
 # Ensure the temp screenshot directory exists
 os.makedirs(temp_screenshot_directory, exist_ok=True)
@@ -22,8 +22,7 @@ template_paths = {
 }
 
 # Your Discord webhook URL
-discord_webhook_url = 'https://discord.com/api/webhooks/your_webhook_id/your_webhook_token'
-
+discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
 def send_discord_message(message, image_path=None):
     data = {
         "content": message,
