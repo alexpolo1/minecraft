@@ -134,7 +134,7 @@ if __name__ == "__main__":
             last_hourly_screenshot_time = current_time
 
         # Check for disconnects every minute to handle reconnections more promptly
-        if current_time.minute % 1 == 0 and current_time.second < 10:  # Check within the first 10 seconds of every minute
+        if current_time.minute % 70 == 0 and current_time.second < 10:  # Check within the first 10 seconds of every minute
             handle_disconnect()
 
         time.sleep(0.645)  # Time interval between clicks
