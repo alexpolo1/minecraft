@@ -49,39 +49,39 @@ def find_color_in_image(target_color, image):
 
 def check_trade_window():
     log_and_print("Checking for trade window...")
-    # Using the captured coordinates for the trade window check
-    trade_window_area = (835, 372, 836, 712)  # Adjust as needed
-    screenshot = ImageGrab.grab(trade_window_area)
-    r, g, b = screenshot.getpixel((51, 69))[:3]  # Adjust as needed for color check
-    if (r, g, b) == (137, 51, 24):  # Update the color as per your requirement
-        log_and_print("Trade window detected.")
-        return True
-    else:
-        log_and_print("Trade window not detected.")
-        post_to_discord("Trade window not found.")
+    trade_window_area = (835, 372, 836, 712)
+    screenshot = ImageGrab.grab(bbox=trade_window_area)
+
+    relative_x, relative_y = (0, 10)  # Adjust these values as needed
+    try:
+        r, g, b = screenshot.getpixel((relative_x, relative_y))[:3]
+        if (r, g, b) == (137, 51, 24):  
+            log_and_print("Trade window detected.")
+            return True
+        else:
+            log_and_print("Trade window not detected.")
+            return False
+    except IndexError as e:
+        log_and_print(f"Error in getting pixel data: {e}")
         return False
 
 def trade_actions():
-    # Using the captured coordinates for actions
     middle_x, middle_y = 960, 531
     slider_top_x, slider_top_y = 835, 372
     slider_bottom_x, slider_bottom_y = 836, 712
     xp_x, xp_y = 787, 721
 
-    right_click(middle_x, middle_y)  # Right-click at the middle
+    right_click(middle_x, middle_y)
     time.sleep(1)
 
     if not check_trade_window():
         log_and_print("Trade window not detected. Stopping script.")
         return False
 
-    drag_slider(slider_top_x, slider_top_y, slider_bottom_x, slider_bottom_y)  # Drag the slider
+    drag_slider(slider_top_x, slider_top_y, slider_bottom_x, slider_bottom_y)
     time.sleep(3)
 
-    # Add your logic for interacting with the XP point or any other actions needed
-
-    log_and_print("Completing trade actions.")
-    # Add any additional trade actions here
+    # Add any additional actions needed here
 
     return True  # Indicate that the trade action was successful
 
