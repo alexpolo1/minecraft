@@ -4,6 +4,9 @@ import time
 from PIL import ImageGrab
 import logging
 
+pyautogui.FAILSAFE = False
+
+
 # Setup logging
 logging.basicConfig(filename='minecraft_automation_log.txt', level=logging.INFO, format='%(asctime)s: %(message)s')
 
