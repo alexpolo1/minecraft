@@ -1,7 +1,7 @@
 import requests
-import subprocess
+import pyautogui
 import time
-from PIL import Image, ImageGrab
+from PIL import ImageGrab
 import logging
 
 # Setup logging
@@ -18,29 +18,26 @@ def post_to_discord(message):
     log_and_print(f"Posted to Discord: {message}")
 
 def right_click(x, y):
-    move_mouse(x, y)
+    pyautogui.moveTo(x, y)
     log_and_print("Performing right click.")
-    subprocess.run(['xdotool', 'click', '3'])  # Right-click
+    pyautogui.rightClick()
 
 def drag_slider(start_x, start_y, end_x, end_y):
     log_and_print("Dragging slider.")
-    move_mouse(start_x, start_y)
-    subprocess.run(['xdotool', 'mousedown', '1'])  # Left mouse button down
-    move_mouse(end_x, end_y)
-    subprocess.run(['xdotool', 'mouseup', '1'])  # Left mouse button up
+    pyautogui.mouseDown(start_x, start_y, button='left')
+    pyautogui.moveTo(end_x, end_y, duration=2)
+    pyautogui.mouseUp(button='left')
 
 def click(x, y):
-    move_mouse(x, y)
+    pyautogui.moveTo(x, y)
     log_and_print("Performing left click.")
-    subprocess.run(['xdotool', 'click', '1'])  # Left-click
+    pyautogui.click()
 
 def shift_click(x, y):
     log_and_print("Performing shift click.")
-    move_mouse(x, y)
-    subprocess.run(['xdotool', 'keydown', 'shift', 'click', '1', 'keyup', 'shift'])  # Shift-click
-
-def move_mouse(x, y):
-    subprocess.run(['xdotool', 'mousemove', str(x), str(y)])
+    pyautogui.keyDown('shift')
+    click(x, y)
+    pyautogui.keyUp('shift')
 
 def find_color_in_image(target_color, image):
     width, height = image.size
@@ -49,14 +46,6 @@ def find_color_in_image(target_color, image):
             if image.getpixel((x, y))[:3] == target_color:
                 return x, y
     return None, None
-
-def focus_minecraft_window():
-    log_and_print("Focusing Minecraft window...")
-    subprocess.run(['xdotool', 'search', '--name', 'Minecraft*1.20.2 - Multiplayer (3rd-party-Server)', 'windowactivate', '--sync'])
-    time.sleep(2)
-    log_and_print("Pressing Esc...")
-    subprocess.run(['xdotool', 'key', 'Escape'])
-    time.sleep(2)
 
 def check_trade_window():
     log_and_print("Checking for trade window...")
@@ -67,34 +56,21 @@ def check_trade_window():
         log_and_print("Trade window detected.")
         return True
     else:
-        log_and_print("Trade window not detected. Adjusting position.")
-        adjustment_combinations = [('a', 0.1), ('d', 0.1), ('a', 0.2), ('d', 0.2)]
-        for _ in range(5):  # Try up to three times
-            for key, duration in adjustment_combinations:
-                subprocess.run(['xdotool', 'keydown', key])
-                time.sleep(duration)
-                subprocess.run(['xdotool', 'keyup', key])
-                time.sleep(0.1)
-                subprocess.run(['xdotool', 'click', '3'])  # Right-click without moving the mouse
-                time.sleep(3)
-                screenshot = ImageGrab.grab(trade_window_area)
-                r, g, b = screenshot.getpixel((51, 69))[:3]
-                if (r, g, b) == (137, 51, 24):
-                    log_and_print("Trade window detected after adjustment.")
-                    return True
-
-        log_and_print("Trade window not found after adjustments.")
-        post_to_discord("Trade window not found.")
+        log_and_print("Trade window not detected.")
         return False
 
-
+def countdown(seconds):
+    for i in range(seconds, 0, -1):
+        print(f"Starting in {i} seconds...", end="\r")
+        time.sleep(1)
+    print("Starting now!")
 
 def trade_actions():
     right_click(2725, 1203)
     time.sleep(1)
 
     if not check_trade_window():
-        log_and_print("Trade window not detected after adjustments. Stopping script.")
+        log_and_print("Trade window not detected. Stopping script.")
         return False
 
     drag_slider(2600, 1399, 2600, 1408)
@@ -121,19 +97,19 @@ def trade_actions():
         post_to_discord("Potion clicked.")
 
     log_and_print("Pressing 'Esc' key.")
-    subprocess.run(['xdotool', 'key', 'Escape'])
+    pyautogui.press('esc')
     time.sleep(1)
 
     log_and_print("Holding 'D' key for a step.")
-    subprocess.run(['xdotool', 'keydown', 'd'])
+    pyautogui.keyDown('d')
     time.sleep(0.45)  # Hold 'D' for 0.45 seconds
-    subprocess.run(['xdotool', 'keyup', 'd'])
+    pyautogui.keyUp('d')
     time.sleep(1)
 
     return True  # Indicate that the trade action was successful
 
-
-focus_minecraft_window()
+# 5-second countdown before the script starts
+countdown(5)
 
 for _ in range(40):  # Number of trades to perform
     result = trade_actions()
