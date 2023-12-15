@@ -12,14 +12,18 @@ def log_and_print(message):
     logging.info(message)
 
 def post_to_discord(message):
-    webhook_url = 'https://discord.com/api/webhooks/1185180105287422052/Abdomr4QNsegWAg6so4vpdW8ohn6Y9Pnpk2debQRHCIeYsc8BSP3jKrDGM74Lxn7dTvF'
+    webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
     data = {"content": message}
     response = requests.post(webhook_url, json=data)
     log_and_print(f"Posted to Discord: {message}")
 
 def right_click(x, y):
-    pyautogui.moveTo(x, y)
-    log_and_print("Performing right click.")
+    # Ensure the coordinates are safe and within your screen bounds
+    safe_x = min(max(x, 0), pyautogui.size().width - 1)
+    safe_y = min(max(y, 0), pyautogui.size().height - 1)
+    
+    pyautogui.moveTo(safe_x, safe_y)
+    log_and_print(f"Performing right click at ({safe_x}, {safe_y}).")
     pyautogui.rightClick()
 
 def drag_slider(start_x, start_y, end_x, end_y):
