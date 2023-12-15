@@ -58,7 +58,7 @@ def check_trade_window():
     else:
         log_and_print("Trade window not detected. Adjusting position.")
         adjustment_combinations = [('a', 0.1), ('d', 0.1), ('a', 0.2), ('d', 0.2)]
-        for _ in range(5):  # Try up to three times
+        for _ in range(5):  # Try up to five times
             for key, duration in adjustment_combinations:
                 pyautogui.keyDown(key)
                 time.sleep(duration)
@@ -103,4 +103,26 @@ def trade_actions():
 
     for _ in range(2):
         click(found_x, found_y)
-        shift_click(2994
+        shift_click(2994, 1105)
+        time.sleep(1)
+        post_to_discord("Potion clicked.")
+
+    log_and_print("Pressing 'Esc' key.")
+    pyautogui.press('esc')
+    time.sleep(1)
+
+    log_and_print("Holding 'D' key for a step.")
+    pyautogui.keyDown('d')
+    time.sleep(0.45)  # Hold 'D' for 0.45 seconds
+    pyautogui.keyUp('d')
+    time.sleep(1)
+
+    return True  # Indicate that the trade action was successful
+
+print("Running this on Windows")
+focus_minecraft_window()
+
+for _ in range(40):  # Number of trades to perform
+    result = trade_actions()
+    if not result:
+        break  # Stop the script if trade window is not detected
