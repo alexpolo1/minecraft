@@ -12,7 +12,7 @@ def log_and_print(message):
     logging.info(message)
 
 def post_to_discord(message):
-    webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
+    webhook_url = 'https://discord.com/api/webhooks/1185180105287422052/Abdomr4QNsegWAg6so4vpdW8ohn6Y9Pnpk2debQRHCIeYsc8BSP3jKrDGM74Lxn7dTvF'
     data = {"content": message}
     response = requests.post(webhook_url, json=data)
     log_and_print(f"Posted to Discord: {message}")
@@ -119,8 +119,7 @@ def trade_actions():
 
     return True  # Indicate that the trade action was successful
 
-print("Running this on Windows")
-focus_minecraft_window()
+print("Running this on Windows. Ensure Minecraft window is focused before continuing.")
 
 for _ in range(40):  # Number of trades to perform
     result = trade_actions()
