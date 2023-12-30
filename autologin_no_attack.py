@@ -126,7 +126,7 @@ if __name__ == "__main__":
         current_time = datetime.datetime.now()
 
         # Perform the raid farm clicking
-#        raid_farm_clicking()
+        #raid_farm_clicking()
 
         # Every hour at 5 minutes past the hour, take and send a status screenshot
         if current_time.minute == 5 and (last_hourly_screenshot_time is None or current_time.hour != last_hourly_screenshot_time.hour):
