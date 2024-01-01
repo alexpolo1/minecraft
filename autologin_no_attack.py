@@ -15,7 +15,7 @@ temp_screenshot_directory = '/tmp/mcscreens'
 os.makedirs(temp_screenshot_directory, exist_ok=True)
 
 # Your Discord webhook URL
-discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
+discord_webhook_url = 'https://discord.com/api/webhooks/1191486208895877150/-pxqBZs6RSUOBFFhPH8SwelQoaU5MEU9XX28fmp90EqNM0G98qkkZxsXfRxu7nN2Ze1X'
 
 # Base64 encoded images for both buttons
 encoded_images = {
