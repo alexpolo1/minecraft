@@ -14,8 +14,8 @@ def log_and_print(message):
     logging.info(message)
 
 def post_to_discord(message):
-    webhook_url = 'https://discord.com/api/webhooks/1191486153979858996/TIbdya4kyRKFv9legPvlyTagmgpr-U5BLqgPWnwks-KyJKSvlmi8BCkJ-t5pgHrFGZNu'
-    data = {"content": message} 
+    webhook_url = 'https://discord.com/api/webhooks/1191486208895877150/-pxqBZs6RSUOBFFhPH8SwelQoaU5MEU9XX28fmp90EqNM0G98qkkZxsXfRxu7nN2Ze1Xe'
+    data = {"content": message}
     response = requests.post(webhook_url, json=data)
     log_and_print(f"Posted to Discord: {message}")
 
@@ -95,11 +95,10 @@ def check_trade_window():
     post_to_discord("Trade window not found.")
     return False
 
-successful_trades = 0  # Counter for successful trades
-unsuccessful_trades = 0  # Counter for unsuccessful trades
+trades_info = []  # List to store trade information
 
 def trade_actions():
-    global successful_trades, unsuccessful_trades
+    global trades_info
     right_click(1168, 306)
     time.sleep(1)
 
@@ -134,15 +133,11 @@ def trade_actions():
         time.sleep(1)
 
     for _ in range(2):
-        if found_x is not None and found_y is not None:
-            log_and_print(f"Color found at ({found_x}, {found_y}). Clicking at this position.")
-            click(found_x, found_y)
-            successful_trades += 1  # Increment successful trades counter
-        else:
-            log_and_print("Color not found on the screen. Using fallback coordinates.")
-            click(1052, 436)
-            unsuccessful_trades += 1  # Increment unsuccessful trades counter
+        click(found_x, found_y)
+        shift_click(1346, 225)
         time.sleep(1)
+        # Collect trade info
+        trades_info.append("Potion clicked at position ({}, {})".format(found_x, found_y))
 
     log_and_print("Pressing 'Esc' key.")
     subprocess.run(['xdotool', 'key', 'Escape'])
@@ -163,7 +158,7 @@ for _ in range(25):  # Number of trades to perform
     if not result:
         break  # Stop the script if trade window is not detected
 
-# Modify the summary message to include trade counts
-trade_summary = f"Trading session completed. Successful trades: {successful_trades}, Unsuccessful trades: {unsuccessful_trades}"
-post_to_discord(trade_summary)
+# Post the collection of trades to Discord
+trade_summary = "\n".join(trades_info)
+post_to_discord(f"Trading session completed. Summary:\n{trade_summary}")
 

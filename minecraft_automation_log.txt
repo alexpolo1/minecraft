@@ -15295,3 +15295,1801 @@ Potion clicked at position (None, None)
 Potion clicked at position (None, None)
 Potion clicked at position (None, None)
 Potion clicked at position (None, None)
+2024-01-05 22:55:36,492: Focusing Minecraft window...
+2024-01-05 22:55:38,563: Pressing Esc...
+2024-01-05 22:55:40,584: Performing right click.
+2024-01-05 22:55:41,688: Checking for trade window...
+2024-01-05 22:55:41,745: Trade window detected.
+2024-01-05 22:55:41,745: Dragging slider.
+2024-01-05 22:55:44,768: Taking a screenshot for color search...
+2024-01-05 22:55:45,389: Color found at (1055, 435). Clicking at this position.
+2024-01-05 22:55:45,393: Performing left click.
+2024-01-05 22:55:46,497: Color found at (1055, 435). Clicking at this position.
+2024-01-05 22:55:46,503: Performing left click.
+2024-01-05 22:55:47,608: Color found at (1055, 435). Clicking at this position.
+2024-01-05 22:55:47,612: Performing left click.
+2024-01-05 22:55:48,717: Color found at (1055, 435). Clicking at this position.
+2024-01-05 22:55:48,723: Performing left click.
+2024-01-05 22:55:49,828: Pressing 'Esc' key.
+2024-01-05 22:55:50,844: Holding 'D' key for a step.
+2024-01-05 22:55:52,335: Performing right click.
+2024-01-05 22:55:53,439: Checking for trade window...
+2024-01-05 22:55:53,489: Trade window detected.
+2024-01-05 22:55:53,490: Dragging slider.
+2024-01-05 22:55:56,506: Taking a screenshot for color search...
+2024-01-05 22:55:59,133: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:55:59,137: Performing left click.
+2024-01-05 22:56:00,242: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:56:00,245: Performing left click.
+2024-01-05 22:56:01,350: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:56:01,355: Performing left click.
+2024-01-05 22:56:02,461: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:56:02,464: Performing left click.
+2024-01-05 22:56:03,569: Pressing 'Esc' key.
+2024-01-05 22:56:04,597: Holding 'D' key for a step.
+2024-01-05 22:56:06,086: Performing right click.
+2024-01-05 22:56:07,190: Checking for trade window...
+2024-01-05 22:56:07,236: Trade window detected.
+2024-01-05 22:56:07,237: Dragging slider.
+2024-01-05 22:56:10,252: Taking a screenshot for color search...
+2024-01-05 22:56:12,537: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:56:12,542: Performing left click.
+2024-01-05 22:56:13,647: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:56:13,651: Performing left click.
+2024-01-05 22:56:14,755: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:56:14,758: Performing left click.
+2024-01-05 22:56:15,864: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:56:15,868: Performing left click.
+2024-01-05 22:56:16,973: Pressing 'Esc' key.
+2024-01-05 22:56:17,998: Holding 'D' key for a step.
+2024-01-05 22:56:19,484: Performing right click.
+2024-01-05 22:56:20,588: Checking for trade window...
+2024-01-05 22:57:55,756: Focusing Minecraft window...
+2024-01-05 22:57:57,798: Pressing Esc...
+2024-01-05 22:57:59,826: Performing right click.
+2024-01-05 22:58:00,930: Checking for trade window...
+2024-01-05 22:58:00,974: Trade window detected.
+2024-01-05 22:58:00,974: Dragging slider.
+2024-01-05 22:58:03,996: Taking a screenshot for color search...
+2024-01-05 22:58:06,606: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:06,610: Performing left click.
+2024-01-05 22:58:07,715: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:07,720: Performing left click.
+2024-01-05 22:58:08,825: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:08,828: Performing left click.
+2024-01-05 22:58:09,932: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:09,937: Performing left click.
+2024-01-05 22:58:11,045: Pressing 'Esc' key.
+2024-01-05 22:58:12,089: Holding 'D' key for a step.
+2024-01-05 22:58:13,577: Performing right click.
+2024-01-05 22:58:14,681: Checking for trade window...
+2024-01-05 22:58:14,732: Trade window detected.
+2024-01-05 22:58:14,733: Dragging slider.
+2024-01-05 22:58:17,752: Taking a screenshot for color search...
+2024-01-05 22:58:20,098: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:20,102: Performing left click.
+2024-01-05 22:58:21,206: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:21,210: Performing left click.
+2024-01-05 22:58:22,314: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:22,319: Performing left click.
+2024-01-05 22:58:23,423: Color not found on the screen. Using fallback coordinates.
+2024-01-05 22:58:23,426: Performing left click.
+2024-01-05 22:58:24,531: Pressing 'Esc' key.
+2024-01-05 22:58:25,566: Holding 'D' key for a step.
+2024-01-05 22:58:27,057: Performing right click.
+2024-01-05 22:58:28,167: Checking for trade window...
+2024-01-05 22:58:30,112: Trade window not detected. Adjusting position.
+2024-01-05 23:00:25,623: Focusing Minecraft window...
+2024-01-05 23:00:27,674: Pressing Esc...
+2024-01-05 23:00:29,711: Performing right click.
+2024-01-05 23:00:30,815: Checking for trade window...
+2024-01-05 23:00:33,233: Trade window not detected. Adjusting position.
+2024-01-05 23:00:36,607: Trade window detected after adjustment.
+2024-01-05 23:00:36,608: Dragging slider.
+2024-01-05 23:00:39,627: Taking a screenshot for color search...
+2024-01-05 23:00:41,822: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:00:41,826: Performing left click.
+2024-01-05 23:00:42,931: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:00:42,935: Performing left click.
+2024-01-05 23:00:44,040: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:00:44,054: Performing left click.
+2024-01-05 23:00:45,158: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:00:45,162: Performing left click.
+2024-01-05 23:00:46,266: Pressing 'Esc' key.
+2024-01-05 23:00:47,283: Holding 'D' key for a step.
+2024-01-05 23:00:48,797: Performing right click.
+2024-01-05 23:00:49,905: Checking for trade window...
+2024-01-05 23:01:23,157: Focusing Minecraft window...
+2024-01-05 23:01:25,201: Pressing Esc...
+2024-01-05 23:01:27,248: Performing right click.
+2024-01-05 23:01:28,352: Checking for trade window...
+2024-01-05 23:01:28,397: Trade window detected.
+2024-01-05 23:01:28,397: Dragging slider.
+2024-01-05 23:01:31,414: Taking a screenshot for color search...
+2024-01-05 23:01:32,134: Color found at (1055, 436). Clicking at this position.
+2024-01-05 23:01:32,152: Performing left click.
+2024-01-05 23:01:33,259: Color found at (1055, 436). Clicking at this position.
+2024-01-05 23:01:33,265: Performing left click.
+2024-01-05 23:01:34,379: Performing left click.
+2024-01-05 23:01:34,510: Performing shift click.
+2024-01-05 23:01:37,165: Performing left click.
+2024-01-05 23:01:37,297: Performing shift click.
+2024-01-05 23:01:39,941: Pressing 'Esc' key.
+2024-01-05 23:01:40,964: Holding 'D' key for a step.
+2024-01-05 23:01:42,481: Performing right click.
+2024-01-05 23:01:43,586: Checking for trade window...
+2024-01-05 23:09:55,995: Focusing Minecraft window...
+2024-01-05 23:09:58,077: Pressing Esc...
+2024-01-05 23:10:00,119: Performing right click.
+2024-01-05 23:10:01,223: Checking for trade window...
+2024-01-05 23:10:01,289: Trade window detected.
+2024-01-05 23:10:01,289: Dragging slider.
+2024-01-05 23:10:04,359: Taking a screenshot for color search...
+2024-01-05 23:10:05,010: Color found at (1051, 435). Clicking at this position.
+2024-01-05 23:10:05,013: Performing left click.
+2024-01-05 23:10:05,117: Performing shift click.
+2024-01-05 23:10:07,762: Color found at (1051, 435). Clicking at this position.
+2024-01-05 23:10:07,766: Performing left click.
+2024-01-05 23:10:07,872: Performing shift click.
+2024-01-05 23:10:10,514: Pressing 'Esc' key.
+2024-01-05 23:10:11,532: Holding 'D' key for a step.
+2024-01-05 23:10:13,022: Performing right click.
+2024-01-05 23:10:14,126: Checking for trade window...
+2024-01-05 23:10:14,169: Trade window detected.
+2024-01-05 23:10:14,170: Dragging slider.
+2024-01-05 23:10:17,189: Taking a screenshot for color search...
+2024-01-05 23:10:19,831: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:10:19,834: Performing left click.
+2024-01-05 23:10:19,938: Performing shift click.
+2024-01-05 23:10:22,581: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:10:22,586: Performing left click.
+2024-01-05 23:10:22,692: Performing shift click.
+2024-01-05 23:10:25,344: Pressing 'Esc' key.
+2024-01-05 23:10:26,363: Holding 'D' key for a step.
+2024-01-05 23:11:34,308: Focusing Minecraft window...
+2024-01-05 23:11:36,356: Pressing Esc...
+2024-01-05 23:11:38,407: Performing right click.
+2024-01-05 23:11:39,513: Checking for trade window...
+2024-01-05 23:11:41,485: Trade window not detected. Adjusting position.
+2024-01-05 23:11:55,268: Trade window detected after adjustment.
+2024-01-05 23:11:55,269: Dragging slider.
+2024-01-05 23:11:58,285: Taking a screenshot for color search...
+2024-01-05 23:12:00,419: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:12:00,426: Performing left click.
+2024-01-05 23:12:01,544: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:12:01,549: Performing left click.
+2024-01-05 23:12:02,653: Pressing 'Esc' key.
+2024-01-05 23:12:03,676: Holding 'D' key for a step.
+2024-01-05 23:12:05,163: Performing right click.
+2024-01-05 23:12:06,266: Checking for trade window...
+2024-01-05 23:12:06,319: Trade window detected.
+2024-01-05 23:12:06,320: Dragging slider.
+2024-01-05 23:12:09,339: Taking a screenshot for color search...
+2024-01-05 23:12:11,891: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:12:11,896: Performing left click.
+2024-01-05 23:12:13,001: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:12:13,017: Performing left click.
+2024-01-05 23:12:14,130: Pressing 'Esc' key.
+2024-01-05 23:12:15,176: Holding 'D' key for a step.
+2024-01-05 23:28:33,768: Focusing Minecraft window...
+2024-01-05 23:28:35,854: Pressing Esc...
+2024-01-05 23:28:37,906: Performing right click.
+2024-01-05 23:28:39,010: Checking for trade window...
+2024-01-05 23:28:39,058: Trade window detected.
+2024-01-05 23:28:39,059: Dragging slider.
+2024-01-05 23:28:42,080: Taking a screenshot for color search...
+2024-01-05 23:28:44,285: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:28:44,289: Performing left click.
+2024-01-05 23:28:45,395: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:28:45,401: Performing left click.
+2024-01-05 23:28:46,512: Performing left click.
+2024-01-05 23:28:46,650: Performing shift click.
+2024-01-05 23:28:49,309: Performing left click.
+2024-01-05 23:28:49,443: Performing shift click.
+2024-01-05 23:28:52,087: Pressing 'Esc' key.
+2024-01-05 23:28:53,128: Holding 'D' key for a step.
+2024-01-05 23:28:54,618: Performing right click.
+2024-01-05 23:28:55,723: Checking for trade window...
+2024-01-05 23:28:55,780: Trade window detected.
+2024-01-05 23:28:55,781: Dragging slider.
+2024-01-05 23:28:58,807: Taking a screenshot for color search...
+2024-01-05 23:29:00,969: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:29:00,973: Performing left click.
+2024-01-05 23:29:02,078: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:29:02,084: Performing left click.
+2024-01-05 23:29:03,199: Performing left click.
+2024-01-05 23:29:03,334: Performing shift click.
+2024-01-05 23:29:05,982: Performing left click.
+2024-01-05 23:29:06,123: Performing shift click.
+2024-01-05 23:29:08,783: Pressing 'Esc' key.
+2024-01-05 23:29:09,807: Holding 'D' key for a step.
+2024-01-05 23:29:11,294: Performing right click.
+2024-01-05 23:29:12,398: Checking for trade window...
+2024-01-05 23:29:12,455: Trade window detected.
+2024-01-05 23:29:12,456: Dragging slider.
+2024-01-05 23:29:15,479: Taking a screenshot for color search...
+2024-01-05 23:29:16,101: Color found at (1055, 430). Clicking at this position.
+2024-01-05 23:29:16,104: Performing left click.
+2024-01-05 23:29:17,208: Color found at (1055, 430). Clicking at this position.
+2024-01-05 23:29:17,212: Performing left click.
+2024-01-05 23:29:18,320: Performing left click.
+2024-01-05 23:29:18,466: Performing shift click.
+2024-01-05 23:29:21,127: Performing left click.
+2024-01-05 23:29:21,269: Performing shift click.
+2024-01-05 23:29:23,911: Pressing 'Esc' key.
+2024-01-05 23:29:24,939: Holding 'D' key for a step.
+2024-01-05 23:29:26,425: Performing right click.
+2024-01-05 23:29:27,529: Checking for trade window...
+2024-01-05 23:29:29,296: Trade window not detected. Adjusting position.
+2024-01-05 23:29:37,925: Trade window detected after adjustment.
+2024-01-05 23:29:37,927: Dragging slider.
+2024-01-05 23:29:40,945: Taking a screenshot for color search...
+2024-01-05 23:29:43,041: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:29:43,046: Performing left click.
+2024-01-05 23:29:44,150: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:29:44,154: Performing left click.
+2024-01-05 23:29:45,261: Performing left click.
+2024-01-05 23:29:45,395: Performing shift click.
+2024-01-05 23:29:48,041: Performing left click.
+2024-01-05 23:29:48,174: Performing shift click.
+2024-01-05 23:29:50,821: Pressing 'Esc' key.
+2024-01-05 23:29:51,862: Holding 'D' key for a step.
+2024-01-05 23:29:53,361: Performing right click.
+2024-01-05 23:29:54,465: Checking for trade window...
+2024-01-05 23:29:54,505: Trade window detected.
+2024-01-05 23:29:54,506: Dragging slider.
+2024-01-05 23:29:57,523: Taking a screenshot for color search...
+2024-01-05 23:29:58,677: Color found at (1411, 434). Clicking at this position.
+2024-01-05 23:29:58,681: Performing left click.
+2024-01-05 23:29:59,785: Color found at (1411, 434). Clicking at this position.
+2024-01-05 23:29:59,792: Performing left click.
+2024-01-05 23:30:00,900: Performing left click.
+2024-01-05 23:30:01,033: Performing shift click.
+2024-01-05 23:30:03,685: Performing left click.
+2024-01-05 23:30:03,817: Performing shift click.
+2024-01-05 23:30:06,465: Pressing 'Esc' key.
+2024-01-05 23:30:07,487: Holding 'D' key for a step.
+2024-01-05 23:30:08,979: Performing right click.
+2024-01-05 23:30:10,087: Checking for trade window...
+2024-01-05 23:30:10,128: Trade window detected.
+2024-01-05 23:30:10,129: Dragging slider.
+2024-01-05 23:30:13,144: Taking a screenshot for color search...
+2024-01-05 23:30:15,363: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:30:15,367: Performing left click.
+2024-01-05 23:30:16,472: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:30:16,476: Performing left click.
+2024-01-05 23:30:17,587: Performing left click.
+2024-01-05 23:30:17,722: Performing shift click.
+2024-01-05 23:30:20,371: Performing left click.
+2024-01-05 23:30:20,507: Performing shift click.
+2024-01-05 23:30:23,148: Pressing 'Esc' key.
+2024-01-05 23:30:24,166: Holding 'D' key for a step.
+2024-01-05 23:30:25,657: Performing right click.
+2024-01-05 23:30:26,761: Checking for trade window...
+2024-01-05 23:30:26,804: Trade window detected.
+2024-01-05 23:30:26,805: Dragging slider.
+2024-01-05 23:30:29,823: Taking a screenshot for color search...
+2024-01-05 23:30:32,168: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:30:32,172: Performing left click.
+2024-01-05 23:30:33,276: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:30:33,280: Performing left click.
+2024-01-05 23:30:34,388: Performing left click.
+2024-01-05 23:30:34,526: Performing shift click.
+2024-01-05 23:30:37,171: Performing left click.
+2024-01-05 23:30:37,305: Performing shift click.
+2024-01-05 23:30:39,951: Pressing 'Esc' key.
+2024-01-05 23:30:40,978: Holding 'D' key for a step.
+2024-01-05 23:30:42,466: Performing right click.
+2024-01-05 23:30:43,570: Checking for trade window...
+2024-01-05 23:30:43,620: Trade window detected.
+2024-01-05 23:30:43,621: Dragging slider.
+2024-01-05 23:30:46,645: Taking a screenshot for color search...
+2024-01-05 23:30:47,263: Color found at (1056, 435). Clicking at this position.
+2024-01-05 23:30:47,269: Performing left click.
+2024-01-05 23:30:48,373: Color found at (1056, 435). Clicking at this position.
+2024-01-05 23:30:48,378: Performing left click.
+2024-01-05 23:30:49,486: Performing left click.
+2024-01-05 23:30:49,618: Performing shift click.
+2024-01-05 23:30:52,267: Performing left click.
+2024-01-05 23:30:52,399: Performing shift click.
+2024-01-05 23:30:55,042: Pressing 'Esc' key.
+2024-01-05 23:30:56,078: Holding 'D' key for a step.
+2024-01-05 23:30:57,566: Performing right click.
+2024-01-05 23:30:58,669: Checking for trade window...
+2024-01-05 23:30:58,715: Trade window detected.
+2024-01-05 23:30:58,715: Dragging slider.
+2024-01-05 23:31:01,731: Taking a screenshot for color search...
+2024-01-05 23:31:02,664: Color found at (1414, 319). Clicking at this position.
+2024-01-05 23:31:02,669: Performing left click.
+2024-01-05 23:31:03,777: Color found at (1414, 319). Clicking at this position.
+2024-01-05 23:31:03,785: Performing left click.
+2024-01-05 23:31:04,899: Performing left click.
+2024-01-05 23:31:05,031: Performing shift click.
+2024-01-05 23:31:07,690: Performing left click.
+2024-01-05 23:31:07,823: Performing shift click.
+2024-01-05 23:31:10,482: Pressing 'Esc' key.
+2024-01-05 23:31:11,524: Holding 'D' key for a step.
+2024-01-05 23:31:13,011: Performing right click.
+2024-01-05 23:31:14,116: Checking for trade window...
+2024-01-05 23:31:16,113: Trade window not detected. Adjusting position.
+2024-01-05 23:31:19,484: Trade window detected after adjustment.
+2024-01-05 23:31:19,485: Dragging slider.
+2024-01-05 23:31:22,501: Taking a screenshot for color search...
+2024-01-05 23:31:24,788: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:31:24,792: Performing left click.
+2024-01-05 23:31:25,898: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:31:25,901: Performing left click.
+2024-01-05 23:31:27,010: Performing left click.
+2024-01-05 23:31:27,146: Performing shift click.
+2024-01-05 23:31:29,791: Performing left click.
+2024-01-05 23:31:29,930: Performing shift click.
+2024-01-05 23:31:32,573: Pressing 'Esc' key.
+2024-01-05 23:31:33,596: Holding 'D' key for a step.
+2024-01-05 23:31:35,083: Performing right click.
+2024-01-05 23:31:36,187: Checking for trade window...
+2024-01-05 23:31:36,227: Trade window detected.
+2024-01-05 23:31:36,228: Dragging slider.
+2024-01-05 23:31:39,246: Taking a screenshot for color search...
+2024-01-05 23:31:41,448: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:31:41,454: Performing left click.
+2024-01-05 23:31:42,559: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:31:42,563: Performing left click.
+2024-01-05 23:31:43,671: Performing left click.
+2024-01-05 23:31:43,816: Performing shift click.
+2024-01-05 23:31:46,466: Performing left click.
+2024-01-05 23:31:46,604: Performing shift click.
+2024-01-05 23:31:49,247: Pressing 'Esc' key.
+2024-01-05 23:31:50,293: Holding 'D' key for a step.
+2024-01-05 23:31:51,784: Performing right click.
+2024-01-05 23:31:52,889: Checking for trade window...
+2024-01-05 23:31:54,572: Trade window not detected. Adjusting position.
+2024-01-05 23:31:57,941: Trade window detected after adjustment.
+2024-01-05 23:31:57,942: Dragging slider.
+2024-01-05 23:32:00,959: Taking a screenshot for color search...
+2024-01-05 23:32:03,071: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:32:03,075: Performing left click.
+2024-01-05 23:32:04,180: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:32:04,183: Performing left click.
+2024-01-05 23:32:05,298: Performing left click.
+2024-01-05 23:32:05,435: Performing shift click.
+2024-01-05 23:32:08,082: Performing left click.
+2024-01-05 23:32:08,218: Performing shift click.
+2024-01-05 23:32:10,863: Pressing 'Esc' key.
+2024-01-05 23:32:11,882: Holding 'D' key for a step.
+2024-01-05 23:32:13,367: Performing right click.
+2024-01-05 23:32:14,472: Checking for trade window...
+2024-01-05 23:32:14,529: Trade window detected.
+2024-01-05 23:32:14,530: Dragging slider.
+2024-01-05 23:32:17,556: Taking a screenshot for color search...
+2024-01-05 23:32:19,864: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:32:19,867: Performing left click.
+2024-01-05 23:32:20,971: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:32:20,974: Performing left click.
+2024-01-05 23:32:22,083: Performing left click.
+2024-01-05 23:32:22,217: Performing shift click.
+2024-01-05 23:32:24,864: Performing left click.
+2024-01-05 23:32:24,998: Performing shift click.
+2024-01-05 23:32:27,641: Pressing 'Esc' key.
+2024-01-05 23:32:28,678: Holding 'D' key for a step.
+2024-01-05 23:32:30,170: Performing right click.
+2024-01-05 23:32:31,273: Checking for trade window...
+2024-01-05 23:32:31,331: Trade window detected.
+2024-01-05 23:32:31,332: Dragging slider.
+2024-01-05 23:32:34,356: Taking a screenshot for color search...
+2024-01-05 23:32:37,311: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:32:37,315: Performing left click.
+2024-01-05 23:32:38,419: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:32:38,423: Performing left click.
+2024-01-05 23:32:39,531: Performing left click.
+2024-01-05 23:32:39,666: Performing shift click.
+2024-01-05 23:32:42,326: Performing left click.
+2024-01-05 23:32:42,460: Performing shift click.
+2024-01-05 23:32:45,102: Pressing 'Esc' key.
+2024-01-05 23:32:46,140: Holding 'D' key for a step.
+2024-01-05 23:32:47,628: Performing right click.
+2024-01-05 23:32:48,733: Checking for trade window...
+2024-01-05 23:32:50,718: Trade window not detected. Adjusting position.
+2024-01-05 23:32:54,099: Trade window detected after adjustment.
+2024-01-05 23:32:54,101: Dragging slider.
+2024-01-05 23:32:57,121: Taking a screenshot for color search...
+2024-01-05 23:32:57,847: Color found at (1051, 395). Clicking at this position.
+2024-01-05 23:32:57,851: Performing left click.
+2024-01-05 23:32:58,956: Color found at (1051, 395). Clicking at this position.
+2024-01-05 23:32:58,962: Performing left click.
+2024-01-05 23:33:00,072: Performing left click.
+2024-01-05 23:33:00,204: Performing shift click.
+2024-01-05 23:33:02,852: Performing left click.
+2024-01-05 23:33:02,984: Performing shift click.
+2024-01-05 23:33:05,643: Pressing 'Esc' key.
+2024-01-05 23:33:06,676: Holding 'D' key for a step.
+2024-01-05 23:33:08,165: Performing right click.
+2024-01-05 23:33:09,273: Checking for trade window...
+2024-01-05 23:33:09,326: Trade window detected.
+2024-01-05 23:33:09,327: Dragging slider.
+2024-01-05 23:33:12,359: Taking a screenshot for color search...
+2024-01-05 23:33:14,545: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:33:14,548: Performing left click.
+2024-01-05 23:33:15,657: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:33:15,661: Performing left click.
+2024-01-05 23:33:16,769: Performing left click.
+2024-01-05 23:33:16,905: Performing shift click.
+2024-01-05 23:33:19,552: Performing left click.
+2024-01-05 23:33:19,688: Performing shift click.
+2024-01-05 23:33:22,332: Pressing 'Esc' key.
+2024-01-05 23:33:23,354: Holding 'D' key for a step.
+2024-01-05 23:33:24,841: Performing right click.
+2024-01-05 23:33:25,945: Checking for trade window...
+2024-01-05 23:33:25,993: Trade window detected.
+2024-01-05 23:33:25,993: Dragging slider.
+2024-01-05 23:33:29,007: Taking a screenshot for color search...
+2024-01-05 23:33:31,534: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:33:31,538: Performing left click.
+2024-01-05 23:33:32,643: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:33:32,646: Performing left click.
+2024-01-05 23:33:33,755: Performing left click.
+2024-01-05 23:33:33,890: Performing shift click.
+2024-01-05 23:33:36,539: Performing left click.
+2024-01-05 23:33:36,675: Performing shift click.
+2024-01-05 23:33:39,322: Pressing 'Esc' key.
+2024-01-05 23:33:40,341: Holding 'D' key for a step.
+2024-01-05 23:33:41,829: Performing right click.
+2024-01-05 23:33:42,933: Checking for trade window...
+2024-01-05 23:33:42,986: Trade window detected.
+2024-01-05 23:33:42,987: Dragging slider.
+2024-01-05 23:33:46,042: Taking a screenshot for color search...
+2024-01-05 23:33:46,711: Color found at (1056, 389). Clicking at this position.
+2024-01-05 23:33:46,714: Performing left click.
+2024-01-05 23:33:47,819: Color found at (1056, 389). Clicking at this position.
+2024-01-05 23:33:47,825: Performing left click.
+2024-01-05 23:33:48,933: Performing left click.
+2024-01-05 23:33:49,070: Performing shift click.
+2024-01-05 23:33:51,718: Performing left click.
+2024-01-05 23:33:51,851: Performing shift click.
+2024-01-05 23:33:54,494: Pressing 'Esc' key.
+2024-01-05 23:33:55,523: Holding 'D' key for a step.
+2024-01-05 23:33:57,010: Performing right click.
+2024-01-05 23:33:58,115: Checking for trade window...
+2024-01-05 23:33:59,901: Trade window not detected. Adjusting position.
+2024-01-05 23:34:08,325: Trade window detected after adjustment.
+2024-01-05 23:34:08,326: Dragging slider.
+2024-01-05 23:34:11,341: Taking a screenshot for color search...
+2024-01-05 23:34:11,968: Color found at (1052, 435). Clicking at this position.
+2024-01-05 23:34:11,972: Performing left click.
+2024-01-05 23:34:13,077: Color found at (1052, 435). Clicking at this position.
+2024-01-05 23:34:13,080: Performing left click.
+2024-01-05 23:34:14,188: Performing left click.
+2024-01-05 23:34:14,323: Performing shift click.
+2024-01-05 23:34:16,993: Performing left click.
+2024-01-05 23:34:17,126: Performing shift click.
+2024-01-05 23:34:19,768: Pressing 'Esc' key.
+2024-01-05 23:34:20,789: Holding 'D' key for a step.
+2024-01-05 23:34:22,277: Performing right click.
+2024-01-05 23:34:23,384: Checking for trade window...
+2024-01-05 23:34:23,439: Trade window detected.
+2024-01-05 23:34:23,440: Dragging slider.
+2024-01-05 23:34:26,454: Taking a screenshot for color search...
+2024-01-05 23:34:28,485: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:34:28,488: Performing left click.
+2024-01-05 23:34:29,593: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:34:29,598: Performing left click.
+2024-01-05 23:34:30,707: Performing left click.
+2024-01-05 23:34:30,841: Performing shift click.
+2024-01-05 23:34:33,492: Performing left click.
+2024-01-05 23:34:33,628: Performing shift click.
+2024-01-05 23:34:36,281: Pressing 'Esc' key.
+2024-01-05 23:34:37,303: Holding 'D' key for a step.
+2024-01-05 23:34:38,794: Performing right click.
+2024-01-05 23:34:39,898: Checking for trade window...
+2024-01-05 23:34:39,951: Trade window detected.
+2024-01-05 23:34:39,952: Dragging slider.
+2024-01-05 23:34:42,968: Taking a screenshot for color search...
+2024-01-05 23:34:45,000: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:34:45,005: Performing left click.
+2024-01-05 23:34:46,109: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:34:46,113: Performing left click.
+2024-01-05 23:34:47,222: Performing left click.
+2024-01-05 23:34:47,358: Performing shift click.
+2024-01-05 23:34:50,005: Performing left click.
+2024-01-05 23:34:50,141: Performing shift click.
+2024-01-05 23:34:52,784: Pressing 'Esc' key.
+2024-01-05 23:34:53,832: Holding 'D' key for a step.
+2024-01-05 23:34:55,322: Performing right click.
+2024-01-05 23:34:56,426: Checking for trade window...
+2024-01-05 23:34:56,487: Trade window detected.
+2024-01-05 23:34:56,489: Dragging slider.
+2024-01-05 23:34:59,516: Taking a screenshot for color search...
+2024-01-05 23:35:01,649: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:01,653: Performing left click.
+2024-01-05 23:35:02,757: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:02,761: Performing left click.
+2024-01-05 23:35:03,869: Performing left click.
+2024-01-05 23:35:04,003: Performing shift click.
+2024-01-05 23:35:06,649: Performing left click.
+2024-01-05 23:35:06,785: Performing shift click.
+2024-01-05 23:35:09,429: Pressing 'Esc' key.
+2024-01-05 23:35:10,447: Holding 'D' key for a step.
+2024-01-05 23:35:11,937: Performing right click.
+2024-01-05 23:35:13,041: Checking for trade window...
+2024-01-05 23:35:13,089: Trade window detected.
+2024-01-05 23:35:13,090: Dragging slider.
+2024-01-05 23:35:16,119: Taking a screenshot for color search...
+2024-01-05 23:35:18,451: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:18,458: Performing left click.
+2024-01-05 23:35:19,562: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:19,568: Performing left click.
+2024-01-05 23:35:20,676: Performing left click.
+2024-01-05 23:35:20,812: Performing shift click.
+2024-01-05 23:35:23,460: Performing left click.
+2024-01-05 23:35:23,596: Performing shift click.
+2024-01-05 23:35:26,250: Pressing 'Esc' key.
+2024-01-05 23:35:27,274: Holding 'D' key for a step.
+2024-01-05 23:35:28,762: Performing right click.
+2024-01-05 23:35:29,866: Checking for trade window...
+2024-01-05 23:35:31,472: Trade window not detected. Adjusting position.
+2024-01-05 23:35:34,844: Trade window detected after adjustment.
+2024-01-05 23:35:34,845: Dragging slider.
+2024-01-05 23:35:37,863: Taking a screenshot for color search...
+2024-01-05 23:35:40,047: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:40,060: Performing left click.
+2024-01-05 23:35:41,170: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:41,176: Performing left click.
+2024-01-05 23:35:42,285: Performing left click.
+2024-01-05 23:35:42,419: Performing shift click.
+2024-01-05 23:35:45,067: Performing left click.
+2024-01-05 23:35:45,203: Performing shift click.
+2024-01-05 23:35:47,848: Pressing 'Esc' key.
+2024-01-05 23:35:48,864: Holding 'D' key for a step.
+2024-01-05 23:35:50,358: Performing right click.
+2024-01-05 23:35:51,462: Checking for trade window...
+2024-01-05 23:35:51,528: Trade window detected.
+2024-01-05 23:35:51,529: Dragging slider.
+2024-01-05 23:35:54,548: Taking a screenshot for color search...
+2024-01-05 23:35:56,751: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:56,755: Performing left click.
+2024-01-05 23:35:57,859: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:35:57,863: Performing left click.
+2024-01-05 23:35:58,973: Performing left click.
+2024-01-05 23:35:59,114: Performing shift click.
+2024-01-05 23:36:01,760: Performing left click.
+2024-01-05 23:36:01,903: Performing shift click.
+2024-01-05 23:36:04,549: Pressing 'Esc' key.
+2024-01-05 23:36:05,577: Holding 'D' key for a step.
+2024-01-05 23:36:07,360: Posted to Discord: Trading session completed. Summary:
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1055, 430)
+Potion clicked at position (1055, 430)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1411, 434)
+Potion clicked at position (1411, 434)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1056, 435)
+Potion clicked at position (1056, 435)
+Potion clicked at position (1414, 319)
+Potion clicked at position (1414, 319)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1051, 395)
+Potion clicked at position (1051, 395)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1056, 389)
+Potion clicked at position (1056, 389)
+Potion clicked at position (1052, 435)
+Potion clicked at position (1052, 435)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+2024-01-05 23:45:30,339: Focusing Minecraft window...
+2024-01-05 23:45:32,410: Pressing Esc...
+2024-01-05 23:45:34,445: Performing right click.
+2024-01-05 23:45:35,549: Checking for trade window...
+2024-01-05 23:45:35,607: Trade window detected.
+2024-01-05 23:45:35,608: Dragging slider.
+2024-01-05 23:45:38,628: Taking a screenshot for color search...
+2024-01-05 23:45:39,273: Color found at (1054, 387). Clicking at this position.
+2024-01-05 23:45:39,277: Performing left click.
+2024-01-05 23:45:40,382: Color found at (1054, 387). Clicking at this position.
+2024-01-05 23:45:40,386: Performing left click.
+2024-01-05 23:45:41,493: Performing left click.
+2024-01-05 23:45:41,626: Performing shift click.
+2024-01-05 23:45:44,287: Performing left click.
+2024-01-05 23:45:44,423: Performing shift click.
+2024-01-05 23:45:47,073: Pressing 'Esc' key.
+2024-01-05 23:45:48,100: Holding 'D' key for a step.
+2024-01-05 23:45:49,592: Performing right click.
+2024-01-05 23:45:50,698: Checking for trade window...
+2024-01-05 23:45:50,758: Trade window detected.
+2024-01-05 23:45:50,759: Dragging slider.
+2024-01-05 23:45:53,776: Taking a screenshot for color search...
+2024-01-05 23:45:56,118: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:45:56,122: Performing left click.
+2024-01-05 23:45:57,226: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:45:57,230: Performing left click.
+2024-01-05 23:45:58,339: Performing left click.
+2024-01-05 23:45:58,473: Performing shift click.
+2024-01-05 23:46:01,126: Performing left click.
+2024-01-05 23:46:01,265: Performing shift click.
+2024-01-05 23:46:03,907: Pressing 'Esc' key.
+2024-01-05 23:46:04,925: Holding 'D' key for a step.
+2024-01-05 23:46:06,414: Performing right click.
+2024-01-05 23:46:07,518: Checking for trade window...
+2024-01-05 23:46:09,340: Trade window not detected. Adjusting position.
+2024-01-05 23:46:22,814: Trade window detected after adjustment.
+2024-01-05 23:46:22,815: Dragging slider.
+2024-01-05 23:46:25,830: Taking a screenshot for color search...
+2024-01-05 23:46:27,785: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:46:27,788: Performing left click.
+2024-01-05 23:46:28,892: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:46:28,896: Performing left click.
+2024-01-05 23:46:30,006: Performing left click.
+2024-01-05 23:46:30,140: Performing shift click.
+2024-01-05 23:46:32,790: Performing left click.
+2024-01-05 23:46:32,926: Performing shift click.
+2024-01-05 23:46:35,572: Pressing 'Esc' key.
+2024-01-05 23:46:36,596: Holding 'D' key for a step.
+2024-01-05 23:46:38,089: Performing right click.
+2024-01-05 23:46:39,194: Checking for trade window...
+2024-01-05 23:46:39,257: Trade window detected.
+2024-01-05 23:46:39,258: Dragging slider.
+2024-01-05 23:46:42,272: Taking a screenshot for color search...
+2024-01-05 23:46:44,383: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:46:44,388: Performing left click.
+2024-01-05 23:46:45,495: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:46:45,502: Performing left click.
+2024-01-05 23:46:46,612: Performing left click.
+2024-01-05 23:46:46,752: Performing shift click.
+2024-01-05 23:46:49,399: Performing left click.
+2024-01-05 23:46:49,540: Performing shift click.
+2024-01-05 23:46:52,182: Pressing 'Esc' key.
+2024-01-05 23:46:53,207: Holding 'D' key for a step.
+2024-01-05 23:46:54,697: Performing right click.
+2024-01-05 23:46:55,816: Checking for trade window...
+2024-01-05 23:46:55,860: Trade window detected.
+2024-01-05 23:46:55,861: Dragging slider.
+2024-01-05 23:46:58,879: Taking a screenshot for color search...
+2024-01-05 23:46:59,534: Color found at (1055, 390). Clicking at this position.
+2024-01-05 23:46:59,538: Performing left click.
+2024-01-05 23:47:00,642: Color found at (1055, 390). Clicking at this position.
+2024-01-05 23:47:00,645: Performing left click.
+2024-01-05 23:47:01,759: Performing left click.
+2024-01-05 23:47:01,906: Performing shift click.
+2024-01-05 23:47:04,552: Performing left click.
+2024-01-05 23:47:04,686: Performing shift click.
+2024-01-05 23:47:07,328: Pressing 'Esc' key.
+2024-01-05 23:47:08,355: Holding 'D' key for a step.
+2024-01-05 23:47:09,842: Performing right click.
+2024-01-05 23:47:10,946: Checking for trade window...
+2024-01-05 23:47:10,989: Trade window detected.
+2024-01-05 23:47:10,990: Dragging slider.
+2024-01-05 23:47:14,006: Taking a screenshot for color search...
+2024-01-05 23:47:16,339: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:47:16,343: Performing left click.
+2024-01-05 23:47:17,447: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:47:17,451: Performing left click.
+2024-01-05 23:47:18,561: Performing left click.
+2024-01-05 23:47:18,699: Performing shift click.
+2024-01-05 23:47:21,349: Performing left click.
+2024-01-05 23:47:21,486: Performing shift click.
+2024-01-05 23:47:24,135: Pressing 'Esc' key.
+2024-01-05 23:47:25,152: Holding 'D' key for a step.
+2024-01-05 23:47:26,642: Performing right click.
+2024-01-05 23:47:27,746: Checking for trade window...
+2024-01-05 23:47:27,781: Trade window detected.
+2024-01-05 23:47:27,782: Dragging slider.
+2024-01-05 23:47:30,796: Taking a screenshot for color search...
+2024-01-05 23:47:31,411: Color found at (1051, 430). Clicking at this position.
+2024-01-05 23:47:31,416: Performing left click.
+2024-01-05 23:47:32,522: Color found at (1051, 430). Clicking at this position.
+2024-01-05 23:47:32,529: Performing left click.
+2024-01-05 23:47:33,640: Performing left click.
+2024-01-05 23:47:33,773: Performing shift click.
+2024-01-05 23:47:36,421: Performing left click.
+2024-01-05 23:47:36,557: Performing shift click.
+2024-01-05 23:47:39,200: Pressing 'Esc' key.
+2024-01-05 23:47:40,218: Holding 'D' key for a step.
+2024-01-05 23:47:41,706: Performing right click.
+2024-01-05 23:47:42,811: Checking for trade window...
+2024-01-05 23:47:44,634: Trade window not detected. Adjusting position.
+2024-01-05 23:49:05,673: Trade window detected after adjustment.
+2024-01-05 23:49:05,674: Dragging slider.
+2024-01-05 23:49:08,689: Taking a screenshot for color search...
+2024-01-05 23:49:11,094: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:49:11,097: Performing left click.
+2024-01-05 23:49:12,202: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:49:12,206: Performing left click.
+2024-01-05 23:49:13,315: Performing left click.
+2024-01-05 23:49:13,451: Performing shift click.
+2024-01-05 23:49:16,103: Performing left click.
+2024-01-05 23:49:16,238: Performing shift click.
+2024-01-05 23:49:18,885: Pressing 'Esc' key.
+2024-01-05 23:49:19,909: Holding 'D' key for a step.
+2024-01-05 23:49:21,395: Performing right click.
+2024-01-05 23:49:22,499: Checking for trade window...
+2024-01-05 23:49:22,545: Trade window detected.
+2024-01-05 23:49:22,545: Dragging slider.
+2024-01-05 23:49:25,564: Taking a screenshot for color search...
+2024-01-05 23:49:26,184: Color found at (1053, 427). Clicking at this position.
+2024-01-05 23:49:26,188: Performing left click.
+2024-01-05 23:49:27,291: Color found at (1053, 427). Clicking at this position.
+2024-01-05 23:49:27,295: Performing left click.
+2024-01-05 23:49:28,402: Performing left click.
+2024-01-05 23:49:28,538: Performing shift click.
+2024-01-05 23:49:31,184: Performing left click.
+2024-01-05 23:49:31,317: Performing shift click.
+2024-01-05 23:49:33,959: Pressing 'Esc' key.
+2024-01-05 23:49:34,976: Holding 'D' key for a step.
+2024-01-05 23:49:36,466: Performing right click.
+2024-01-05 23:49:37,570: Checking for trade window...
+2024-01-05 23:49:39,225: Trade window not detected. Adjusting position.
+2024-01-05 23:50:13,469: Trade window detected after adjustment.
+2024-01-05 23:50:13,470: Dragging slider.
+2024-01-05 23:50:16,484: Taking a screenshot for color search...
+2024-01-05 23:50:19,155: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:50:19,160: Performing left click.
+2024-01-05 23:50:20,264: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:50:20,267: Performing left click.
+2024-01-05 23:50:21,375: Performing left click.
+2024-01-05 23:50:21,510: Performing shift click.
+2024-01-05 23:50:24,160: Performing left click.
+2024-01-05 23:50:24,298: Performing shift click.
+2024-01-05 23:50:26,947: Pressing 'Esc' key.
+2024-01-05 23:50:27,974: Holding 'D' key for a step.
+2024-01-05 23:50:29,462: Performing right click.
+2024-01-05 23:50:30,566: Checking for trade window...
+2024-01-05 23:50:32,414: Trade window not detected. Adjusting position.
+2024-01-05 23:50:40,899: Trade window detected after adjustment.
+2024-01-05 23:50:40,900: Dragging slider.
+2024-01-05 23:50:43,916: Taking a screenshot for color search...
+2024-01-05 23:50:46,188: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:50:46,192: Performing left click.
+2024-01-05 23:50:47,296: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:50:47,300: Performing left click.
+2024-01-05 23:50:48,410: Performing left click.
+2024-01-05 23:50:48,543: Performing shift click.
+2024-01-05 23:50:51,199: Performing left click.
+2024-01-05 23:50:51,334: Performing shift click.
+2024-01-05 23:50:53,979: Pressing 'Esc' key.
+2024-01-05 23:50:55,031: Holding 'D' key for a step.
+2024-01-05 23:50:56,521: Performing right click.
+2024-01-05 23:50:57,624: Checking for trade window...
+2024-01-05 23:50:59,412: Trade window not detected. Adjusting position.
+2024-01-05 23:51:02,790: Trade window detected after adjustment.
+2024-01-05 23:51:02,791: Dragging slider.
+2024-01-05 23:51:05,818: Taking a screenshot for color search...
+2024-01-05 23:51:07,957: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:51:07,960: Performing left click.
+2024-01-05 23:51:09,065: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:51:09,068: Performing left click.
+2024-01-05 23:51:10,178: Performing left click.
+2024-01-05 23:51:10,313: Performing shift click.
+2024-01-05 23:51:12,961: Performing left click.
+2024-01-05 23:51:13,098: Performing shift click.
+2024-01-05 23:51:15,741: Pressing 'Esc' key.
+2024-01-05 23:51:16,766: Holding 'D' key for a step.
+2024-01-05 23:51:18,258: Performing right click.
+2024-01-05 23:51:19,362: Checking for trade window...
+2024-01-05 23:51:19,410: Trade window detected.
+2024-01-05 23:51:19,411: Dragging slider.
+2024-01-05 23:51:22,427: Taking a screenshot for color search...
+2024-01-05 23:51:24,921: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:51:24,925: Performing left click.
+2024-01-05 23:51:26,031: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:51:26,035: Performing left click.
+2024-01-05 23:51:27,152: Performing left click.
+2024-01-05 23:51:27,287: Performing shift click.
+2024-01-05 23:51:29,937: Performing left click.
+2024-01-05 23:51:30,071: Performing shift click.
+2024-01-05 23:51:32,720: Pressing 'Esc' key.
+2024-01-05 23:51:33,742: Holding 'D' key for a step.
+2024-01-05 23:51:35,230: Performing right click.
+2024-01-05 23:51:36,335: Checking for trade window...
+2024-01-05 23:51:36,387: Trade window detected.
+2024-01-05 23:51:36,389: Dragging slider.
+2024-01-05 23:51:39,423: Taking a screenshot for color search...
+2024-01-05 23:51:40,109: Color found at (1056, 395). Clicking at this position.
+2024-01-05 23:51:40,112: Performing left click.
+2024-01-05 23:51:41,217: Color found at (1056, 395). Clicking at this position.
+2024-01-05 23:51:41,221: Performing left click.
+2024-01-05 23:51:42,330: Performing left click.
+2024-01-05 23:51:42,465: Performing shift click.
+2024-01-05 23:51:45,110: Performing left click.
+2024-01-05 23:51:45,247: Performing shift click.
+2024-01-05 23:51:47,888: Pressing 'Esc' key.
+2024-01-05 23:51:48,907: Holding 'D' key for a step.
+2024-01-05 23:51:50,397: Performing right click.
+2024-01-05 23:51:51,501: Checking for trade window...
+2024-01-05 23:51:51,542: Trade window detected.
+2024-01-05 23:51:51,543: Dragging slider.
+2024-01-05 23:51:54,558: Taking a screenshot for color search...
+2024-01-05 23:51:56,873: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:51:56,877: Performing left click.
+2024-01-05 23:51:57,982: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:51:57,985: Performing left click.
+2024-01-05 23:51:59,094: Performing left click.
+2024-01-05 23:51:59,232: Performing shift click.
+2024-01-05 23:52:01,881: Performing left click.
+2024-01-05 23:52:02,025: Performing shift click.
+2024-01-05 23:52:04,692: Pressing 'Esc' key.
+2024-01-05 23:52:05,712: Holding 'D' key for a step.
+2024-01-05 23:52:07,201: Performing right click.
+2024-01-05 23:52:08,305: Checking for trade window...
+2024-01-05 23:52:08,357: Trade window detected.
+2024-01-05 23:52:08,358: Dragging slider.
+2024-01-05 23:52:11,373: Taking a screenshot for color search...
+2024-01-05 23:52:13,553: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:52:13,557: Performing left click.
+2024-01-05 23:52:14,661: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:52:14,665: Performing left click.
+2024-01-05 23:52:15,774: Performing left click.
+2024-01-05 23:52:15,909: Performing shift click.
+2024-01-05 23:52:18,563: Performing left click.
+2024-01-05 23:52:18,701: Performing shift click.
+2024-01-05 23:52:21,342: Pressing 'Esc' key.
+2024-01-05 23:52:22,382: Holding 'D' key for a step.
+2024-01-05 23:52:23,872: Performing right click.
+2024-01-05 23:52:24,976: Checking for trade window...
+2024-01-05 23:52:25,027: Trade window detected.
+2024-01-05 23:52:25,028: Dragging slider.
+2024-01-05 23:52:28,044: Taking a screenshot for color search...
+2024-01-05 23:52:30,107: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:52:30,112: Performing left click.
+2024-01-05 23:52:31,216: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:52:31,222: Performing left click.
+2024-01-05 23:52:32,330: Performing left click.
+2024-01-05 23:52:32,463: Performing shift click.
+2024-01-05 23:52:35,109: Performing left click.
+2024-01-05 23:52:35,244: Performing shift click.
+2024-01-05 23:52:37,892: Pressing 'Esc' key.
+2024-01-05 23:52:38,915: Holding 'D' key for a step.
+2024-01-05 23:52:40,404: Performing right click.
+2024-01-05 23:52:41,508: Checking for trade window...
+2024-01-05 23:52:41,550: Trade window detected.
+2024-01-05 23:52:41,551: Dragging slider.
+2024-01-05 23:52:44,567: Taking a screenshot for color search...
+2024-01-05 23:52:45,219: Color found at (1051, 396). Clicking at this position.
+2024-01-05 23:52:45,223: Performing left click.
+2024-01-05 23:52:46,328: Color found at (1051, 396). Clicking at this position.
+2024-01-05 23:52:46,333: Performing left click.
+2024-01-05 23:52:47,442: Performing left click.
+2024-01-05 23:52:47,576: Performing shift click.
+2024-01-05 23:52:50,232: Performing left click.
+2024-01-05 23:52:50,366: Performing shift click.
+2024-01-05 23:52:53,007: Pressing 'Esc' key.
+2024-01-05 23:52:54,042: Holding 'D' key for a step.
+2024-01-05 23:52:55,533: Performing right click.
+2024-01-05 23:52:56,636: Checking for trade window...
+2024-01-05 23:52:56,689: Trade window detected.
+2024-01-05 23:52:56,690: Dragging slider.
+2024-01-05 23:52:59,708: Taking a screenshot for color search...
+2024-01-05 23:53:01,868: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:53:01,872: Performing left click.
+2024-01-05 23:53:02,977: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:53:02,980: Performing left click.
+2024-01-05 23:53:04,089: Performing left click.
+2024-01-05 23:53:04,223: Performing shift click.
+2024-01-05 23:53:06,870: Performing left click.
+2024-01-05 23:53:07,006: Performing shift click.
+2024-01-05 23:53:09,648: Pressing 'Esc' key.
+2024-01-05 23:53:10,673: Holding 'D' key for a step.
+2024-01-05 23:53:12,161: Performing right click.
+2024-01-05 23:53:13,265: Checking for trade window...
+2024-01-05 23:53:14,985: Trade window not detected. Adjusting position.
+2024-01-05 23:53:18,367: Trade window detected after adjustment.
+2024-01-05 23:53:18,368: Dragging slider.
+2024-01-05 23:53:21,386: Taking a screenshot for color search...
+2024-01-05 23:53:22,235: Color found at (1056, 429). Clicking at this position.
+2024-01-05 23:53:22,238: Performing left click.
+2024-01-05 23:53:23,343: Color found at (1056, 429). Clicking at this position.
+2024-01-05 23:53:23,348: Performing left click.
+2024-01-05 23:53:24,456: Performing left click.
+2024-01-05 23:53:24,599: Performing shift click.
+2024-01-05 23:53:27,244: Performing left click.
+2024-01-05 23:53:27,378: Performing shift click.
+2024-01-05 23:53:30,020: Pressing 'Esc' key.
+2024-01-05 23:53:31,048: Holding 'D' key for a step.
+2024-01-05 23:53:32,537: Performing right click.
+2024-01-05 23:53:33,642: Checking for trade window...
+2024-01-05 23:53:33,692: Trade window detected.
+2024-01-05 23:53:33,693: Dragging slider.
+2024-01-05 23:53:36,754: Taking a screenshot for color search...
+2024-01-05 23:53:38,813: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:53:38,817: Performing left click.
+2024-01-05 23:53:39,921: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:53:39,925: Performing left click.
+2024-01-05 23:53:41,034: Performing left click.
+2024-01-05 23:53:41,167: Performing shift click.
+2024-01-05 23:53:43,820: Performing left click.
+2024-01-05 23:53:43,955: Performing shift click.
+2024-01-05 23:53:46,599: Pressing 'Esc' key.
+2024-01-05 23:53:47,620: Holding 'D' key for a step.
+2024-01-05 23:53:49,106: Performing right click.
+2024-01-05 23:53:50,209: Checking for trade window...
+2024-01-05 23:53:50,289: Trade window detected.
+2024-01-05 23:53:50,290: Dragging slider.
+2024-01-05 23:53:53,308: Taking a screenshot for color search...
+2024-01-05 23:53:55,443: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:53:55,447: Performing left click.
+2024-01-05 23:53:56,552: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:53:56,557: Performing left click.
+2024-01-05 23:53:57,673: Performing left click.
+2024-01-05 23:53:57,810: Performing shift click.
+2024-01-05 23:54:00,465: Performing left click.
+2024-01-05 23:54:00,601: Performing shift click.
+2024-01-05 23:54:03,242: Pressing 'Esc' key.
+2024-01-05 23:54:04,275: Holding 'D' key for a step.
+2024-01-05 23:54:05,763: Performing right click.
+2024-01-05 23:54:06,866: Checking for trade window...
+2024-01-05 23:54:06,912: Trade window detected.
+2024-01-05 23:54:06,913: Dragging slider.
+2024-01-05 23:54:09,927: Taking a screenshot for color search...
+2024-01-05 23:54:10,656: Color found at (1052, 390). Clicking at this position.
+2024-01-05 23:54:10,669: Performing left click.
+2024-01-05 23:54:11,773: Color found at (1052, 390). Clicking at this position.
+2024-01-05 23:54:11,777: Performing left click.
+2024-01-05 23:54:12,888: Performing left click.
+2024-01-05 23:54:13,019: Performing shift click.
+2024-01-05 23:54:15,663: Performing left click.
+2024-01-05 23:54:15,796: Performing shift click.
+2024-01-05 23:54:18,438: Pressing 'Esc' key.
+2024-01-05 23:54:19,455: Holding 'D' key for a step.
+2024-01-05 23:54:20,944: Performing right click.
+2024-01-05 23:54:22,049: Checking for trade window...
+2024-01-05 23:54:23,761: Trade window not detected. Adjusting position.
+2024-01-05 23:55:40,324: Trade window detected after adjustment.
+2024-01-05 23:55:40,326: Dragging slider.
+2024-01-05 23:55:43,348: Taking a screenshot for color search...
+2024-01-05 23:55:44,008: Color found at (1051, 389). Clicking at this position.
+2024-01-05 23:55:44,011: Performing left click.
+2024-01-05 23:55:45,115: Color found at (1051, 389). Clicking at this position.
+2024-01-05 23:55:45,118: Performing left click.
+2024-01-05 23:55:46,226: Performing left click.
+2024-01-05 23:55:46,358: Performing shift click.
+2024-01-05 23:55:49,019: Performing left click.
+2024-01-05 23:55:49,154: Performing shift click.
+2024-01-05 23:55:51,795: Pressing 'Esc' key.
+2024-01-05 23:55:52,838: Holding 'D' key for a step.
+2024-01-05 23:55:54,338: Performing right click.
+2024-01-05 23:55:55,441: Checking for trade window...
+2024-01-05 23:55:55,480: Trade window detected.
+2024-01-05 23:55:55,482: Dragging slider.
+2024-01-05 23:55:58,498: Taking a screenshot for color search...
+2024-01-05 23:56:00,776: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:56:00,780: Performing left click.
+2024-01-05 23:56:01,885: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:56:01,889: Performing left click.
+2024-01-05 23:56:02,999: Performing left click.
+2024-01-05 23:56:03,135: Performing shift click.
+2024-01-05 23:56:05,787: Performing left click.
+2024-01-05 23:56:05,923: Performing shift click.
+2024-01-05 23:56:08,594: Pressing 'Esc' key.
+2024-01-05 23:56:09,617: Holding 'D' key for a step.
+2024-01-05 23:56:11,438: Posted to Discord: Trading session completed. Summary:
+Potion clicked at position (1054, 387)
+Potion clicked at position (1054, 387)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1055, 390)
+Potion clicked at position (1055, 390)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1051, 430)
+Potion clicked at position (1051, 430)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1053, 427)
+Potion clicked at position (1053, 427)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1056, 395)
+Potion clicked at position (1056, 395)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1051, 396)
+Potion clicked at position (1051, 396)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1056, 429)
+Potion clicked at position (1056, 429)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1052, 390)
+Potion clicked at position (1052, 390)
+Potion clicked at position (1051, 389)
+Potion clicked at position (1051, 389)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+2024-01-05 23:56:34,091: Focusing Minecraft window...
+2024-01-05 23:56:36,183: Pressing Esc...
+2024-01-05 23:56:38,204: Performing right click.
+2024-01-05 23:56:39,308: Checking for trade window...
+2024-01-05 23:56:39,360: Trade window detected.
+2024-01-05 23:56:39,360: Dragging slider.
+2024-01-05 23:56:42,376: Taking a screenshot for color search...
+2024-01-05 23:56:44,656: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:56:44,663: Performing left click.
+2024-01-05 23:56:45,781: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:56:45,785: Performing left click.
+2024-01-05 23:56:46,906: Performing left click.
+2024-01-05 23:56:47,040: Performing shift click.
+2024-01-05 23:56:49,696: Performing left click.
+2024-01-05 23:56:49,835: Performing shift click.
+2024-01-05 23:56:52,492: Pressing 'Esc' key.
+2024-01-05 23:56:53,513: Holding 'D' key for a step.
+2024-01-05 23:56:55,000: Performing right click.
+2024-01-05 23:56:56,104: Checking for trade window...
+2024-01-05 23:56:56,152: Trade window detected.
+2024-01-05 23:56:56,153: Dragging slider.
+2024-01-05 23:56:59,174: Taking a screenshot for color search...
+2024-01-05 23:57:01,335: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:57:01,342: Performing left click.
+2024-01-05 23:57:02,447: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:57:02,451: Performing left click.
+2024-01-05 23:57:03,560: Performing left click.
+2024-01-05 23:57:03,695: Performing shift click.
+2024-01-05 23:57:06,349: Performing left click.
+2024-01-05 23:57:06,489: Performing shift click.
+2024-01-05 23:57:09,132: Pressing 'Esc' key.
+2024-01-05 23:57:10,158: Holding 'D' key for a step.
+2024-01-05 23:57:11,645: Performing right click.
+2024-01-05 23:57:12,749: Checking for trade window...
+2024-01-05 23:57:14,615: Trade window not detected. Adjusting position.
+2024-01-05 23:57:17,981: Trade window detected after adjustment.
+2024-01-05 23:57:17,982: Dragging slider.
+2024-01-05 23:57:20,997: Taking a screenshot for color search...
+2024-01-05 23:57:23,221: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:57:23,224: Performing left click.
+2024-01-05 23:57:24,335: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:57:24,340: Performing left click.
+2024-01-05 23:57:25,449: Performing left click.
+2024-01-05 23:57:25,584: Performing shift click.
+2024-01-05 23:57:28,228: Performing left click.
+2024-01-05 23:57:28,366: Performing shift click.
+2024-01-05 23:57:31,010: Pressing 'Esc' key.
+2024-01-05 23:57:32,032: Holding 'D' key for a step.
+2024-01-05 23:57:33,519: Performing right click.
+2024-01-05 23:57:34,623: Checking for trade window...
+2024-01-05 23:57:34,711: Trade window detected.
+2024-01-05 23:57:34,712: Dragging slider.
+2024-01-05 23:57:37,769: Taking a screenshot for color search...
+2024-01-05 23:57:39,856: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:57:39,861: Performing left click.
+2024-01-05 23:57:40,978: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:57:40,982: Performing left click.
+2024-01-05 23:57:42,092: Performing left click.
+2024-01-05 23:57:42,226: Performing shift click.
+2024-01-05 23:57:44,889: Performing left click.
+2024-01-05 23:57:45,023: Performing shift click.
+2024-01-05 23:57:47,670: Pressing 'Esc' key.
+2024-01-05 23:57:48,711: Holding 'D' key for a step.
+2024-01-05 23:57:50,197: Performing right click.
+2024-01-05 23:57:51,301: Checking for trade window...
+2024-01-05 23:57:51,342: Trade window detected.
+2024-01-05 23:57:51,342: Dragging slider.
+2024-01-05 23:57:54,359: Taking a screenshot for color search...
+2024-01-05 23:57:55,026: Color found at (1055, 429). Clicking at this position.
+2024-01-05 23:57:55,030: Performing left click.
+2024-01-05 23:57:56,135: Color found at (1055, 429). Clicking at this position.
+2024-01-05 23:57:56,138: Performing left click.
+2024-01-05 23:57:57,247: Performing left click.
+2024-01-05 23:57:57,382: Performing shift click.
+2024-01-05 23:58:00,026: Performing left click.
+2024-01-05 23:58:00,164: Performing shift click.
+2024-01-05 23:58:02,808: Pressing 'Esc' key.
+2024-01-05 23:58:03,842: Holding 'D' key for a step.
+2024-01-05 23:58:05,331: Performing right click.
+2024-01-05 23:58:06,435: Checking for trade window...
+2024-01-05 23:58:06,475: Trade window detected.
+2024-01-05 23:58:06,476: Dragging slider.
+2024-01-05 23:58:09,493: Taking a screenshot for color search...
+2024-01-05 23:58:11,467: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:58:11,473: Performing left click.
+2024-01-05 23:58:12,578: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:58:12,582: Performing left click.
+2024-01-05 23:58:13,691: Performing left click.
+2024-01-05 23:58:13,831: Performing shift click.
+2024-01-05 23:58:16,479: Performing left click.
+2024-01-05 23:58:16,613: Performing shift click.
+2024-01-05 23:58:19,258: Pressing 'Esc' key.
+2024-01-05 23:58:20,288: Holding 'D' key for a step.
+2024-01-05 23:58:21,775: Performing right click.
+2024-01-05 23:58:22,882: Checking for trade window...
+2024-01-05 23:58:22,936: Trade window detected.
+2024-01-05 23:58:22,937: Dragging slider.
+2024-01-05 23:58:25,955: Taking a screenshot for color search...
+2024-01-05 23:58:26,639: Color found at (1051, 430). Clicking at this position.
+2024-01-05 23:58:26,655: Performing left click.
+2024-01-05 23:58:27,773: Color found at (1051, 430). Clicking at this position.
+2024-01-05 23:58:27,778: Performing left click.
+2024-01-05 23:58:28,886: Performing left click.
+2024-01-05 23:58:29,020: Performing shift click.
+2024-01-05 23:58:31,667: Performing left click.
+2024-01-05 23:58:31,800: Performing shift click.
+2024-01-05 23:58:34,444: Pressing 'Esc' key.
+2024-01-05 23:58:35,470: Holding 'D' key for a step.
+2024-01-05 23:58:36,962: Performing right click.
+2024-01-05 23:58:38,068: Checking for trade window...
+2024-01-05 23:58:38,106: Trade window detected.
+2024-01-05 23:58:38,107: Dragging slider.
+2024-01-05 23:58:41,122: Taking a screenshot for color search...
+2024-01-05 23:58:43,180: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:58:43,184: Performing left click.
+2024-01-05 23:58:44,289: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:58:44,293: Performing left click.
+2024-01-05 23:58:45,402: Performing left click.
+2024-01-05 23:58:45,536: Performing shift click.
+2024-01-05 23:58:48,192: Performing left click.
+2024-01-05 23:58:48,326: Performing shift click.
+2024-01-05 23:58:50,971: Pressing 'Esc' key.
+2024-01-05 23:58:51,990: Holding 'D' key for a step.
+2024-01-05 23:58:53,476: Performing right click.
+2024-01-05 23:58:54,589: Checking for trade window...
+2024-01-05 23:58:54,641: Trade window detected.
+2024-01-05 23:58:54,641: Dragging slider.
+2024-01-05 23:58:57,657: Taking a screenshot for color search...
+2024-01-05 23:58:59,826: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:58:59,830: Performing left click.
+2024-01-05 23:59:00,935: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:59:00,940: Performing left click.
+2024-01-05 23:59:02,048: Performing left click.
+2024-01-05 23:59:02,182: Performing shift click.
+2024-01-05 23:59:04,834: Performing left click.
+2024-01-05 23:59:04,970: Performing shift click.
+2024-01-05 23:59:07,621: Pressing 'Esc' key.
+2024-01-05 23:59:08,644: Holding 'D' key for a step.
+2024-01-05 23:59:10,131: Performing right click.
+2024-01-05 23:59:11,235: Checking for trade window...
+2024-01-05 23:59:11,283: Trade window detected.
+2024-01-05 23:59:11,284: Dragging slider.
+2024-01-05 23:59:14,300: Taking a screenshot for color search...
+2024-01-05 23:59:15,204: Color found at (1053, 428). Clicking at this position.
+2024-01-05 23:59:15,208: Performing left click.
+2024-01-05 23:59:16,316: Color found at (1053, 428). Clicking at this position.
+2024-01-05 23:59:16,321: Performing left click.
+2024-01-05 23:59:17,434: Performing left click.
+2024-01-05 23:59:17,570: Performing shift click.
+2024-01-05 23:59:20,217: Performing left click.
+2024-01-05 23:59:20,351: Performing shift click.
+2024-01-05 23:59:22,993: Pressing 'Esc' key.
+2024-01-05 23:59:24,010: Holding 'D' key for a step.
+2024-01-05 23:59:25,500: Performing right click.
+2024-01-05 23:59:26,605: Checking for trade window...
+2024-01-05 23:59:28,569: Trade window not detected. Adjusting position.
+2024-01-05 23:59:31,938: Trade window detected after adjustment.
+2024-01-05 23:59:31,939: Dragging slider.
+2024-01-05 23:59:34,956: Taking a screenshot for color search...
+2024-01-05 23:59:37,197: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:59:37,201: Performing left click.
+2024-01-05 23:59:38,307: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:59:38,312: Performing left click.
+2024-01-05 23:59:39,422: Performing left click.
+2024-01-05 23:59:39,555: Performing shift click.
+2024-01-05 23:59:42,210: Performing left click.
+2024-01-05 23:59:42,345: Performing shift click.
+2024-01-05 23:59:44,988: Pressing 'Esc' key.
+2024-01-05 23:59:46,015: Holding 'D' key for a step.
+2024-01-05 23:59:47,504: Performing right click.
+2024-01-05 23:59:48,609: Checking for trade window...
+2024-01-05 23:59:48,662: Trade window detected.
+2024-01-05 23:59:48,663: Dragging slider.
+2024-01-05 23:59:51,677: Taking a screenshot for color search...
+2024-01-05 23:59:53,766: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:59:53,770: Performing left click.
+2024-01-05 23:59:54,878: Color not found on the screen. Using fallback coordinates.
+2024-01-05 23:59:54,887: Performing left click.
+2024-01-05 23:59:55,996: Performing left click.
+2024-01-05 23:59:56,136: Performing shift click.
+2024-01-05 23:59:58,782: Performing left click.
+2024-01-05 23:59:58,921: Performing shift click.
+2024-01-06 00:00:01,563: Pressing 'Esc' key.
+2024-01-06 00:00:02,580: Holding 'D' key for a step.
+2024-01-06 00:00:04,071: Performing right click.
+2024-01-06 00:00:05,175: Checking for trade window...
+2024-01-06 00:00:05,246: Trade window detected.
+2024-01-06 00:00:05,247: Dragging slider.
+2024-01-06 00:00:08,270: Taking a screenshot for color search...
+2024-01-06 00:00:10,373: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:00:10,378: Performing left click.
+2024-01-06 00:00:11,483: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:00:11,487: Performing left click.
+2024-01-06 00:00:12,595: Performing left click.
+2024-01-06 00:00:12,730: Performing shift click.
+2024-01-06 00:00:15,389: Performing left click.
+2024-01-06 00:00:15,524: Performing shift click.
+2024-01-06 00:00:18,164: Pressing 'Esc' key.
+2024-01-06 00:00:19,193: Holding 'D' key for a step.
+2024-01-06 00:00:20,681: Performing right click.
+2024-01-06 00:00:21,785: Checking for trade window...
+2024-01-06 00:00:23,619: Trade window not detected. Adjusting position.
+2024-01-06 00:00:26,998: Trade window detected after adjustment.
+2024-01-06 00:00:26,999: Dragging slider.
+2024-01-06 00:00:30,014: Taking a screenshot for color search...
+2024-01-06 00:00:32,147: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:00:32,151: Performing left click.
+2024-01-06 00:00:33,255: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:00:33,260: Performing left click.
+2024-01-06 00:00:34,371: Performing left click.
+2024-01-06 00:00:34,507: Performing shift click.
+2024-01-06 00:00:37,153: Performing left click.
+2024-01-06 00:00:37,296: Performing shift click.
+2024-01-06 00:00:39,942: Pressing 'Esc' key.
+2024-01-06 00:00:40,967: Holding 'D' key for a step.
+2024-01-06 00:00:42,458: Performing right click.
+2024-01-06 00:00:43,562: Checking for trade window...
+2024-01-06 00:00:43,615: Trade window detected.
+2024-01-06 00:00:43,616: Dragging slider.
+2024-01-06 00:00:46,630: Taking a screenshot for color search...
+2024-01-06 00:00:48,731: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:00:48,735: Performing left click.
+2024-01-06 00:00:49,839: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:00:49,843: Performing left click.
+2024-01-06 00:00:50,953: Performing left click.
+2024-01-06 00:00:51,087: Performing shift click.
+2024-01-06 00:00:53,740: Performing left click.
+2024-01-06 00:00:53,873: Performing shift click.
+2024-01-06 00:00:56,515: Pressing 'Esc' key.
+2024-01-06 00:00:57,543: Holding 'D' key for a step.
+2024-01-06 00:00:59,033: Performing right click.
+2024-01-06 00:01:00,136: Checking for trade window...
+2024-01-06 00:01:00,177: Trade window detected.
+2024-01-06 00:01:00,177: Dragging slider.
+2024-01-06 00:01:03,191: Taking a screenshot for color search...
+2024-01-06 00:01:05,371: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:01:05,374: Performing left click.
+2024-01-06 00:01:06,479: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:01:06,485: Performing left click.
+2024-01-06 00:01:07,595: Performing left click.
+2024-01-06 00:01:07,730: Performing shift click.
+2024-01-06 00:01:10,378: Performing left click.
+2024-01-06 00:01:10,511: Performing shift click.
+2024-01-06 00:01:13,168: Pressing 'Esc' key.
+2024-01-06 00:01:14,189: Holding 'D' key for a step.
+2024-01-06 00:01:15,676: Performing right click.
+2024-01-06 00:01:16,781: Checking for trade window...
+2024-01-06 00:01:18,624: Trade window not detected. Adjusting position.
+2024-01-06 00:01:22,001: Trade window detected after adjustment.
+2024-01-06 00:01:22,002: Dragging slider.
+2024-01-06 00:01:25,021: Taking a screenshot for color search...
+2024-01-06 00:01:27,266: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:01:27,269: Performing left click.
+2024-01-06 00:01:28,374: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:01:28,379: Performing left click.
+2024-01-06 00:01:29,488: Performing left click.
+2024-01-06 00:01:29,623: Performing shift click.
+2024-01-06 00:01:32,268: Performing left click.
+2024-01-06 00:01:32,403: Performing shift click.
+2024-01-06 00:01:35,045: Pressing 'Esc' key.
+2024-01-06 00:01:36,078: Holding 'D' key for a step.
+2024-01-06 00:01:37,567: Performing right click.
+2024-01-06 00:01:38,671: Checking for trade window...
+2024-01-06 00:01:38,721: Trade window detected.
+2024-01-06 00:01:38,721: Dragging slider.
+2024-01-06 00:01:41,739: Taking a screenshot for color search...
+2024-01-06 00:01:43,932: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:01:43,937: Performing left click.
+2024-01-06 00:01:45,041: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:01:45,044: Performing left click.
+2024-01-06 00:01:46,153: Performing left click.
+2024-01-06 00:01:46,287: Performing shift click.
+2024-01-06 00:01:48,934: Performing left click.
+2024-01-06 00:01:49,069: Performing shift click.
+2024-01-06 00:01:51,711: Pressing 'Esc' key.
+2024-01-06 00:01:52,735: Holding 'D' key for a step.
+2024-01-06 00:01:54,222: Performing right click.
+2024-01-06 00:01:55,330: Checking for trade window...
+2024-01-06 00:01:56,946: Trade window not detected. Adjusting position.
+2024-01-06 00:02:31,066: Trade window detected after adjustment.
+2024-01-06 00:02:31,067: Dragging slider.
+2024-01-06 00:02:34,082: Taking a screenshot for color search...
+2024-01-06 00:02:34,684: Color found at (1055, 389). Clicking at this position.
+2024-01-06 00:02:34,688: Performing left click.
+2024-01-06 00:02:35,792: Color found at (1055, 389). Clicking at this position.
+2024-01-06 00:02:35,796: Performing left click.
+2024-01-06 00:02:36,906: Performing left click.
+2024-01-06 00:02:37,042: Performing shift click.
+2024-01-06 00:02:39,688: Performing left click.
+2024-01-06 00:02:39,823: Performing shift click.
+2024-01-06 00:02:42,468: Pressing 'Esc' key.
+2024-01-06 00:02:43,494: Holding 'D' key for a step.
+2024-01-06 00:02:44,985: Performing right click.
+2024-01-06 00:02:46,089: Checking for trade window...
+2024-01-06 00:02:46,136: Trade window detected.
+2024-01-06 00:02:46,137: Dragging slider.
+2024-01-06 00:02:49,172: Taking a screenshot for color search...
+2024-01-06 00:02:51,279: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:02:51,283: Performing left click.
+2024-01-06 00:02:52,388: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:02:52,392: Performing left click.
+2024-01-06 00:02:53,506: Performing left click.
+2024-01-06 00:02:53,639: Performing shift click.
+2024-01-06 00:02:56,287: Performing left click.
+2024-01-06 00:02:56,423: Performing shift click.
+2024-01-06 00:02:59,071: Pressing 'Esc' key.
+2024-01-06 00:03:00,100: Holding 'D' key for a step.
+2024-01-06 00:03:01,586: Performing right click.
+2024-01-06 00:03:02,690: Checking for trade window...
+2024-01-06 00:03:02,743: Trade window detected.
+2024-01-06 00:03:02,744: Dragging slider.
+2024-01-06 00:03:05,759: Taking a screenshot for color search...
+2024-01-06 00:03:08,328: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:03:08,331: Performing left click.
+2024-01-06 00:03:09,435: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:03:09,441: Performing left click.
+2024-01-06 00:03:10,551: Performing left click.
+2024-01-06 00:03:10,686: Performing shift click.
+2024-01-06 00:03:13,339: Performing left click.
+2024-01-06 00:03:13,475: Performing shift click.
+2024-01-06 00:03:16,120: Pressing 'Esc' key.
+2024-01-06 00:03:17,153: Holding 'D' key for a step.
+2024-01-06 00:03:18,643: Performing right click.
+2024-01-06 00:03:19,748: Checking for trade window...
+2024-01-06 00:03:19,787: Trade window detected.
+2024-01-06 00:03:19,788: Dragging slider.
+2024-01-06 00:03:22,804: Taking a screenshot for color search...
+2024-01-06 00:03:24,990: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:03:24,993: Performing left click.
+2024-01-06 00:03:26,098: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:03:26,101: Performing left click.
+2024-01-06 00:03:27,209: Performing left click.
+2024-01-06 00:03:27,342: Performing shift click.
+2024-01-06 00:03:29,995: Performing left click.
+2024-01-06 00:03:30,128: Performing shift click.
+2024-01-06 00:03:32,773: Pressing 'Esc' key.
+2024-01-06 00:03:33,804: Holding 'D' key for a step.
+2024-01-06 00:03:35,292: Performing right click.
+2024-01-06 00:03:36,396: Checking for trade window...
+2024-01-06 00:03:36,436: Trade window detected.
+2024-01-06 00:03:36,437: Dragging slider.
+2024-01-06 00:03:39,454: Taking a screenshot for color search...
+2024-01-06 00:03:40,112: Color found at (1051, 430). Clicking at this position.
+2024-01-06 00:03:40,117: Performing left click.
+2024-01-06 00:03:41,222: Color found at (1051, 430). Clicking at this position.
+2024-01-06 00:03:41,228: Performing left click.
+2024-01-06 00:03:42,337: Performing left click.
+2024-01-06 00:03:42,469: Performing shift click.
+2024-01-06 00:03:45,116: Performing left click.
+2024-01-06 00:03:45,250: Performing shift click.
+2024-01-06 00:03:47,899: Pressing 'Esc' key.
+2024-01-06 00:03:48,930: Holding 'D' key for a step.
+2024-01-06 00:03:50,416: Performing right click.
+2024-01-06 00:03:51,520: Checking for trade window...
+2024-01-06 00:03:53,522: Trade window not detected. Adjusting position.
+2024-01-06 00:03:56,903: Trade window detected after adjustment.
+2024-01-06 00:03:56,904: Dragging slider.
+2024-01-06 00:03:59,934: Taking a screenshot for color search...
+2024-01-06 00:04:02,039: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:04:02,044: Performing left click.
+2024-01-06 00:04:03,148: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:04:03,151: Performing left click.
+2024-01-06 00:04:04,259: Performing left click.
+2024-01-06 00:04:04,397: Performing shift click.
+2024-01-06 00:04:07,046: Performing left click.
+2024-01-06 00:04:07,182: Performing shift click.
+2024-01-06 00:04:09,825: Pressing 'Esc' key.
+2024-01-06 00:04:10,870: Holding 'D' key for a step.
+2024-01-06 00:04:12,356: Performing right click.
+2024-01-06 00:04:13,460: Checking for trade window...
+2024-01-06 00:04:13,500: Trade window detected.
+2024-01-06 00:04:13,501: Dragging slider.
+2024-01-06 00:04:16,515: Taking a screenshot for color search...
+2024-01-06 00:04:17,284: Color found at (1051, 430). Clicking at this position.
+2024-01-06 00:04:17,287: Performing left click.
+2024-01-06 00:04:18,397: Color found at (1051, 430). Clicking at this position.
+2024-01-06 00:04:18,401: Performing left click.
+2024-01-06 00:04:19,509: Performing left click.
+2024-01-06 00:04:19,645: Performing shift click.
+2024-01-06 00:04:22,306: Performing left click.
+2024-01-06 00:04:22,448: Performing shift click.
+2024-01-06 00:04:25,094: Pressing 'Esc' key.
+2024-01-06 00:04:26,118: Holding 'D' key for a step.
+2024-01-06 00:04:27,919: Posted to Discord: Trading session completed. Summary:
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1055, 429)
+Potion clicked at position (1055, 429)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1051, 430)
+Potion clicked at position (1051, 430)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1053, 428)
+Potion clicked at position (1053, 428)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1055, 389)
+Potion clicked at position (1055, 389)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1051, 430)
+Potion clicked at position (1051, 430)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1051, 430)
+Potion clicked at position (1051, 430)
+2024-01-06 00:05:46,596: Focusing Minecraft window...
+2024-01-06 00:05:48,647: Pressing Esc...
+2024-01-06 00:05:50,669: Performing right click.
+2024-01-06 00:05:51,773: Checking for trade window...
+2024-01-06 00:05:51,842: Trade window detected.
+2024-01-06 00:05:51,843: Dragging slider.
+2024-01-06 00:05:54,864: Taking a screenshot for color search...
+2024-01-06 00:05:55,574: Color found at (1054, 388). Clicking at this position.
+2024-01-06 00:05:55,578: Performing left click.
+2024-01-06 00:05:56,682: Color found at (1054, 388). Clicking at this position.
+2024-01-06 00:05:56,688: Performing left click.
+2024-01-06 00:05:57,797: Performing left click.
+2024-01-06 00:05:57,929: Performing shift click.
+2024-01-06 00:06:00,583: Performing left click.
+2024-01-06 00:06:00,715: Performing shift click.
+2024-01-06 00:06:03,358: Pressing 'Esc' key.
+2024-01-06 00:06:04,379: Holding 'D' key for a step.
+2024-01-06 00:06:05,870: Performing right click.
+2024-01-06 00:06:06,973: Checking for trade window...
+2024-01-06 00:06:07,024: Trade window detected.
+2024-01-06 00:06:07,025: Dragging slider.
+2024-01-06 00:06:10,039: Taking a screenshot for color search...
+2024-01-06 00:06:11,913: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:06:11,917: Performing left click.
+2024-01-06 00:06:13,021: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:06:13,025: Performing left click.
+2024-01-06 00:06:14,133: Performing left click.
+2024-01-06 00:06:14,269: Performing shift click.
+2024-01-06 00:06:16,920: Performing left click.
+2024-01-06 00:06:17,055: Performing shift click.
+2024-01-06 00:06:19,697: Pressing 'Esc' key.
+2024-01-06 00:06:20,725: Holding 'D' key for a step.
+2024-01-06 00:06:22,212: Performing right click.
+2024-01-06 00:06:23,317: Checking for trade window...
+2024-01-06 00:06:23,357: Trade window detected.
+2024-01-06 00:06:23,357: Dragging slider.
+2024-01-06 00:06:26,372: Taking a screenshot for color search...
+2024-01-06 00:06:28,385: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:06:28,388: Performing left click.
+2024-01-06 00:06:29,494: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:06:29,500: Performing left click.
+2024-01-06 00:06:30,609: Performing left click.
+2024-01-06 00:06:30,743: Performing shift click.
+2024-01-06 00:06:33,387: Performing left click.
+2024-01-06 00:06:33,521: Performing shift click.
+2024-01-06 00:06:36,163: Pressing 'Esc' key.
+2024-01-06 00:06:37,188: Holding 'D' key for a step.
+2024-01-06 00:06:38,677: Performing right click.
+2024-01-06 00:06:39,781: Checking for trade window...
+2024-01-06 00:06:41,670: Trade window not detected. Adjusting position.
+2024-01-06 00:06:45,050: Trade window detected after adjustment.
+2024-01-06 00:06:45,052: Dragging slider.
+2024-01-06 00:06:48,073: Taking a screenshot for color search...
+2024-01-06 00:06:48,828: Color found at (1055, 395). Clicking at this position.
+2024-01-06 00:06:48,834: Performing left click.
+2024-01-06 00:06:49,938: Color found at (1055, 395). Clicking at this position.
+2024-01-06 00:06:49,942: Performing left click.
+2024-01-06 00:06:51,053: Performing left click.
+2024-01-06 00:06:51,186: Performing shift click.
+2024-01-06 00:06:53,832: Performing left click.
+2024-01-06 00:06:53,967: Performing shift click.
+2024-01-06 00:06:56,609: Pressing 'Esc' key.
+2024-01-06 00:06:57,630: Holding 'D' key for a step.
+2024-01-06 00:06:59,121: Performing right click.
+2024-01-06 00:07:00,225: Checking for trade window...
+2024-01-06 00:07:00,270: Trade window detected.
+2024-01-06 00:07:00,271: Dragging slider.
+2024-01-06 00:07:03,305: Taking a screenshot for color search...
+2024-01-06 00:07:05,506: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:07:05,509: Performing left click.
+2024-01-06 00:07:06,613: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:07:06,617: Performing left click.
+2024-01-06 00:07:07,725: Performing left click.
+2024-01-06 00:07:07,859: Performing shift click.
+2024-01-06 00:07:10,514: Performing left click.
+2024-01-06 00:07:10,648: Performing shift click.
+2024-01-06 00:07:13,292: Pressing 'Esc' key.
+2024-01-06 00:07:14,309: Holding 'D' key for a step.
+2024-01-06 00:07:15,799: Performing right click.
+2024-01-06 00:07:16,905: Checking for trade window...
+2024-01-06 00:07:16,949: Trade window detected.
+2024-01-06 00:07:16,951: Dragging slider.
+2024-01-06 00:07:19,969: Taking a screenshot for color search...
+2024-01-06 00:07:22,098: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:07:22,104: Performing left click.
+2024-01-06 00:07:23,209: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:07:23,213: Performing left click.
+2024-01-06 00:07:24,323: Performing left click.
+2024-01-06 00:07:24,459: Performing shift click.
+2024-01-06 00:07:27,107: Performing left click.
+2024-01-06 00:07:27,243: Performing shift click.
+2024-01-06 00:07:29,887: Pressing 'Esc' key.
+2024-01-06 00:07:30,907: Holding 'D' key for a step.
+2024-01-06 00:07:32,396: Performing right click.
+2024-01-06 00:07:33,500: Checking for trade window...
+2024-01-06 00:07:33,545: Trade window detected.
+2024-01-06 00:07:33,547: Dragging slider.
+2024-01-06 00:07:36,569: Taking a screenshot for color search...
+2024-01-06 00:07:37,200: Color found at (1051, 436). Clicking at this position.
+2024-01-06 00:07:37,204: Performing left click.
+2024-01-06 00:07:38,308: Color found at (1051, 436). Clicking at this position.
+2024-01-06 00:07:38,315: Performing left click.
+2024-01-06 00:07:39,422: Performing left click.
+2024-01-06 00:07:39,558: Performing shift click.
+2024-01-06 00:07:42,210: Performing left click.
+2024-01-06 00:07:42,344: Performing shift click.
+2024-01-06 00:07:44,985: Pressing 'Esc' key.
+2024-01-06 00:07:46,003: Holding 'D' key for a step.
+2024-01-06 00:07:47,496: Performing right click.
+2024-01-06 00:07:48,601: Checking for trade window...
+2024-01-06 00:07:48,645: Trade window detected.
+2024-01-06 00:07:48,646: Dragging slider.
+2024-01-06 00:07:51,659: Taking a screenshot for color search...
+2024-01-06 00:07:52,261: Color found at (1055, 429). Clicking at this position.
+2024-01-06 00:07:52,267: Performing left click.
+2024-01-06 00:07:53,372: Color found at (1055, 429). Clicking at this position.
+2024-01-06 00:07:53,376: Performing left click.
+2024-01-06 00:07:54,496: Performing left click.
+2024-01-06 00:07:54,630: Performing shift click.
+2024-01-06 00:07:57,284: Performing left click.
+2024-01-06 00:07:57,417: Performing shift click.
+2024-01-06 00:08:00,059: Pressing 'Esc' key.
+2024-01-06 00:08:01,087: Holding 'D' key for a step.
+2024-01-06 00:08:02,585: Performing right click.
+2024-01-06 00:08:03,689: Checking for trade window...
+2024-01-06 00:08:03,744: Trade window detected.
+2024-01-06 00:08:03,745: Dragging slider.
+2024-01-06 00:08:06,762: Taking a screenshot for color search...
+2024-01-06 00:08:08,975: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:08:08,978: Performing left click.
+2024-01-06 00:08:10,082: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:08:10,086: Performing left click.
+2024-01-06 00:08:11,194: Performing left click.
+2024-01-06 00:08:11,331: Performing shift click.
+2024-01-06 00:08:13,979: Performing left click.
+2024-01-06 00:08:14,114: Performing shift click.
+2024-01-06 00:08:16,756: Pressing 'Esc' key.
+2024-01-06 00:08:17,780: Holding 'D' key for a step.
+2024-01-06 00:08:19,268: Performing right click.
+2024-01-06 00:08:20,372: Checking for trade window...
+2024-01-06 00:08:20,413: Trade window detected.
+2024-01-06 00:08:20,414: Dragging slider.
+2024-01-06 00:08:23,429: Taking a screenshot for color search...
+2024-01-06 00:08:25,488: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:08:25,492: Performing left click.
+2024-01-06 00:08:26,596: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:08:26,601: Performing left click.
+2024-01-06 00:08:27,710: Performing left click.
+2024-01-06 00:08:27,844: Performing shift click.
+2024-01-06 00:08:30,492: Performing left click.
+2024-01-06 00:08:30,625: Performing shift click.
+2024-01-06 00:08:33,269: Pressing 'Esc' key.
+2024-01-06 00:08:34,310: Holding 'D' key for a step.
+2024-01-06 00:08:35,796: Performing right click.
+2024-01-06 00:08:36,900: Checking for trade window...
+2024-01-06 00:08:38,616: Trade window not detected. Adjusting position.
+2024-01-06 00:08:42,003: Trade window detected after adjustment.
+2024-01-06 00:08:42,005: Dragging slider.
+2024-01-06 00:08:45,023: Taking a screenshot for color search...
+2024-01-06 00:08:47,335: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:08:47,339: Performing left click.
+2024-01-06 00:08:48,446: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:08:48,450: Performing left click.
+2024-01-06 00:08:49,560: Performing left click.
+2024-01-06 00:08:49,696: Performing shift click.
+2024-01-06 00:08:52,346: Performing left click.
+2024-01-06 00:08:52,481: Performing shift click.
+2024-01-06 00:08:55,126: Pressing 'Esc' key.
+2024-01-06 00:08:56,151: Holding 'D' key for a step.
+2024-01-06 00:08:57,638: Performing right click.
+2024-01-06 00:08:58,742: Checking for trade window...
+2024-01-06 00:08:58,783: Trade window detected.
+2024-01-06 00:08:58,784: Dragging slider.
+2024-01-06 00:09:01,800: Taking a screenshot for color search...
+2024-01-06 00:09:02,448: Color found at (1054, 387). Clicking at this position.
+2024-01-06 00:09:02,453: Performing left click.
+2024-01-06 00:09:03,557: Color found at (1054, 387). Clicking at this position.
+2024-01-06 00:09:03,561: Performing left click.
+2024-01-06 00:09:04,671: Performing left click.
+2024-01-06 00:09:04,808: Performing shift click.
+2024-01-06 00:09:07,455: Performing left click.
+2024-01-06 00:09:07,587: Performing shift click.
+2024-01-06 00:09:10,230: Pressing 'Esc' key.
+2024-01-06 00:09:11,249: Holding 'D' key for a step.
+2024-01-06 00:09:12,739: Performing right click.
+2024-01-06 00:09:13,845: Checking for trade window...
+2024-01-06 00:09:15,914: Trade window not detected. Adjusting position.
+2024-01-06 00:09:40,009: Trade window detected after adjustment.
+2024-01-06 00:09:40,010: Dragging slider.
+2024-01-06 00:09:43,031: Taking a screenshot for color search...
+2024-01-06 00:09:43,632: Color found at (1052, 429). Clicking at this position.
+2024-01-06 00:09:43,636: Performing left click.
+2024-01-06 00:09:44,740: Color found at (1052, 429). Clicking at this position.
+2024-01-06 00:09:44,744: Performing left click.
+2024-01-06 00:09:45,852: Performing left click.
+2024-01-06 00:09:45,984: Performing shift click.
+2024-01-06 00:09:48,628: Performing left click.
+2024-01-06 00:09:48,766: Performing shift click.
+2024-01-06 00:09:51,409: Pressing 'Esc' key.
+2024-01-06 00:09:52,430: Holding 'D' key for a step.
+2024-01-06 00:09:53,919: Performing right click.
+2024-01-06 00:09:55,030: Checking for trade window...
+2024-01-06 00:09:55,078: Trade window detected.
+2024-01-06 00:09:55,078: Dragging slider.
+2024-01-06 00:09:58,093: Taking a screenshot for color search...
+2024-01-06 00:10:00,098: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:10:00,103: Performing left click.
+2024-01-06 00:10:01,208: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:10:01,211: Performing left click.
+2024-01-06 00:10:02,319: Performing left click.
+2024-01-06 00:10:02,458: Performing shift click.
+2024-01-06 00:10:05,112: Performing left click.
+2024-01-06 00:10:05,245: Performing shift click.
+2024-01-06 00:10:07,897: Pressing 'Esc' key.
+2024-01-06 00:10:08,926: Holding 'D' key for a step.
+2024-01-06 00:10:10,411: Performing right click.
+2024-01-06 00:10:11,515: Checking for trade window...
+2024-01-06 00:10:11,551: Trade window detected.
+2024-01-06 00:10:11,552: Dragging slider.
+2024-01-06 00:10:14,578: Taking a screenshot for color search...
+2024-01-06 00:10:15,221: Color found at (1052, 435). Clicking at this position.
+2024-01-06 00:10:15,224: Performing left click.
+2024-01-06 00:10:16,328: Color found at (1052, 435). Clicking at this position.
+2024-01-06 00:10:16,332: Performing left click.
+2024-01-06 00:10:17,439: Performing left click.
+2024-01-06 00:10:17,571: Performing shift click.
+2024-01-06 00:10:20,221: Performing left click.
+2024-01-06 00:10:20,354: Performing shift click.
+2024-01-06 00:10:22,998: Pressing 'Esc' key.
+2024-01-06 00:10:24,051: Holding 'D' key for a step.
+2024-01-06 00:10:25,538: Performing right click.
+2024-01-06 00:10:26,641: Checking for trade window...
+2024-01-06 00:10:26,681: Trade window detected.
+2024-01-06 00:10:26,681: Dragging slider.
+2024-01-06 00:10:29,717: Taking a screenshot for color search...
+2024-01-06 00:10:31,855: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:10:31,859: Performing left click.
+2024-01-06 00:10:32,966: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:10:32,970: Performing left click.
+2024-01-06 00:10:34,081: Performing left click.
+2024-01-06 00:10:34,218: Performing shift click.
+2024-01-06 00:10:36,882: Performing left click.
+2024-01-06 00:10:37,017: Performing shift click.
+2024-01-06 00:10:39,662: Pressing 'Esc' key.
+2024-01-06 00:10:40,687: Holding 'D' key for a step.
+2024-01-06 00:10:42,175: Performing right click.
+2024-01-06 00:10:43,279: Checking for trade window...
+2024-01-06 00:10:43,334: Trade window detected.
+2024-01-06 00:10:43,335: Dragging slider.
+2024-01-06 00:10:46,353: Taking a screenshot for color search...
+2024-01-06 00:10:48,671: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:10:48,674: Performing left click.
+2024-01-06 00:10:49,780: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:10:49,783: Performing left click.
+2024-01-06 00:10:50,892: Performing left click.
+2024-01-06 00:10:51,026: Performing shift click.
+2024-01-06 00:10:53,679: Performing left click.
+2024-01-06 00:10:53,814: Performing shift click.
+2024-01-06 00:10:56,456: Pressing 'Esc' key.
+2024-01-06 00:10:57,483: Holding 'D' key for a step.
+2024-01-06 00:10:58,981: Performing right click.
+2024-01-06 00:11:00,085: Checking for trade window...
+2024-01-06 00:11:01,784: Trade window not detected. Adjusting position.
+2024-01-06 00:11:05,156: Trade window detected after adjustment.
+2024-01-06 00:11:05,157: Dragging slider.
+2024-01-06 00:11:08,176: Taking a screenshot for color search...
+2024-01-06 00:11:10,371: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:11:10,376: Performing left click.
+2024-01-06 00:11:11,481: Color not found on the screen. Using fallback coordinates.
+2024-01-06 00:11:11,487: Performing left click.
+2024-01-06 00:11:12,598: Performing left click.
+2024-01-06 00:11:12,731: Performing shift click.
+2024-01-06 00:11:15,379: Performing left click.
+2024-01-06 00:11:15,515: Performing shift click.
+2024-01-06 00:11:18,160: Pressing 'Esc' key.
+2024-01-06 00:11:19,205: Holding 'D' key for a step.
+2024-01-06 00:11:20,697: Performing right click.
+2024-01-06 00:11:21,802: Checking for trade window...
+2024-01-06 00:11:23,417: Trade window not detected. Adjusting position.
+2024-01-06 00:13:07,200: Trade window not found after adjustments.
+2024-01-06 00:13:07,645: Posted to Discord: Trade window not found.
+2024-01-06 00:13:07,647: Trade window not detected after adjustments. Stopping script.
+2024-01-06 00:13:07,928: Posted to Discord: Trading session completed. Summary:
+Potion clicked at position (1054, 388)
+Potion clicked at position (1054, 388)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1055, 395)
+Potion clicked at position (1055, 395)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1051, 436)
+Potion clicked at position (1051, 436)
+Potion clicked at position (1055, 429)
+Potion clicked at position (1055, 429)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1054, 387)
+Potion clicked at position (1054, 387)
+Potion clicked at position (1052, 429)
+Potion clicked at position (1052, 429)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (1052, 435)
+Potion clicked at position (1052, 435)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
+Potion clicked at position (None, None)
