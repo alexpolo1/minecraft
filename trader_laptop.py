@@ -109,46 +109,61 @@ def trade_actions():
     drag_slider(1084, 199, 1084, 423)
     time.sleep(3)
 
-    log_and_print("Looking for XP potion color on trader side...")
+    log_and_print("Looking for XP potion color and red 'X' on trader side...")
     left_side_trade_window_area = (896, 139, 1094, 445)  # Defined area for trader's side
     screenshot = ImageGrab.grab(left_side_trade_window_area)
-    target_color = (103, 177, 125)  # XP potion color
+    xp_potion_color = (103, 177, 125)  # XP potion color
+    red_x_color = (150, 35, 0)  # Red 'X' color
+    red_x_areas = [(1022, 424), (1022, 383)]  # Coordinates where the red 'X' can appear
     found_x, found_y = None, None
+    trader_blocked = False
 
-    for x in range(screenshot.width):
-        for y in range(screenshot.height):
-            if screenshot.getpixel((x, y))[:3] == target_color:
-                found_x, found_y = x, y
-                break
-        if found_x is not None:
+    # Check for red 'X'
+    for x_area, y_area in red_x_areas:
+        if screenshot.getpixel((x_area - 896, y_area - 139))[:3] == red_x_color:
+            log_and_print(f"Trader is blocked at ({x_area}, {y_area}). Moving to the next trader.")
+            trader_blocked = True
             break
 
-# Execute the buying process
-    if found_x is not None and found_y is not None:
-        log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
-        click(found_x + 896, found_y + 139)
-        shift_click(1345, 219)
-    else:
-        log_and_print("XP potion not found. Using fallback coordinates.")
-        # Backup selection and purchase at fallback spot 1
-        click(1053, 427)  # Select potion at spot 1
-        shift_click(1345, 219)  # Purchase potion at spot 1
-        # Backup selection and purchase at fallback spot 2
-        click(1053, 390)  # Select potion at spot 2
-        shift_click(1346, 220)  # Purchase potion at spot 2
+    # If trader is not blocked, look for XP potion
+    if not trader_blocked:
+        for x in range(screenshot.width):
+            for y in range(screenshot.height):
+                if screenshot.getpixel((x, y))[:3] == xp_potion_color:
+                    found_x, found_y = x, y
+                    break
+            if found_x is not None:
+                break
 
+        if found_x is not None and found_y is not None:
+            log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
+            click(found_x + 896, found_y + 139)
+            shift_click(1345, 219)
+        else:
+            log_and_print("XP potion not found. Using fallback coordinates.")
+            click(1053, 427)
+            shift_click(1345, 219)
+            click(1053, 390)
+            shift_click(1346, 220)
+
+    # Exiting trade window and moving to next trade
     log_and_print("Exiting trade window.")
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(1)
 
-    log_and_print("Moving to the next trade.")
+    if trader_blocked:
+        log_and_print("Moving to the next trade due to blocked trader.")
+    else:
+        log_and_print("Moving to the next trade.")
     subprocess.run(['xdotool', 'keydown', 'd'])
     time.sleep(0.45)
     subprocess.run(['xdotool', 'keyup', 'd'])
     time.sleep(1)
 
-    successful_trades += 1
+    if not trader_blocked:
+        successful_trades += 1
     return True
+
 
 def hold_key_for_duration(key, duration):
     log_and_print(f"Waiting 5 seconds before holding '{key}' key for {duration} seconds.")
