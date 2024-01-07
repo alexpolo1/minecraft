@@ -12,7 +12,7 @@ def log_and_print(message):
     logging.info(message)
 
 def post_to_discord(message):
-    webhook_url = 'https://discord.com/api/webhooks/1191486208895877150/-pxqBZs6RSUOBFFhPH8SwelQoaU5MEU9XX28fmp90EqNM0G98qkkZxsXfRxu7nN2Ze1Xe'
+    webhook_url = 'https://discord.com/api/webhooks/1191486208895877150/-pxqBZs6RSUOBFFhPH8SwelQoaU5MEU9XX28fmp90EqNM0G98qkkZxsXfRxu7nN2Ze1X'
     data = {"content": message}
     response = requests.post(webhook_url, json=data)
     log_and_print(f"Posted to Discord: {message}")
@@ -103,8 +103,10 @@ def trade_actions():
     drag_slider(1084, 199, 1084, 423)
     time.sleep(3)
 
-    log_and_print("Looking for XP potion color...")
-    screenshot = ImageGrab.grab()
+    # Focusing only on the trader's side of the trade window
+    log_and_print("Looking for XP potion color on trader side...")
+    left_side_trade_window_area = (896, 139, 1094, 445)  # The coordinates you captured
+    screenshot = ImageGrab.grab(left_side_trade_window_area)
     target_color = (103, 177, 125)  # XP potion color
     found_x, found_y = None, None
 
@@ -116,16 +118,17 @@ def trade_actions():
         if found_x is not None:
             break
 
-    for i in range(2):
-        if found_x is not None and found_y is not None:
-            log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
-            click(found_x, found_y)
-        else:
-            log_and_print("XP potion not found. Using fallback coordinates.")
-            click(1052, 436) if i == 0 else click(999, 399)
+    if found_x is not None and found_y is not None:
+        log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
+        # Adjust coordinates relative to the full screen
+        click(found_x + 896, found_y + 139)
+    else:
+        log_and_print("XP potion not found. Using fallback coordinates.")
+        # Fall back to default coordinates if the potion is not found
+        click(1052, 436)
 
-        shift_click(1346, 225)
-        time.sleep(1)
+    shift_click(1346, 225)
+    time.sleep(1)
 
     log_and_print("Exiting trade window.")
     subprocess.run(['xdotool', 'key', 'Escape'])
@@ -139,6 +142,7 @@ def trade_actions():
 
     successful_trades += 1
     return True
+
 
 focus_minecraft_window()
 
