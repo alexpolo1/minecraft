@@ -17965,3 +17965,486 @@ Potion clicked at position (None, None)
 Potion clicked at position (None, None)
 Potion clicked at position (None, None)
 Potion clicked at position (None, None)
+2024-01-06 11:30:16,954: Focusing Minecraft window...
+2024-01-06 11:30:18,988: Pressing Esc...
+2024-01-06 11:30:21,017: Performing right click.
+2024-01-06 11:30:22,122: Checking for trade window...
+2024-01-06 11:30:22,197: Trade window detected.
+2024-01-06 11:30:22,197: Dragging slider.
+2024-01-06 11:30:25,216: Taking a screenshot for color search...
+2024-01-06 11:30:27,658: Color not found on the screen. Using fallback coordinates.
+2024-01-06 11:30:27,664: Performing left click.
+2024-01-06 11:30:28,770: Color not found on the screen. Using fallback coordinates.
+2024-01-06 11:30:28,776: Performing left click.
+2024-01-06 11:30:29,880: Pressing 'Esc' key.
+2024-01-06 11:30:30,915: Holding 'D' key for a step.
+2024-01-06 11:30:32,402: Performing right click.
+2024-01-06 11:30:33,506: Checking for trade window...
+2024-01-06 11:30:33,583: Trade window detected.
+2024-01-06 11:30:33,585: Dragging slider.
+2024-01-06 11:30:36,617: Taking a screenshot for color search...
+2024-01-06 11:30:39,068: Color not found on the screen. Using fallback coordinates.
+2024-01-06 11:30:39,076: Performing left click.
+2024-01-06 11:30:40,191: Color not found on the screen. Using fallback coordinates.
+2024-01-06 11:30:40,194: Performing left click.
+2024-01-06 11:30:41,299: Pressing 'Esc' key.
+2024-01-06 11:30:42,334: Holding 'D' key for a step.
+2024-01-06 11:30:43,822: Performing right click.
+2024-01-06 11:30:44,926: Checking for trade window...
+2024-01-06 11:30:47,172: Trade window not detected. Adjusting position.
+2024-01-06 11:30:55,962: Trade window detected after adjustment.
+2024-01-06 11:30:55,962: Dragging slider.
+2024-01-06 11:30:58,977: Taking a screenshot for color search...
+2024-01-06 11:30:59,776: Color found at (1056, 430). Clicking at this position.
+2024-01-06 11:30:59,779: Performing left click.
+2024-01-06 11:31:00,883: Color found at (1056, 430). Clicking at this position.
+2024-01-06 11:31:00,887: Performing left click.
+2024-01-06 11:31:01,991: Pressing 'Esc' key.
+2024-01-06 11:31:03,008: Holding 'D' key for a step.
+2024-01-06 11:31:04,497: Performing right click.
+2024-01-06 11:31:05,601: Checking for trade window...
+2024-01-06 11:31:05,651: Trade window detected.
+2024-01-06 11:31:05,653: Dragging slider.
+2024-01-06 13:59:30,144: Focusing Minecraft window...
+2024-01-06 13:59:32,187: Pressing Esc...
+2024-01-06 13:59:34,220: Performing right click.
+2024-01-06 13:59:35,324: Checking for trade window...
+2024-01-06 13:59:35,370: Trade window detected.
+2024-01-06 13:59:35,371: Dragging slider.
+2024-01-06 13:59:38,390: Taking a screenshot for color search...
+2024-01-06 13:59:40,806: Color not found on the screen. Using fallback coordinates.
+2024-01-06 13:59:40,827: Performing left click.
+2024-01-06 13:59:41,939: Color not found on the screen. Using fallback coordinates.
+2024-01-06 13:59:41,943: Performing left click.
+2024-01-06 13:59:43,050: Pressing 'Esc' key.
+2024-01-06 13:59:44,089: Holding 'D' key for a step.
+2024-01-06 13:59:45,574: Performing right click.
+2024-01-06 13:59:46,678: Checking for trade window...
+2024-01-06 13:59:48,860: Trade window not detected. Adjusting position.
+2024-01-06 13:59:52,234: Trade window detected after adjustment.
+2024-01-06 13:59:52,236: Dragging slider.
+2024-01-06 13:59:55,271: Taking a screenshot for color search...
+2024-01-06 13:59:57,674: Color not found on the screen. Using fallback coordinates.
+2024-01-06 13:59:57,678: Performing left click.
+2024-01-06 13:59:58,783: Color not found on the screen. Using fallback coordinates.
+2024-01-06 13:59:58,787: Performing left click.
+2024-01-06 13:59:59,891: Pressing 'Esc' key.
+2024-01-06 14:00:00,918: Holding 'D' key for a step.
+2024-01-06 14:00:02,426: Performing right click.
+2024-01-06 14:06:49,978: Focusing Minecraft window...
+2024-01-06 14:06:52,064: Pressing Esc...
+2024-01-06 14:06:54,092: Performing right click.
+2024-01-06 14:06:55,196: Checking for trade window...
+2024-01-06 14:06:55,274: Trade window detected.
+2024-01-06 14:06:55,275: Dragging slider.
+2024-01-06 14:06:58,289: Taking a screenshot for color search...
+2024-01-06 14:06:59,067: Color found at (1055, 389). Clicking at this position.
+2024-01-06 14:06:59,071: Performing left click.
+2024-01-06 14:06:59,176: Pressing 'Esc' key.
+2024-01-06 14:07:00,218: Holding 'D' key for a step.
+2024-01-06 14:07:01,717: Performing right click.
+2024-01-06 14:07:02,827: Checking for trade window...
+2024-01-06 14:07:05,023: Trade window not detected. Adjusting position.
+2024-01-06 14:08:02,980: Trade window detected after adjustment.
+2024-01-06 14:08:02,983: Dragging slider.
+2024-01-06 14:08:06,005: Taking a screenshot for color search...
+2024-01-06 14:08:06,741: Color found at (1056, 389). Clicking at this position.
+2024-01-06 14:08:06,745: Performing left click.
+2024-01-06 14:08:06,848: Pressing 'Esc' key.
+2024-01-06 14:08:07,866: Holding 'D' key for a step.
+2024-01-06 14:08:09,395: Performing right click.
+2024-01-06 14:08:10,500: Checking for trade window...
+2024-01-06 14:21:26,172: Focusing Minecraft window...
+2024-01-06 14:21:28,241: Pressing Esc...
+2024-01-06 14:21:30,291: Performing right click.
+2024-01-06 14:21:31,394: Checking for trade window...
+2024-01-06 14:21:31,458: Trade window detected.
+2024-01-06 14:21:31,458: Dragging slider.
+2024-01-06 14:21:34,472: Looking for XP potion color...
+2024-01-06 14:21:35,250: XP potion found at (1055, 430). Initiating purchase.
+2024-01-06 14:21:35,255: Performing left click.
+2024-01-06 14:21:35,388: Performing shift click.
+2024-01-06 14:21:38,054: XP potion found at (1055, 430). Initiating purchase.
+2024-01-06 14:21:38,057: Performing left click.
+2024-01-06 14:21:38,190: Performing shift click.
+2024-01-06 14:21:40,846: Exiting trade dialog.
+2024-01-06 14:21:41,874: Performing right click.
+2024-01-06 14:21:42,978: Checking for trade window...
+2024-01-06 14:21:43,017: Trade window detected.
+2024-01-06 14:21:43,018: Dragging slider.
+2024-01-06 14:21:46,058: Looking for XP potion color...
+2024-01-06 14:21:48,615: XP potion not found. Using fallback coordinates.
+2024-01-06 14:21:48,620: Performing left click.
+2024-01-06 14:21:48,752: Performing shift click.
+2024-01-06 14:21:51,396: XP potion not found. Using fallback coordinates.
+2024-01-06 14:21:51,402: Performing left click.
+2024-01-06 14:21:51,536: Performing shift click.
+2024-01-06 14:21:54,184: Exiting trade dialog.
+2024-01-06 14:21:55,224: Performing right click.
+2024-01-06 14:21:56,331: Checking for trade window...
+2024-01-06 14:21:56,415: Trade window detected.
+2024-01-06 14:21:56,415: Dragging slider.
+2024-01-06 14:21:59,433: Looking for XP potion color...
+2024-01-06 14:22:01,778: XP potion not found. Using fallback coordinates.
+2024-01-06 14:22:01,782: Performing left click.
+2024-01-06 14:22:01,917: Performing shift click.
+2024-01-06 14:22:04,560: XP potion not found. Using fallback coordinates.
+2024-01-06 14:22:04,578: Performing left click.
+2024-01-06 14:22:04,740: Performing shift click.
+2024-01-06 14:22:07,397: Exiting trade dialog.
+2024-01-06 14:22:08,425: Performing right click.
+2024-01-06 14:22:09,529: Checking for trade window...
+2024-01-06 14:22:09,586: Trade window detected.
+2024-01-06 14:22:09,587: Dragging slider.
+2024-01-06 14:22:12,618: Looking for XP potion color...
+2024-01-06 14:36:25,778: Focusing Minecraft window...
+2024-01-06 14:36:27,867: Pressing Esc...
+2024-01-06 14:36:29,895: Performing right click.
+2024-01-06 14:36:30,999: Checking for trade window...
+2024-01-06 14:36:31,087: Trade window detected.
+2024-01-06 14:36:31,087: Dragging slider.
+2024-01-06 14:36:34,102: Looking for XP potion color...
+2024-01-06 14:36:36,680: XP potion not found. Using fallback coordinates.
+2024-01-06 14:36:36,683: Performing left click.
+2024-01-06 14:36:36,817: Performing shift click.
+2024-01-06 14:36:39,477: XP potion not found. Using fallback coordinates.
+2024-01-06 14:36:39,482: Performing left click.
+2024-01-06 14:36:39,614: Performing shift click.
+2024-01-06 14:36:42,255: Moving to the next trade.
+2024-01-06 14:36:43,744: Performing right click.
+2024-01-06 14:36:44,867: Checking for trade window...
+2024-01-06 14:36:47,068: Trade window not detected. Adjusting position.
+2024-01-07 12:19:20,816: Focusing Minecraft window...
+2024-01-07 12:19:22,857: Pressing Esc...
+2024-01-07 12:19:24,898: Performing right click.
+2024-01-07 12:19:26,002: Checking for trade window...
+2024-01-07 12:19:26,058: Trade window detected.
+2024-01-07 12:19:26,058: Dragging slider.
+2024-01-07 12:19:29,079: Looking for XP potion color...
+2024-01-07 12:19:31,412: XP potion not found. Using fallback coordinates.
+2024-01-07 12:19:31,416: Performing left click.
+2024-01-07 12:19:31,556: Performing shift click.
+2024-01-07 12:19:34,199: XP potion not found. Using fallback coordinates.
+2024-01-07 12:19:34,203: Performing left click.
+2024-01-07 12:19:34,338: Performing shift click.
+2024-01-07 12:19:36,980: Exiting trade window.
+2024-01-07 12:19:38,021: Moving to the next trade.
+2024-01-07 12:19:39,524: Performing right click.
+2024-01-07 12:19:40,629: Checking for trade window...
+2024-01-07 12:19:40,678: Trade window detected.
+2024-01-07 12:19:40,679: Dragging slider.
+2024-01-07 12:19:43,695: Looking for XP potion color...
+2024-01-07 12:19:44,374: XP potion found at (1051, 428). Initiating purchase.
+2024-01-07 12:19:44,377: Performing left click.
+2024-01-07 12:19:44,509: Performing shift click.
+2024-01-07 12:19:47,155: XP potion found at (1051, 428). Initiating purchase.
+2024-01-07 12:19:47,166: Performing left click.
+2024-01-07 12:19:47,306: Performing shift click.
+2024-01-07 12:19:49,948: Exiting trade window.
+2024-01-07 12:19:51,016: Moving to the next trade.
+2024-01-07 12:19:52,502: Performing right click.
+2024-01-07 12:19:53,606: Checking for trade window...
+2024-01-07 12:19:53,646: Trade window detected.
+2024-01-07 12:19:53,647: Dragging slider.
+2024-01-07 12:19:56,663: Looking for XP potion color...
+2024-01-07 12:19:59,005: XP potion not found. Using fallback coordinates.
+2024-01-07 12:19:59,008: Performing left click.
+2024-01-07 12:19:59,140: Performing shift click.
+2024-01-07 12:20:01,783: XP potion not found. Using fallback coordinates.
+2024-01-07 12:20:01,788: Performing left click.
+2024-01-07 12:20:01,923: Performing shift click.
+2024-01-07 12:20:04,568: Exiting trade window.
+2024-01-07 12:20:05,605: Moving to the next trade.
+2024-01-07 12:20:07,092: Performing right click.
+2024-01-07 12:20:08,196: Checking for trade window...
+2024-01-07 12:20:09,957: Trade window not detected. Adjusting position.
+2024-01-07 12:21:25,973: Trade window detected after adjustment.
+2024-01-07 12:21:25,974: Dragging slider.
+2024-01-07 12:21:28,994: Looking for XP potion color...
+2024-01-07 12:21:29,597: XP potion found at (1054, 426). Initiating purchase.
+2024-01-07 12:21:29,601: Performing left click.
+2024-01-07 12:21:29,734: Performing shift click.
+2024-01-07 12:21:32,374: XP potion found at (1054, 426). Initiating purchase.
+2024-01-07 12:21:32,377: Performing left click.
+2024-01-07 12:21:32,509: Performing shift click.
+2024-01-07 12:21:35,152: Exiting trade window.
+2024-01-07 12:21:36,171: Moving to the next trade.
+2024-01-07 12:21:37,658: Performing right click.
+2024-01-07 12:21:38,761: Checking for trade window...
+2024-01-07 12:21:38,811: Trade window detected.
+2024-01-07 12:21:38,812: Dragging slider.
+2024-01-07 12:21:41,827: Looking for XP potion color...
+2024-01-07 12:21:43,928: XP potion not found. Using fallback coordinates.
+2024-01-07 12:21:43,932: Performing left click.
+2024-01-07 12:21:44,065: Performing shift click.
+2024-01-07 12:21:46,708: XP potion not found. Using fallback coordinates.
+2024-01-07 12:21:46,712: Performing left click.
+2024-01-07 12:21:46,860: Performing shift click.
+2024-01-07 12:21:49,504: Exiting trade window.
+2024-01-07 12:21:50,535: Moving to the next trade.
+2024-01-07 12:21:52,023: Performing right click.
+2024-01-07 12:21:53,127: Checking for trade window...
+2024-01-07 12:21:53,181: Trade window detected.
+2024-01-07 12:21:53,182: Dragging slider.
+2024-01-07 12:21:56,203: Looking for XP potion color...
+2024-01-07 12:21:56,845: XP potion found at (1053, 426). Initiating purchase.
+2024-01-07 12:21:56,849: Performing left click.
+2024-01-07 12:21:56,982: Performing shift click.
+2024-01-07 12:21:59,623: XP potion found at (1053, 426). Initiating purchase.
+2024-01-07 12:21:59,627: Performing left click.
+2024-01-07 12:21:59,761: Performing shift click.
+2024-01-07 12:22:02,406: Exiting trade window.
+2024-01-07 12:22:03,435: Moving to the next trade.
+2024-01-07 12:22:04,920: Performing right click.
+2024-01-07 12:22:06,024: Checking for trade window...
+2024-01-07 12:22:06,081: Trade window detected.
+2024-01-07 12:22:06,082: Dragging slider.
+2024-01-07 12:22:09,098: Looking for XP potion color...
+2024-01-07 12:22:11,116: XP potion not found. Using fallback coordinates.
+2024-01-07 12:22:11,121: Performing left click.
+2024-01-07 12:22:11,254: Performing shift click.
+2024-01-07 12:22:13,907: XP potion not found. Using fallback coordinates.
+2024-01-07 12:22:13,911: Performing left click.
+2024-01-07 12:22:14,050: Performing shift click.
+2024-01-07 12:22:16,694: Exiting trade window.
+2024-01-07 12:22:17,717: Moving to the next trade.
+2024-01-07 12:22:19,220: Performing right click.
+2024-01-07 12:22:20,324: Checking for trade window...
+2024-01-07 12:22:20,374: Trade window detected.
+2024-01-07 12:22:20,375: Dragging slider.
+2024-01-07 12:22:23,393: Looking for XP potion color...
+2024-01-07 12:22:25,402: XP potion not found. Using fallback coordinates.
+2024-01-07 12:22:25,405: Performing left click.
+2024-01-07 12:22:25,558: Performing shift click.
+2024-01-07 12:22:28,201: XP potion not found. Using fallback coordinates.
+2024-01-07 12:22:28,204: Performing left click.
+2024-01-07 12:22:28,336: Performing shift click.
+2024-01-07 12:22:30,979: Exiting trade window.
+2024-01-07 12:22:32,017: Moving to the next trade.
+2024-01-07 12:22:33,503: Performing right click.
+2024-01-07 12:22:34,607: Checking for trade window...
+2024-01-07 12:22:34,661: Trade window detected.
+2024-01-07 12:22:34,662: Dragging slider.
+2024-01-07 12:22:37,676: Looking for XP potion color...
+2024-01-07 12:22:38,285: XP potion found at (1053, 427). Initiating purchase.
+2024-01-07 12:22:38,289: Performing left click.
+2024-01-07 12:22:38,423: Performing shift click.
+2024-01-07 12:22:41,078: XP potion found at (1053, 427). Initiating purchase.
+2024-01-07 12:22:41,083: Performing left click.
+2024-01-07 12:22:41,216: Performing shift click.
+2024-01-07 12:22:43,872: Exiting trade window.
+2024-01-07 12:22:44,901: Moving to the next trade.
+2024-01-07 12:22:46,389: Performing right click.
+2024-01-07 12:22:47,493: Checking for trade window...
+2024-01-07 12:22:47,533: Trade window detected.
+2024-01-07 12:22:47,535: Dragging slider.
+2024-01-07 12:22:50,550: Looking for XP potion color...
+2024-01-07 12:22:52,588: XP potion not found. Using fallback coordinates.
+2024-01-07 12:22:52,591: Performing left click.
+2024-01-07 12:22:52,726: Performing shift click.
+2024-01-07 12:22:55,368: XP potion not found. Using fallback coordinates.
+2024-01-07 12:22:55,372: Performing left click.
+2024-01-07 12:22:55,506: Performing shift click.
+2024-01-07 12:22:58,150: Exiting trade window.
+2024-01-07 12:22:59,182: Moving to the next trade.
+2024-01-07 12:23:00,681: Performing right click.
+2024-01-07 12:23:01,785: Checking for trade window...
+2024-01-07 12:23:01,845: Trade window detected.
+2024-01-07 12:23:01,846: Dragging slider.
+2024-01-07 12:23:04,859: Looking for XP potion color...
+2024-01-07 12:23:05,467: XP potion found at (1051, 429). Initiating purchase.
+2024-01-07 12:23:05,472: Performing left click.
+2024-01-07 12:23:05,604: Performing shift click.
+2024-01-07 12:23:08,249: XP potion found at (1051, 429). Initiating purchase.
+2024-01-07 12:23:08,252: Performing left click.
+2024-01-07 12:23:08,387: Performing shift click.
+2024-01-07 12:23:11,031: Exiting trade window.
+2024-01-07 12:23:12,050: Moving to the next trade.
+2024-01-07 12:23:13,541: Performing right click.
+2024-01-07 12:23:14,646: Checking for trade window...
+2024-01-07 12:23:14,689: Trade window detected.
+2024-01-07 12:23:14,689: Dragging slider.
+2024-01-07 12:23:17,707: Looking for XP potion color...
+2024-01-07 12:23:19,862: XP potion not found. Using fallback coordinates.
+2024-01-07 12:23:19,866: Performing left click.
+2024-01-07 12:23:19,999: Performing shift click.
+2024-01-07 12:23:22,641: XP potion not found. Using fallback coordinates.
+2024-01-07 12:23:22,646: Performing left click.
+2024-01-07 12:23:22,792: Performing shift click.
+2024-01-07 12:23:25,436: Exiting trade window.
+2024-01-07 12:23:26,462: Moving to the next trade.
+2024-01-07 12:23:27,952: Performing right click.
+2024-01-07 12:23:29,057: Checking for trade window...
+2024-01-07 12:23:29,105: Trade window detected.
+2024-01-07 12:23:29,106: Dragging slider.
+2024-01-07 12:23:32,121: Looking for XP potion color...
+2024-01-07 12:23:34,257: XP potion not found. Using fallback coordinates.
+2024-01-07 12:23:34,270: Performing left click.
+2024-01-07 12:23:34,414: Performing shift click.
+2024-01-07 12:23:37,058: XP potion not found. Using fallback coordinates.
+2024-01-07 12:23:37,062: Performing left click.
+2024-01-07 12:23:37,204: Performing shift click.
+2024-01-07 12:23:39,847: Exiting trade window.
+2024-01-07 12:23:40,865: Moving to the next trade.
+2024-01-07 12:23:42,352: Performing right click.
+2024-01-07 12:23:43,458: Checking for trade window...
+2024-01-07 12:23:45,169: Trade window not detected. Adjusting position.
+2024-01-07 12:23:58,759: Trade window detected after adjustment.
+2024-01-07 12:23:58,760: Dragging slider.
+2024-01-07 12:24:01,775: Looking for XP potion color...
+2024-01-07 12:24:02,426: XP potion found at (1052, 435). Initiating purchase.
+2024-01-07 12:24:02,430: Performing left click.
+2024-01-07 12:24:02,565: Performing shift click.
+2024-01-07 12:24:05,206: XP potion found at (1052, 435). Initiating purchase.
+2024-01-07 12:24:05,212: Performing left click.
+2024-01-07 12:24:05,346: Performing shift click.
+2024-01-07 12:24:07,990: Exiting trade window.
+2024-01-07 12:24:09,012: Moving to the next trade.
+2024-01-07 12:24:10,500: Performing right click.
+2024-01-07 12:24:11,604: Checking for trade window...
+2024-01-07 12:24:13,307: Trade window not detected. Adjusting position.
+2024-01-07 12:24:16,705: Trade window detected after adjustment.
+2024-01-07 12:24:16,706: Dragging slider.
+2024-01-07 12:24:19,724: Looking for XP potion color...
+2024-01-07 12:24:20,400: XP potion found at (1054, 387). Initiating purchase.
+2024-01-07 12:24:20,411: Performing left click.
+2024-01-07 12:24:20,552: Performing shift click.
+2024-01-07 12:24:23,200: XP potion found at (1054, 387). Initiating purchase.
+2024-01-07 12:24:23,204: Performing left click.
+2024-01-07 12:24:23,336: Performing shift click.
+2024-01-07 12:24:25,979: Exiting trade window.
+2024-01-07 12:24:26,998: Moving to the next trade.
+2024-01-07 12:24:28,486: Performing right click.
+2024-01-07 12:24:29,590: Checking for trade window...
+2024-01-07 12:24:31,391: Trade window not detected. Adjusting position.
+2024-01-07 12:24:39,897: Trade window detected after adjustment.
+2024-01-07 12:24:39,897: Dragging slider.
+2024-01-07 12:24:42,911: Looking for XP potion color...
+2024-01-07 12:24:45,016: XP potion not found. Using fallback coordinates.
+2024-01-07 12:24:45,019: Performing left click.
+2024-01-07 12:24:45,151: Performing shift click.
+2024-01-07 12:24:47,793: XP potion not found. Using fallback coordinates.
+2024-01-07 12:24:47,797: Performing left click.
+2024-01-07 12:24:47,929: Performing shift click.
+2024-01-07 12:24:50,572: Exiting trade window.
+2024-01-07 12:24:51,609: Moving to the next trade.
+2024-01-07 12:24:53,103: Performing right click.
+2024-01-07 12:24:54,207: Checking for trade window...
+2024-01-07 12:24:54,244: Trade window detected.
+2024-01-07 12:24:54,245: Dragging slider.
+2024-01-07 12:24:57,261: Looking for XP potion color...
+2024-01-07 12:24:59,535: XP potion not found. Using fallback coordinates.
+2024-01-07 12:24:59,539: Performing left click.
+2024-01-07 12:24:59,672: Performing shift click.
+2024-01-07 12:25:02,315: XP potion not found. Using fallback coordinates.
+2024-01-07 12:25:02,318: Performing left click.
+2024-01-07 12:25:02,450: Performing shift click.
+2024-01-07 12:25:05,090: Exiting trade window.
+2024-01-07 12:25:06,125: Moving to the next trade.
+2024-01-07 12:25:07,614: Performing right click.
+2024-01-07 12:25:08,719: Checking for trade window...
+2024-01-07 12:25:10,431: Trade window not detected. Adjusting position.
+2024-01-07 12:25:13,807: Trade window detected after adjustment.
+2024-01-07 12:25:13,809: Dragging slider.
+2024-01-07 12:25:16,827: Looking for XP potion color...
+2024-01-07 12:25:18,943: XP potion not found. Using fallback coordinates.
+2024-01-07 12:25:18,947: Performing left click.
+2024-01-07 12:25:19,082: Performing shift click.
+2024-01-07 12:25:21,728: XP potion not found. Using fallback coordinates.
+2024-01-07 12:25:21,731: Performing left click.
+2024-01-07 12:25:21,864: Performing shift click.
+2024-01-07 12:25:24,512: Exiting trade window.
+2024-01-07 12:25:25,562: Moving to the next trade.
+2024-01-07 12:25:27,049: Performing right click.
+2024-01-07 12:25:28,154: Checking for trade window...
+2024-01-07 12:25:29,946: Trade window not detected. Adjusting position.
+2024-01-07 12:25:33,312: Trade window detected after adjustment.
+2024-01-07 12:25:33,313: Dragging slider.
+2024-01-07 12:25:36,329: Looking for XP potion color...
+2024-01-07 12:25:36,989: XP potion found at (1055, 435). Initiating purchase.
+2024-01-07 12:25:36,992: Performing left click.
+2024-01-07 12:25:37,125: Performing shift click.
+2024-01-07 12:25:39,770: XP potion found at (1055, 435). Initiating purchase.
+2024-01-07 12:25:39,775: Performing left click.
+2024-01-07 12:25:39,909: Performing shift click.
+2024-01-07 12:25:42,555: Exiting trade window.
+2024-01-07 12:25:43,595: Moving to the next trade.
+2024-01-07 12:25:45,082: Performing right click.
+2024-01-07 12:25:46,189: Checking for trade window...
+2024-01-07 12:25:46,230: Trade window detected.
+2024-01-07 12:25:46,230: Dragging slider.
+2024-01-07 12:25:49,244: Looking for XP potion color...
+2024-01-07 12:25:49,580: XP potion found at (474, 674). Initiating purchase.
+2024-01-07 12:25:49,584: Performing left click.
+2024-01-07 12:25:49,716: Performing shift click.
+2024-01-07 12:25:52,358: XP potion found at (474, 674). Initiating purchase.
+2024-01-07 12:25:52,363: Performing left click.
+2024-01-07 12:25:52,505: Performing shift click.
+2024-01-07 12:25:55,147: Exiting trade window.
+2024-01-07 12:25:56,180: Moving to the next trade.
+2024-01-07 12:25:57,666: Performing right click.
+2024-01-07 12:25:58,770: Checking for trade window...
+2024-01-07 12:25:58,819: Trade window detected.
+2024-01-07 12:25:58,820: Dragging slider.
+2024-01-07 12:26:01,832: Looking for XP potion color...
+2024-01-07 12:26:03,867: XP potion not found. Using fallback coordinates.
+2024-01-07 12:26:03,872: Performing left click.
+2024-01-07 12:26:04,005: Performing shift click.
+2024-01-07 12:26:06,646: XP potion not found. Using fallback coordinates.
+2024-01-07 12:26:06,653: Performing left click.
+2024-01-07 12:26:06,789: Performing shift click.
+2024-01-07 12:26:09,431: Exiting trade window.
+2024-01-07 12:26:10,462: Moving to the next trade.
+2024-01-07 12:26:11,951: Performing right click.
+2024-01-07 12:26:13,056: Checking for trade window...
+2024-01-07 12:26:13,096: Trade window detected.
+2024-01-07 12:26:13,097: Dragging slider.
+2024-01-07 12:26:16,113: Looking for XP potion color...
+2024-01-07 12:26:16,734: XP potion found at (1054, 427). Initiating purchase.
+2024-01-07 12:26:16,738: Performing left click.
+2024-01-07 12:26:16,871: Performing shift click.
+2024-01-07 12:26:19,516: XP potion found at (1054, 427). Initiating purchase.
+2024-01-07 12:26:19,520: Performing left click.
+2024-01-07 12:26:19,654: Performing shift click.
+2024-01-07 12:26:22,296: Exiting trade window.
+2024-01-07 12:26:23,318: Moving to the next trade.
+2024-01-07 12:26:24,809: Performing right click.
+2024-01-07 12:26:25,913: Checking for trade window...
+2024-01-07 12:26:25,987: Trade window detected.
+2024-01-07 12:26:25,988: Dragging slider.
+2024-01-07 12:26:29,001: Looking for XP potion color...
+2024-01-07 12:26:29,621: XP potion found at (1055, 388). Initiating purchase.
+2024-01-07 12:26:29,625: Performing left click.
+2024-01-07 12:26:29,758: Performing shift click.
+2024-01-07 12:26:32,402: XP potion found at (1055, 388). Initiating purchase.
+2024-01-07 12:26:32,406: Performing left click.
+2024-01-07 12:26:32,541: Performing shift click.
+2024-01-07 12:26:35,187: Exiting trade window.
+2024-01-07 12:26:36,213: Moving to the next trade.
+2024-01-07 12:26:37,703: Performing right click.
+2024-01-07 12:26:38,807: Checking for trade window...
+2024-01-07 12:26:38,852: Trade window detected.
+2024-01-07 12:26:38,853: Dragging slider.
+2024-01-07 12:26:41,882: Looking for XP potion color...
+2024-01-07 12:26:44,041: XP potion not found. Using fallback coordinates.
+2024-01-07 12:26:44,045: Performing left click.
+2024-01-07 12:26:44,177: Performing shift click.
+2024-01-07 12:26:46,822: XP potion not found. Using fallback coordinates.
+2024-01-07 12:26:46,826: Performing left click.
+2024-01-07 12:26:46,960: Performing shift click.
+2024-01-07 12:26:49,601: Exiting trade window.
+2024-01-07 12:26:50,646: Moving to the next trade.
+2024-01-07 12:26:52,132: Performing right click.
+2024-01-07 12:26:53,237: Checking for trade window...
+2024-01-07 12:26:53,289: Trade window detected.
+2024-01-07 12:26:53,290: Dragging slider.
+2024-01-07 12:26:56,307: Looking for XP potion color...
+2024-01-07 12:26:58,434: XP potion not found. Using fallback coordinates.
+2024-01-07 12:26:58,438: Performing left click.
+2024-01-07 12:26:58,570: Performing shift click.
+2024-01-07 12:27:01,215: XP potion not found. Using fallback coordinates.
+2024-01-07 12:27:01,235: Performing left click.
+2024-01-07 12:27:01,370: Performing shift click.
+2024-01-07 12:27:04,012: Exiting trade window.
+2024-01-07 12:27:05,061: Moving to the next trade.
+2024-01-07 12:27:06,857: Posted to Discord: Trading session completed. Trades performed: 25

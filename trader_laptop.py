@@ -1,10 +1,8 @@
 import requests
 import subprocess
 import time
-import pyautogui
 from PIL import Image, ImageGrab
 import logging
-
 
 # Setup logging
 logging.basicConfig(filename='minecraft_automation_log.txt', level=logging.INFO, format='%(asctime)s: %(message)s')
@@ -36,7 +34,6 @@ def click(x, y):
     log_and_print("Performing left click.")
     subprocess.run(['xdotool', 'click', '1'])  # Left-click
 
-
 def shift_click(x, y):
     subprocess.run(['xdotool', 'keyup', 'Super_L', 'Super_R'])
     log_and_print("Performing shift click.")
@@ -47,7 +44,6 @@ def shift_click(x, y):
     subprocess.run(['xdotool', 'click', '1'])  # Left-click
     time.sleep(0.5)  # Added delay before releasing shift
     subprocess.run(['xdotool', 'keyup', 'shift'])
-
 
 def move_mouse(x, y):
     subprocess.run(['xdotool', 'mousemove', str(x), str(y)])
@@ -60,14 +56,12 @@ def focus_minecraft_window():
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(2)
 
-
 def check_trade_window():
     log_and_print("Checking for trade window...")
-    trade_window_area = (896, 145, 11434, 460)  # Your defined area
+    trade_window_area = (896, 145, 11434, 460)  # Defined area
     screenshot = ImageGrab.grab(trade_window_area)
-    target_color = (195, 100, 64)  # Your target color
+    target_color = (195, 100, 64)  # Target color for trade window
 
-    # Iterate over each pixel in the trade window area
     for x in range(screenshot.width):
         for y in range(screenshot.height):
             if screenshot.getpixel((x, y))[:3] == target_color:
@@ -76,13 +70,13 @@ def check_trade_window():
 
     log_and_print("Trade window not detected. Adjusting position.")
     adjustment_combinations = [('a', 0.1), ('d', 0.1), ('a', 0.2), ('d', 0.2)]
-    for _ in range(5):  # Try up to three times
+    for _ in range(5):
         for key, duration in adjustment_combinations:
             subprocess.run(['xdotool', 'keydown', key])
             time.sleep(duration)
             subprocess.run(['xdotool', 'keyup', key])
             time.sleep(0.1)
-            subprocess.run(['xdotool', 'click', '3'])  # Right-click without moving the mouse
+            subprocess.run(['xdotool', 'click', '3'])
             time.sleep(3)
             screenshot = ImageGrab.grab(trade_window_area)
             for x in range(screenshot.width):
@@ -95,10 +89,10 @@ def check_trade_window():
     post_to_discord("Trade window not found.")
     return False
 
-trades_info = []  # List to store trade information
+successful_trades = 0
 
 def trade_actions():
-    global trades_info
+    global successful_trades
     right_click(1168, 306)
     time.sleep(1)
 
@@ -109,12 +103,11 @@ def trade_actions():
     drag_slider(1084, 199, 1084, 423)
     time.sleep(3)
 
-    log_and_print("Taking a screenshot for color search...")
+    log_and_print("Looking for XP potion color...")
     screenshot = ImageGrab.grab()
-    target_color = (103, 177, 125)  # The color to search for
+    target_color = (103, 177, 125)  # XP potion color
     found_x, found_y = None, None
 
-    # Iterate over each pixel to find the target color
     for x in range(screenshot.width):
         for y in range(screenshot.height):
             if screenshot.getpixel((x, y))[:3] == target_color:
@@ -123,42 +116,35 @@ def trade_actions():
         if found_x is not None:
             break
 
-    for _ in range(2):
+    for i in range(2):
         if found_x is not None and found_y is not None:
-            log_and_print(f"Color found at ({found_x}, {found_y}). Clicking at this position.")
+            log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
             click(found_x, found_y)
         else:
-            log_and_print("Color not found on the screen. Using fallback coordinates.")
-            click(1052, 436)
-        time.sleep(1)
+            log_and_print("XP potion not found. Using fallback coordinates.")
+            click(1052, 436) if i == 0 else click(999, 399)
 
-    for _ in range(2):
-        click(found_x, found_y)
         shift_click(1346, 225)
         time.sleep(1)
-        # Collect trade info
-        trades_info.append("Potion clicked at position ({}, {})".format(found_x, found_y))
 
-    log_and_print("Pressing 'Esc' key.")
+    log_and_print("Exiting trade window.")
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(1)
 
-    log_and_print("Holding 'D' key for a step.")
+    log_and_print("Moving to the next trade.")
     subprocess.run(['xdotool', 'keydown', 'd'])
-    time.sleep(0.45)  # Hold 'D' for 0.45 seconds
+    time.sleep(0.45)
     subprocess.run(['xdotool', 'keyup', 'd'])
     time.sleep(1)
 
-    return True  # Indicate that the trade action was successful
+    successful_trades += 1
+    return True
 
 focus_minecraft_window()
 
 for _ in range(25):  # Number of trades to perform
-    result = trade_actions()
-    if not result:
+    if not trade_actions():
         break  # Stop the script if trade window is not detected
 
-# Post the collection of trades to Discord
-trade_summary = "\n".join(trades_info)
-post_to_discord(f"Trading session completed. Summary:\n{trade_summary}")
-
+trade_summary = f"Trading session completed. Trades performed: {successful_trades}"
+post_to_discord(trade_summary)
