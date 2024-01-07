@@ -48,13 +48,19 @@ def shift_click(x, y):
 def move_mouse(x, y):
     subprocess.run(['xdotool', 'mousemove', str(x), str(y)])
 
+first_run = True  # Flag to check if it's the first run
+
 def focus_minecraft_window():
+    global first_run
     log_and_print("Focusing Minecraft window...")
     subprocess.run(['xdotool', 'search', '--name', 'Minecraft*3.20.2 - Multiplayer (3rd-party-Server)', 'windowactivate', '--sync'])
     time.sleep(2)
-    log_and_print("Pressing Esc...")
-    subprocess.run(['xdotool', 'key', 'Escape'])
-    time.sleep(2)
+
+    if first_run:
+        log_and_print("Pressing Esc (first run only)...")
+        subprocess.run(['xdotool', 'key', 'Escape'])
+        time.sleep(2)
+        first_run = False  # Set the flag to False after the first run
 
 def check_trade_window():
     log_and_print("Checking for trade window...")
@@ -103,9 +109,8 @@ def trade_actions():
     drag_slider(1084, 199, 1084, 423)
     time.sleep(3)
 
-    # Focusing only on the trader's side of the trade window
     log_and_print("Looking for XP potion color on trader side...")
-    left_side_trade_window_area = (896, 139, 1094, 445)  # The coordinates you captured
+    left_side_trade_window_area = (896, 139, 1094, 445)  # Defined area for trader's side
     screenshot = ImageGrab.grab(left_side_trade_window_area)
     target_color = (103, 177, 125)  # XP potion color
     found_x, found_y = None, None
@@ -118,17 +123,19 @@ def trade_actions():
         if found_x is not None:
             break
 
+# Execute the buying process
     if found_x is not None and found_y is not None:
         log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
-        # Adjust coordinates relative to the full screen
         click(found_x + 896, found_y + 139)
+        shift_click(1345, 219)
     else:
         log_and_print("XP potion not found. Using fallback coordinates.")
-        # Fall back to default coordinates if the potion is not found
-        click(1052, 436)
-
-    shift_click(1346, 225)
-    time.sleep(1)
+        # Backup selection and purchase at fallback spot 1
+        click(1053, 427)  # Select potion at spot 1
+        shift_click(1345, 219)  # Purchase potion at spot 1
+        # Backup selection and purchase at fallback spot 2
+        click(1053, 390)  # Select potion at spot 2
+        shift_click(1346, 220)  # Purchase potion at spot 2
 
     log_and_print("Exiting trade window.")
     subprocess.run(['xdotool', 'key', 'Escape'])
@@ -143,12 +150,35 @@ def trade_actions():
     successful_trades += 1
     return True
 
+def hold_key_for_duration(key, duration):
+    log_and_print(f"Waiting 5 seconds before holding '{key}' key for {duration} seconds.")
+    time.sleep(5)  # Delay for 5 seconds
+    log_and_print(f"Holding '{key}' key.")
+    subprocess.run(['xdotool', 'keydown', key])
+    time.sleep(duration)
+    subprocess.run(['xdotool', 'keyup', key])
+    log_and_print(f"Released '{key}' key.")
 
-focus_minecraft_window()
+# Function to perform a cycle of trading actions
+def perform_trading_cycle():
+    global successful_trades
+    successful_trades = 0
 
-for _ in range(25):  # Number of trades to perform
-    if not trade_actions():
-        break  # Stop the script if trade window is not detected
+    focus_minecraft_window()
 
-trade_summary = f"Trading session completed. Trades performed: {successful_trades}"
-post_to_discord(trade_summary)
+    for _ in range(25):  # Number of trades to perform
+        if not trade_actions():
+            break  # Stop the script if trade window is not detected
+
+    trade_summary = f"Trading session completed. Trades performed: {successful_trades}"
+    post_to_discord(trade_summary)
+
+# Main loop to run trading cycles and reset position
+def main_loop():
+    while True:
+        perform_trading_cycle()
+        hold_key_for_duration('a', 11)  # Adjust the key and duration as needed
+        time.sleep(5)  # Delay before next cycle starts
+
+# Run the main loop
+main_loop()
