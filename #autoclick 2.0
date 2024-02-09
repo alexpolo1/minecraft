@@ -1,0 +1,52 @@
+#autoclick 2.0
+
+from pynput.mouse import Button, Controller as MouseController
+from pynput.keyboard import Listener, KeyCode
+import time
+
+mouse = MouseController()
+
+coordinates = []
+click_type = input("Enter click type (left or shift+left): ").strip().lower()
+
+def on_press(key):
+    if key == KeyCode(char='x'):
+        # Record the current mouse position
+        coordinates.append(mouse.position)
+        print(f"Coordinate {len(coordinates)} recorded at {mouse.position}")
+        if len(coordinates) >= max_coordinates:
+            # Stop listener if max coordinates reached
+            return False
+    elif key == KeyCode(char='4'):
+        # Execute clicks
+        for pos in coordinates:
+            mouse.position = pos
+            if click_type == "left":
+                mouse.click(Button.left, 1)
+            elif click_type == "shift+left":
+                # Hold shift and click
+                with keyboard.pressed(Key.shift):
+                    mouse.click(Button.left, 1)
+            time.sleep(1)  # Adjust timing as needed
+        # Ask for repetitions
+        reps = input("How many times to repeat? (default 1): ") or 1
+        try:
+            reps = int(reps)
+        except ValueError:
+            reps = 1
+        print(f"Repeating {reps} times")
+        # Repeat the clicks as per user input
+        for _ in range(reps):
+            for pos in coordinates:
+                mouse.position = pos
+                if click_type == "left":
+                    mouse.click(Button.left, 1)
+                elif click_type == "shift+left":
+                    with keyboard.pressed(Key.shift):
+                        mouse.click(Button.left, 1)
+                time.sleep(1)
+
+if __name__ == "__main__":
+    max_coordinates = int(input("How many coordinates? (1-10): "))
+    with Listener(on_press=on_press) as listener:
+        listener.join()
