@@ -1,52 +1,44 @@
-#autoclick 2.0
+import subprocess
+import sys
 
-from pynput.mouse import Button, Controller as MouseController
-from pynput.keyboard import Listener, KeyCode
-import time
+# Function to execute a command using ydotool
+def execute_ydotool_command(command):
+    try:
+        subprocess.run(command, check=True)
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing {' '.join(command)}: {e}", file=sys.stderr)
 
-mouse = MouseController()
+# Function to simulate mouse click
+def ydotool_click(x, y, button='left', repeat=1):
+    # Move the mouse to the specified coordinates
+    execute_ydotool_command(['ydotool', 'mousemove', str(x), str(y)])
+    button_arg = '1' if button == 'left' else '2'
+    for _ in range(repeat):
+        execute_ydotool_command(['ydotool', 'click', button_arg])
 
-coordinates = []
-click_type = input("Enter click type (left or shift+left): ").strip().lower()
+def main():
+    coordinates = []
+    click_type = 'left'
+    repeat = 1
 
-def on_press(key):
-    if key == KeyCode(char='x'):
-        # Record the current mouse position
-        coordinates.append(mouse.position)
-        print(f"Coordinate {len(coordinates)} recorded at {mouse.position}")
-        if len(coordinates) >= max_coordinates:
-            # Stop listener if max coordinates reached
-            return False
-    elif key == KeyCode(char='4'):
-        # Execute clicks
-        for pos in coordinates:
-            mouse.position = pos
-            if click_type == "left":
-                mouse.click(Button.left, 1)
-            elif click_type == "shift+left":
-                # Hold shift and click
-                with keyboard.pressed(Key.shift):
-                    mouse.click(Button.left, 1)
-            time.sleep(1)  # Adjust timing as needed
-        # Ask for repetitions
-        reps = input("How many times to repeat? (default 1): ") or 1
-        try:
-            reps = int(reps)
-        except ValueError:
-            reps = 1
-        print(f"Repeating {reps} times")
-        # Repeat the clicks as per user input
-        for _ in range(reps):
-            for pos in coordinates:
-                mouse.position = pos
-                if click_type == "left":
-                    mouse.click(Button.left, 1)
-                elif click_type == "shift+left":
-                    with keyboard.pressed(Key.shift):
-                        mouse.click(Button.left, 1)
-                time.sleep(1)
+    num_coordinates = int(input("Enter the number of coordinates to record: "))
+
+    for i in range(num_coordinates):
+        while True:
+            coords = input(f"Enter coordinates {i+1} (format x,y): ")
+            try:
+                x, y = map(int, coords.split(','))
+                coordinates.append((x, y))
+                break  # Exit the loop if coordinates are valid
+            except ValueError:
+                print("Invalid format. Please enter coordinates in the format x,y.")
+
+    click_type = input("Enter click type (left or right, default left): ") or click_type
+    repeat = int(input("How many times to repeat each click (default 1): ") or repeat)
+
+    for x, y in coordinates:
+        ydotool_click(x, y, button=click_type, repeat=repeat)
+        print(f"Clicked at {x},{y} with {click_type} button, repeated {repeat} times.")
 
 if __name__ == "__main__":
-    max_coordinates = int(input("How many coordinates? (1-10): "))
-    with Listener(on_press=on_press) as listener:
-        listener.join()
+    main()
