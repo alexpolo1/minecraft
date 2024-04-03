@@ -11,5 +11,5 @@ time.sleep(10)
 # Continuously perform left clicks every 0.645 seconds
 while True:
     click()
-    time.sleep(0.645)  # Wait for 0.645 seconds before the next click
+    time.sleep(0.651)  # Wait for 0.645 seconds before the next click
 
