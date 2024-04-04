@@ -7,12 +7,14 @@ import datetime
 import os
 import requests
 
-# Ensure the temp screenshot directory exists
+# Configuration
 temp_screenshot_directory = '/tmp/mcscreens'
-os.makedirs(temp_screenshot_directory, exist_ok=True)
-
-# Your Discord webhook URL
 discord_webhook_url = 'https://discord.com/api/webhooks/1225514086360420512/JfG_u86nEm051KO_4nDRq7CR5l5eH9g8gdroslqglwdGaE47OJV0KV27q973mNFbNQpg'
+screenshot_interval = 3600  # seconds (1 hour)
+disconnect_check_interval = 10800  # seconds (3 hours)
+
+# Ensure the temp screenshot directory exists
+os.makedirs(temp_screenshot_directory, exist_ok=True)
 
 def send_discord_message(message, image_path=None):
     data = {
@@ -71,6 +73,7 @@ def handle_disconnect():
 if __name__ == "__main__":
     print('Raid farm clicker started.')
     last_hourly_screenshot_time = None
+    last_disconnect_check_time = None
 
     while True:
         current_time = datetime.datetime.now()
@@ -78,13 +81,14 @@ if __name__ == "__main__":
         # Perform the raid farm clicking
         raid_farm_clicking()
 
-        # Every hour at 5 minutes past the hour, take and send a status screenshot
-        if current_time.minute == 5 and (last_hourly_screenshot_time is None or current_time.hour != last_hourly_screenshot_time.hour):
+        # Take a screenshot based on the defined interval
+        if last_hourly_screenshot_time is None or (current_time - last_hourly_screenshot_time).total_seconds() >= screenshot_interval:
             capture_hourly_screenshot()
             last_hourly_screenshot_time = current_time
 
-        # Check for disconnects every minute to handle reconnections more promptly
-        if current_time.minute % 1 == 0 and current_time.second < 10:  # Check within the first 10 seconds of every minute
+        # Check for disconnects based on the defined interval
+        if last_disconnect_check_time is None or (current_time - last_disconnect_check_time).total_seconds() >= disconnect_check_interval:
             handle_disconnect()
+            last_disconnect_check_time = current_time
 
-        time.sleep(0.645)  # Time interval between clicks
+        time.sleep(0.651)  # Time interval between clicks
