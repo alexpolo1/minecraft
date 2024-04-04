@@ -12,7 +12,7 @@ temp_screenshot_directory = '/tmp/mcscreens'
 os.makedirs(temp_screenshot_directory, exist_ok=True)
 
 # Your Discord webhook URL
-discord_webhook_url = 'https://discord.com/api/webhooks/1171735460729606145/Fyls4_uD7it29TNo7LktQFynb3k1K-BHLx9Y4WqzDK806o1_bVTNz94JNc996kDi-jE6'
+discord_webhook_url = 'https://discord.com/api/webhooks/1225514086360420512/JfG_u86nEm051KO_4nDRq7CR5l5eH9g8gdroslqglwdGaE47OJV0KV27q973mNFbNQpg'
 
 def send_discord_message(message, image_path=None):
     data = {
