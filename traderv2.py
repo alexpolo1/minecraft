@@ -141,14 +141,13 @@ def trade_actions():
                     log_and_print("xp potion bought")
                     break
             if found_x is not None:
+                log_and_print("XP potion not found. Using fallback coordinates.")
+                click(2552, 1433)
+                shift_click(2990, 1119)
+                click(2551, 1365)
+                shift_click(2552, 1433)
+                log_and_print("xp potion boght with fallback")
                 break
-    else:
-        log_and_print("XP potion not found. Using fallback coordinates.")
-        click(2552, 1433)
-        shift_click(2990, 1119)
-        click(2551, 1365)
-        shift_click(2552, 1433)
-        log_and_print("xp potion boght with fallback")
 
     # Exiting trade window and moving to next trade
     log_and_print("Exiting trade window.")
