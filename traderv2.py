@@ -12,6 +12,9 @@ screenshot = ImageGrab.grab(left_side_trade_window_area)
 xp_potion_color = (238, 231, 153)  # XP potion color
 red_x_color = (186, 55, 15)  # Red 'X' color
 red_x_areas = [(2505, 1424), (2898, 1122)]  # Coordinates where the red 'X' can appear
+# Number of attempts to retry starting a new trade if a trader is blocked
+max_retry_attempts = 5
+successful_trades = 0
 
 
 def log_and_print(message):
@@ -61,8 +64,6 @@ def hold_key_for_duration(key, duration):
     subprocess.run(['xdotool', 'keyup', key])
     log_and_print(f"Released '{key}' key.")
 
-
-
 def move_mouse(x, y):
     subprocess.run(['xdotool', 'mousemove', str(x), str(y)])
 
@@ -80,11 +81,9 @@ def fill_inventory_with_emeralds():
     cord2 = (2561, 975)
     log_and_print("Selecting emeralds...")
     click(cord1[0], cord1[1])  # Move to cord1 and left-click to select emeralds
-    
     log_and_print("Transferring emeralds to inventory...")
     shift_double_click(cord2[0], cord2[1])  # Move to cord2 and shift-left-click to transfer emeralds
-    
-    log_and_print("Closing chest...")
+    log_and_print("Closing emmerald chest...")
     subprocess.run(['xdotool', 'key', 'Escape'])  # Press Esc to exit the chest
     time.sleep(1)
 
@@ -96,25 +95,20 @@ def move_first_trade():
     subprocess.run(['xdotool', 'keyup', 'a'])
     time.sleep(1)
 
-# main function doing the trades and looking for red x as blocked trades
+# TRADE ACTIONS !!  main function doing the trades and looking for red x as blocked trades
 def trade_actions():
     global successful_trades
     trader_blocked = False  # Initialize as False
+    attempts = 0
     found_x, found_y = None, None  # Initialize coordinates for XP potion
-
     time.sleep(1)
-
     if not check_trade_window():
         log_and_print("Trade window not detected after adjustments. Stopping script.")
         return False
-
     drag_slider(2599, 1071, 2598, 1419)
     time.sleep(3)
-
     log_and_print("Checking for red X")
-    trade_window_area = (2317, 994, 3126, 1472)  # Defined area
-    screenshot = ImageGrab.grab(trade_window_area)
-
+    screenshot = ImageGrab.grab(left_side_trade_window_area)  # Defined area
     # Search for red 'X'
     for x in range(screenshot.width):
         for y in range(screenshot.height):
@@ -122,64 +116,69 @@ def trade_actions():
                 log_and_print("Red X found. Trader is blocked.")
                 trader_blocked = True
                 break  # Break the inner loop if red 'X' found
-        if trader_blocked:
-            break  # Break the outer loop if red 'X' found
-
-    # If trader is not blocked, look for XP potion
-    if not trader_blocked:
-        log_and_print("Looking for XP potion")
-        for x in range(screenshot.width):
-            for y in range(screenshot.height):
-                if screenshot.getpixel((x, y))[:3] == xp_potion_color:
-                    found_x, found_y = x, y
-                    log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
-                    # Adjust found_x and found_y based on the relative position within the whole screen
-                    global_x = found_x + 2317  # Add the left offset of the screenshot area
-                    global_y = found_y + 994  # Add the top offset of the screenshot area
-                    click(global_x, global_y)
-                    shift_click(2990, 1119)
-                    log_and_print("xp potion bought")
-                    break
-            if found_x is not None:
-                log_and_print("XP potion not found. Using fallback coordinates.")
-                click(2552, 1433)
-                shift_click(2990, 1119)
-                click(2551, 1365)
-                shift_click(2552, 1433)
-                log_and_print("xp potion boght with fallback")
+            if trader_blocked:
+                log_and_print("Exiting due to blocked trader. Attempting next trader in the main loop.")
                 break
+            if trader_blocked: # Here, you would typically have logic to handle moving to the next trader.
+                log_and_print("ugibugi i dont know loops")
+                # Return or continue based on your function's needs. 
+                # 'return False' would be used if you need to indicate this specific attempt failed but will try the next.
+                return False
 
-    # Exiting trade window and moving to next trade
+    log_and_print("Looking for XP potion")
+    potion_bought = False  # Flag to check if potion is bought
+    for x in range(screenshot.width):
+        for y in range(screenshot.height):
+            if screenshot.getpixel((x, y))[:3] == xp_potion_color:
+                found_x, found_y = x, y
+                log_and_print(f"XP potion found at ({found_x}, {found_y}). Initiating purchase.")
+                global_x = found_x + 2317  # Adjust for global positioning
+                global_y = found_y + 994
+                click(global_x, global_y)
+                shift_click(2990, 1119)
+                log_and_print("XP potion bought.")
+                potion_bought = True
+                break
+    
+    if not potion_bought:  # Use fallback if XP potion is not found or after attempting to buy it
+        log_and_print("Using fallback coordinates for XP potion.")
+        click(2552, 1433)
+        time.sleep(1)
+        shift_click(2990, 1119)
+        click(2551, 1365)
+        time.sleep(1)
+        shift_click(2552, 1433)
+        log_and_print("Fallback action executed.")
+
+    # Exiting trade window and preparing for the next trade
     log_and_print("Exiting trade window.")
     subprocess.run(['xdotool', 'key', 'Escape'])
     time.sleep(1)
-    log_and_print("Trade successful. Moving to the next trader.")
-    successful_trades += 1  # Increment only if trade was successful
+    log_and_print("Trade completed. Moving to the next trader.")
+    successful_trades += 1  # Increment success count
 
-    # Prepare for the next trade
+    # Move slightly to prepare for the next trade
     subprocess.run(['xdotool', 'keydown', 'a'])
     time.sleep(0.35)
     subprocess.run(['xdotool', 'keyup', 'a'])
     time.sleep(1)
 
-    return not trader_blocked  # Return True if trade was successful, False otherwise
+    return True  # Indicates that the function completed without encountering a blocked trader
+
 
 def check_trade_window():
     log_and_print("Checking for trade window...")
     trade_window_area = (2317, 994, 3126, 1472)  # Defined area
     screenshot = ImageGrab.grab(trade_window_area)
     target_color = (178, 67, 32)  # Target color for trade window
-
     #use right click to check for trade window
     log_and_print("useing right click to check for trade window")
     right_click(1168, 306)
-
     for x in range(screenshot.width):
         for y in range(screenshot.height):
             if screenshot.getpixel((x, y))[:3] == target_color:
                 log_and_print("Trade window detected.")
                 return True
-
     log_and_print("Trade window not detected. Adjusting position.")
     adjustment_combinations = [('a', 0.1), ('d', 0.1), ('a', 0.2), ('d', 0.2)]
     for _ in range(5):
@@ -196,33 +195,28 @@ def check_trade_window():
                     if screenshot.getpixel((x, y))[:3] == target_color:
                         log_and_print("Trade window detected after adjustment.")
                         return True
-
     log_and_print("Trade window not found after adjustments.")
     post_to_discord("Trade window not found.")
     return False
 
-successful_trades = 0
 
 
 def dump_xp_potions():
     log_and_print("Dumping XP potions into dump chest...")
     right_click(1168, 306)
     time.sleep(2)  # Wait a moment for the chest to open
-    cord1 = (2937, 1515)
-    cord2 = (2881, 1514)
+    cord1 = (2616, 1347)
+    cord2 = (2779, 1348)
     log_and_print("Selecting xp potions...")
     click(cord1[0], cord1[1])  # Move to cord1 and left-click to select emeralds
-    
-    log_and_print("Transferring xp potions to dump cehst...")
+    log_and_print("Transferring xp potions to dump chest...")
     shift_double_click(cord2[0], cord2[1])  # Move to cord2 and shift-left-click to transfer emeralds
-    
     log_and_print("Closing chest...")
     subprocess.run(['xdotool', 'key', 'Escape'])  # Press Esc to exit the chest
     time.sleep(1)
 
 
 first_run = True  # Flag to check if it's the first run
-
 def focus_minecraft_window():
     global first_run
     log_and_print("Focusing Minecraft window...")
@@ -235,31 +229,32 @@ def focus_minecraft_window():
         time.sleep(2)
         first_run = False  # Set the flag to False after the first run
 
-
-
 # Function to perform a cycle of trading actions
 def perform_trading_cycle():
     global successful_trades
     successful_trades = 0
-
     focus_minecraft_window()
     fill_inventory_with_emeralds()  # Fill up on emeralds before starting trades
     move_first_trade()
-
     for _ in range(50):  # Number of trades to perform
         if not trade_actions():
             break  # Stop the script if trade window is not detected
-    
+    log_and_print("using ESC to be ready to run for dump chest")
+    subprocess.run(['xdotool', 'key', 'Escape'])
+    log_and_print("trade window not detected moveing to dump chest")
+    hold_key_for_duration('a', 25)  # Adjust the key and duration as needed
     dump_xp_potions()  # Dump XP potions after completing trades
-    
     trade_summary = f"Trading session completed. Trades performed: {successful_trades}"
     post_to_discord(trade_summary)
+    log_and_print("cycle done, moving back to start")
+    hold_key_for_duration('d', 25)  # Adjust the key and duration as needed
 
 # Main loop to run trading cycles and reset position
 def main_loop():
     while True:
+        log_and_print("starting trade cycle")
         perform_trading_cycle()
-        hold_key_for_duration('d', 25)  # Adjust the key and duration as needed
+        log_and_print("cycle done waiting 5")
         time.sleep(5)  # Delay before next cycle starts
 
 # Run the main loop
