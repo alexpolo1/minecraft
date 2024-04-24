@@ -44,21 +44,52 @@ def click(x, y):
     log_and_print("Performing left click.")
     subprocess.run(['xdotool', 'click', '1'])  # Left-click
 
-def shift_click(x, y):
+def shift_click():
+    x, y = 2990, 1121  # Hardcoded coordinates for the shift-click action
     subprocess.run(['xdotool', 'keyup', 'Super_L', 'Super_R'])
     log_and_print("Performing shift click.")
-    move_mouse(x, y)
+    move_mouse(x, y)  # Ensure the mouse moves to the right coordinates before clicking
     time.sleep(1)  # Added delay before pressing shift
     subprocess.run(['xdotool', 'keydown', 'shift'])
     time.sleep(1)  # Added delay to ensure shift is held down
-    log_and_print("click 1")
-    subprocess.run(['xdotool', 'click', '1'])  # Left-click
-    time.sleep(1)  # Added delay before releasing shift
-    move_mouse(x, y)
-    log_and_print("ekstra click 2")
-    subprocess.run(['xdotool', 'click', '1'])  # Left-click
+    log_and_print("Clicking at ({}, {})".format(x, y))
+    subprocess.run(['xdotool', 'click', '1'])  # Perform the click
     time.sleep(1)  # Added delay before releasing shift
     subprocess.run(['xdotool', 'keyup', 'shift'])
+
+def trade_fallback():
+    log_and_print("Initiating fallback trading sequence.")
+    # First fallback potion
+    log_and_print("Buying fallback potion at first preset coordinates.")
+    click(2552, 1433)  # Click on the fallback potion position
+    time.sleep(2)  # Allow time for the GUI to respond
+    shift_click()  # Confirm the purchase
+    log_and_print("First fallback potion transaction attempted.")
+    # Second fallback potion (if needed)
+    log_and_print("Buying fallback potion at second preset coordinates.")
+    click(2551, 1365)  # Click on the second fallback potion position
+    time.sleep(2)  # Allow time for the GUI to respond
+    shift_click()  # Confirm the purchase
+    log_and_print("Second fallback potion transaction attempted.")
+    log_and_print("Fallback trading actions completed.")
+
+
+def finish_trading():
+    # Exiting the trade window by sending the 'Escape' key
+    log_and_print("Exiting trade window.")
+    subprocess.run(['xdotool', 'key', 'Escape'])
+    time.sleep(1)  # Brief delay to ensure the action has been processed
+    # Logging and updating trade success count
+    log_and_print("Trade completed. Moving to the next trader, good trade +1.")
+    global successful_trades
+    successful_trades += 1  # Increment success count
+    # Move slightly to prepare for interaction with the next trader
+    log_and_print("Adjusting position to face the next trader.")
+    subprocess.run(['xdotool', 'keydown', 'a'])  # Simulate pressing 'a' to move left
+    time.sleep(0.35)  # Hold the key briefly to simulate a slight move
+    subprocess.run(['xdotool', 'keyup', 'a'])  # Release the key
+    time.sleep(1)  # Wait a moment before the next action
+
 
 def hold_key_for_duration(key, duration):
     log_and_print(f"Waiting 5 seconds before holding '{key}' key for {duration} seconds.")
@@ -88,6 +119,7 @@ def fill_inventory_with_emeralds():
     click(cord1[0], cord1[1])  # Move to cord1 and left-click to select emeralds
     log_and_print("Transferring emeralds to inventory...")
     shift_double_click(cord2[0], cord2[1])  # Move to cord2 and shift-left-click to transfer emeralds
+    time.sleep(1)
     log_and_print("Closing emmerald chest...")
     subprocess.run(['xdotool', 'key', 'Escape'])  # Press Esc to exit the chest
     time.sleep(1)
@@ -112,24 +144,6 @@ def trade_actions():
         return False
     drag_slider(2599, 1071, 2598, 1419)
     time.sleep(3)
-#    log_and_print("Checking for red X")
-#    screenshot = ImageGrab.grab(left_side_trade_window_area)  # Defined area
-    # Search for red 'X'
-#    for x in range(screenshot.width):
-#        for y in range(screenshot.height):
-#            if screenshot.getpixel((x, y))[:3] == red_x_color:
-#                log_and_print("Red X found. Trader is blocked.")
-#                trader_blocked = True
-#                break  # Break the inner loop if red 'X' found
-#            if trader_blocked:
-#                log_and_print("Exiting due to blocked trader. Attempting next trader in the main loop.")
-#                break
-#            if trader_blocked: # Here, you would typically have logic to handle moving to the next trader.
-#                log_and_print("ugibugi i dont know loops")
-                # Return or continue based on your function's needs. 
-                # 'return False' would be used if you need to indicate this specific attempt failed but will try the next.
-#                return False
-
     log_and_print("Looking for XP potion")
     potion_bought = False  # Flag to check if potion is bought
     for x in range(screenshot.width):
@@ -141,41 +155,20 @@ def trade_actions():
                 global_y = found_y + 994
                 click(global_x, global_y)
                 time.sleep(2)
-                shift_click(2990, 1119)
+                shift_click()
                 log_and_print("XP potion bought.")
                 potion_bought = True
+                successful_trades += 1  # Increment the successful trades count
+                finish_trading() 
                 break
-    
-    if not potion_bought:  # Use fallback if XP potion is not found or after attempting to buy it
-        log_and_print("Using fallback coordinates for XP potion.")
-        
-        log_and_print("buying fallback potion 1.") 
-        click(2552, 1433)
-        time.sleep(2)
-        shift_click(2990, 1119)
-
-        log_and_print("buying fallback potion 2.") 
-        time.sleep(2)
-        click(2551, 1365)
-        time.sleep(2)
-        shift_click(2552, 1433)
-
-        log_and_print("Fallback action executed.")
-
-    # Exiting trade window and preparing for the next trade
-    log_and_print("Exiting trade window.")
-    subprocess.run(['xdotool', 'key', 'Escape'])
-    time.sleep(1)
-    log_and_print("Trade completed. Moving to the next trader.")
-    successful_trades += 1  # Increment success count
-
-    # Move slightly to prepare for the next trade
-    subprocess.run(['xdotool', 'keydown', 'a'])
-    time.sleep(0.35)
-    subprocess.run(['xdotool', 'keyup', 'a'])
-    time.sleep(1)
-
-    return True  # Indicates that the function completed without encountering a blocked trader
+        if potion_bought:
+            break
+    # Use fallback if XP potion is not found
+    if not potion_bought:
+        trade_fallback()
+        finish_trading()
+        return False
+    return True  # Indicates the trade actions completed successfully
 
 
 def check_trade_window():
@@ -211,8 +204,6 @@ def check_trade_window():
     post_to_discord("Trade window not found.")
     return False
 
-
-
 def dump_xp_potions():
     log_and_print("Dumping XP potions into dump chest...")
     right_click(1168, 306)
@@ -241,26 +232,36 @@ def focus_minecraft_window():
         time.sleep(2)
         first_run = False  # Set the flag to False after the first run
 
-# Function to perform a cycle of trading actions
 def perform_trading_cycle():
     global successful_trades
-    successful_trades = 0
+    successful_trades = 0  # Reset count at the start of each cycle
     focus_minecraft_window()
     fill_inventory_with_emeralds()  # Fill up on emeralds before starting trades
     move_first_trade()
-    for _ in range(50):  # Number of trades to perform
-        if not trade_actions():
-            break  # Stop the script if trade window is not detected
-    #esc might not be needed
-    #log_and_print("using ESC to be ready to run for dump chest")
-    #subprocess.run(['xdotool', 'key', 'Escape'])
-    log_and_print("trade window not detected moveing to dump chest")
+
+    # Define the number of trade attempts
+    trade_attempts = 50
+
+    for _ in range(trade_attempts):  # Loop for defined number of trades
+        trade_successful = trade_actions()
+        if not trade_successful:
+            log_and_print(f"Trade attempt failed or blocked, continuing to next. Attempt {_ + 1} of {trade_attempts}")
+        else:
+            log_and_print(f"Trade attempt successful. Attempt {_ + 1} of {trade_attempts}")
+
+        # Check if the number of successful trades reached the desired trades before moving to dump chest
+        if successful_trades >= trade_attempts:
+            break
+
+    log_and_print("Moving to dump chest after trade attempts.")
     hold_key_for_duration('a', 25)  # Adjust the key and duration as needed
     dump_xp_potions()  # Dump XP potions after completing trades
     trade_summary = f"Trading session completed. Trades performed: {successful_trades}"
     post_to_discord(trade_summary)
-    log_and_print("cycle done, moving back to start")
+    log_and_print("Cycle done, moving back to start.")
     hold_key_for_duration('d', 25)  # Adjust the key and duration as needed
+
+
 
 # Main loop to run trading cycles and reset position
 def main_loop():
