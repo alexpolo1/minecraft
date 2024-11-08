@@ -12,7 +12,7 @@ def log_and_print(message):
     logging.info(message)
 
 def post_to_discord(message):
-    webhook_url = 'https://discord.com/api/webhooks/1185180105287422052/Abdomr4QNsegWAg6so4vpdW8ohn6Y9Pnpk2debQRHCIeYsc8BSP3jKrDGM74Lxn7dTvF'
+    webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     data = {"content": message}
     response = requests.post(webhook_url, json=data)
     log_and_print(f"Posted to Discord: {message}")
