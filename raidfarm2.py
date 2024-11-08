@@ -9,7 +9,7 @@ import requests
 
 # Configuration
 temp_screenshot_directory = '/tmp/mcscreens'
-discord_webhook_url = 'https://discord.com/api/webhooks/1225514086360420512/JfG_u86nEm051KO_4nDRq7CR5l5eH9g8gdroslqglwdGaE47OJV0KV27q973mNFbNQpg'
+discord_webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxxxxxxxx'
 screenshot_interval = 3600  # seconds (1 hour)
 disconnect_check_interval = 10800  # seconds (3 hours)
 
